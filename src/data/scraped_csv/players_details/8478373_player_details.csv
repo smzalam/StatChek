@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8478373,Nikita Soshnikov,/api/v1/people/8478373,Nikita,Soshnikov,41,1993-10-14,Nizhny Tagil,RUS,RUS,"5' 11""",190,False,False,L,N,R,Right Wing,Forward,RW

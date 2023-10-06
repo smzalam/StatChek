@@ -1,0 +1,40 @@
+jerseyNumber,person.id,person.fullName,person.link,position.code,position.name,position.type,position.abbreviation
+19,8469455,Jason Spezza,/api/v1/people/8469455,C,Center,Forward,C
+55,8470966,Mark Giordano,/api/v1/people/8470966,D,Defenseman,Defenseman,D
+33,8473415,Alex Biega,/api/v1/people/8473415,D,Defenseman,Defenseman,D
+8,8474162,Jake Muzzin,/api/v1/people/8474162,D,Defenseman,Defenseman,D
+24,8474190,Wayne Simmonds,/api/v1/people/8474190,R,Right Wing,Forward,RW
+78,8474673,TJ Brodie,/api/v1/people/8474673,D,Defenseman,Defenseman,D
+43,8475160,Kyle Clifford,/api/v1/people/8475160,L,Left Wing,Forward,LW
+91,8475166,John Tavares,/api/v1/people/8475166,C,Center,Forward,C
+3,8475718,Justin Holl,/api/v1/people/8475718,D,Defenseman,Defenseman,D
+43,8476278,Colin Blackwell,/api/v1/people/8476278,C,Center,Forward,C
+44,8476853,Morgan Rielly,/api/v1/people/8476853,D,Defenseman,Defenseman,D
+15,8477021,Alex Kerfoot,/api/v1/people/8477021,C,Center,Forward,C
+48,8477472,Carl Dahlstrom,/api/v1/people/8477472,D,Defenseman,Defenseman,D
+88,8477939,William Nylander,/api/v1/people/8477939,R,Right Wing,Forward,RW
+27,8477941,Nick Ritchie,/api/v1/people/8477941,L,Left Wing,Forward,LW
+22,8478020,Michael Amadio,/api/v1/people/8478020,R,Right Wing,Forward,RW
+58,8478047,Michael Bunting,/api/v1/people/8478047,L,Left Wing,Forward,LW
+18,8478115,Pierre Engvall,/api/v1/people/8478115,L,Left Wing,Forward,LW
+73,8478131,Ondrej Kase,/api/v1/people/8478131,R,Right Wing,Forward,RW
+33,8478408,Travis Dermott,/api/v1/people/8478408,D,Defenseman,Defenseman,D
+16,8478483,Mitchell Marner,/api/v1/people/8478483,R,Right Wing,Forward,RW
+62,8478881,Brett Seney,/api/v1/people/8478881,L,Left Wing,Forward,LW
+15,8479315,Joey Anderson,/api/v1/people/8479315,R,Right Wing,Forward,RW
+34,8479318,Auston Matthews,/api/v1/people/8479318,C,Center,Forward,C
+68,8479729,Kristians Rubins,/api/v1/people/8479729,D,Defenseman,Defenseman,D
+37,8480043,Timothy Liljegren,/api/v1/people/8480043,D,Defenseman,Defenseman,D
+64,8480144,David Kampf,/api/v1/people/8480144,C,Center,Forward,C
+38,8480873,Rasmus Sandin,/api/v1/people/8480873,D,Defenseman,Defenseman,D
+46,8480950,Ilya Lyubushkin,/api/v1/people/8480950,D,Defenseman,Defenseman,D
+89,8481582,Nicholas Robertson,/api/v1/people/8481582,L,Left Wing,Forward,LW
+65,8481624,Ilya Mikheyev,/api/v1/people/8481624,R,Right Wing,Forward,RW
+26,8481720,Nick Abruzzese,/api/v1/people/8481720,C,Center,Forward,C
+46,8482634,Alex Steeves,/api/v1/people/8482634,C,Center,Forward,C
+94,8482815,Kirill Semyonov,/api/v1/people/8482815,C,Center,Forward,C
+31,8474636,Michael Hutchinson,/api/v1/people/8474636,G,Goalie,Goalie,G
+36,8475789,Jack Campbell,/api/v1/people/8475789,G,Goalie,Goalie,G
+34,8475852,Petr Mrazek,/api/v1/people/8475852,G,Goalie,Goalie,G
+50,8478902,Erik Kallgren,/api/v1/people/8478902,G,Goalie,Goalie,G
+60,8479361,Joseph Woll,/api/v1/people/8479361,G,Goalie,Goalie,G

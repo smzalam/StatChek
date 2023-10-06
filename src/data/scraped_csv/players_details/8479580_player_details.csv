@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8479580,Dylan Gambrell,/api/v1/people/8479580,Dylan,Gambrell,57,1996-08-26,27,Bonney Lake,WA,USA,USA,"6' 0""",190,True,False,False,False,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,C,Center,Forward,C

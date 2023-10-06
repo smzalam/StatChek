@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8471436,Matt Hunwick,/api/v1/people/8471436,Matt,Hunwick,48,1985-05-21,Warren,MI,USA,USA,"5' 11""",194,False,False,L,N,D,Defenseman,Defenseman,D

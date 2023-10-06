@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8479496,David Rittich,/api/v1/people/8479496,David,Rittich,31,1992-08-19,31,Jihlava,CZE,CZE,"6' 4""",205,True,False,False,False,L,Y,26,Los Angeles Kings,/api/v1/teams/26,G,Goalie,Goalie,G

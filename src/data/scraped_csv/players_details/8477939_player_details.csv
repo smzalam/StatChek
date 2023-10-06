@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8477939,William Nylander,/api/v1/people/8477939,William,Nylander,88,1996-05-01,27,Calgary,AB,CAN,SWE,"6' 0""",202,True,False,False,False,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,R,Right Wing,Forward,RW

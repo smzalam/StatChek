@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8466138,Joe Thornton,/api/v1/people/8466138,Joe,Thornton,19,1979-07-02,London,ON,CAN,CAN,"6' 4""",220,False,False,L,Y,C,Center,Forward,C

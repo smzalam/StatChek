@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8480157,Calle Rosen,/api/v1/people/8480157,Calle,Rosen,43,1994-02-02,29,Vaxjo,SWE,SWE,"6' 1""",188,True,False,False,False,L,Y,19,St. Louis Blues,/api/v1/teams/19,D,Defenseman,Defenseman,D

@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8478843,Denis Malgin,/api/v1/people/8478843,Denis,Malgin,81,1997-01-18,Olten,CHE,CHE,"5' 9""",182,False,False,R,Y,C,Center,Forward,C

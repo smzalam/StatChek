@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8475718,Justin Holl,/api/v1/people/8475718,Justin,Holl,3,1992-01-30,31,Tonka Bay,MN,USA,USA,"6' 3""",197,True,False,False,False,R,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D

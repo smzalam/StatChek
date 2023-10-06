@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8466139,Patrick Marleau,/api/v1/people/8466139,Patrick,Marleau,12,1979-09-15,Aneroid,SK,CAN,CAN,"6' 2""",215,False,False,L,Y,C,Center,Forward,C

@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8477512,Frederik Gauthier,/api/v1/people/8477512,Frederik,Gauthier,38,1995-04-26,Laval,QC,CAN,CAN,"6' 5""",239,False,False,L,N,C,Center,Forward,C

@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8475844,Kenny Agostino,/api/v1/people/8475844,Kenny,Agostino,18,1992-04-30,Morristown,NJ,USA,USA,"6' 0""",204,False,False,L,N,L,Left Wing,Forward,LW

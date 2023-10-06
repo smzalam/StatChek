@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8476918,Jimmy Vesey,/api/v1/people/8476918,Jimmy,Vesey,26,1993-05-26,30,Boston,MA,USA,USA,"6' 2""",200,True,False,False,False,L,Y,3,New York Rangers,/api/v1/teams/3,L,Left Wing,Forward,LW

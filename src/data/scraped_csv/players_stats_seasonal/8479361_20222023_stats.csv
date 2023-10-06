@@ -1,0 +1,2 @@
+season,stat.timeOnIce,stat.ot,stat.shutouts,stat.wins,stat.losses,stat.saves,stat.powerPlaySaves,stat.shortHandedSaves,stat.evenSaves,stat.shortHandedShots,stat.evenShots,stat.powerPlayShots,stat.savePercentage,stat.goalAgainstAverage,stat.games,stat.gamesStarted,stat.shotsAgainst,stat.goalsAgainst,stat.timeOnIcePerGame,stat.powerPlaySavePercentage,stat.shortHandedSavePercentage,stat.evenStrengthSavePercentage
+20222023,416:26,0,0,6,1,204,43,3,158,4,170,45,0.931507,2.16121,7,7,219,15,59:29,95.55555555555556,75.0,92.94117647058823

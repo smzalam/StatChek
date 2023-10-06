@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8480820,Filip Kral,/api/v1/people/8480820,Filip,Kral,82,1999-10-20,Blansko,CZE,CZE,"6' 2""",198,False,True,L,N,D,Defenseman,Defenseman,D

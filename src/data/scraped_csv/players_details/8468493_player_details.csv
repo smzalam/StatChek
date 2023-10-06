@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8468493,Ron Hainsey,/api/v1/people/8468493,Ron,Hainsey,81,1981-03-24,Bolton,CT,USA,USA,"6' 3""",201,False,False,L,Y,D,Defenseman,Defenseman,D

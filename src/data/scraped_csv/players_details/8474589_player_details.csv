@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8474589,Tyler Ennis,/api/v1/people/8474589,Tyler,Ennis,63,1989-10-06,Edmonton,AB,CAN,CAN,"5' 9""",160,False,False,L,I,R,Right Wing,Forward,RW

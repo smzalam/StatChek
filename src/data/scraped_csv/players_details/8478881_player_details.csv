@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8478881,Brett Seney,/api/v1/people/8478881,Brett,Seney,62,1996-02-28,27,London,ON,CAN,CAN,"5' 9""",156,True,False,False,False,L,N,16,Chicago Blackhawks,/api/v1/teams/16,L,Left Wing,Forward,LW

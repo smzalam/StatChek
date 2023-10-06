@@ -1,0 +1,39 @@
+jerseyNumber,person.id,person.fullName,person.link,position.code,position.name,position.type,position.abbreviation
+19,8466138,Joe Thornton,/api/v1/people/8466138,C,Center,Forward,C
+19,8469455,Jason Spezza,/api/v1/people/8469455,C,Center,Forward,C
+17,8473422,Nick Foligno,/api/v1/people/8473422,L,Left Wing,Forward,LW
+8,8474162,Jake Muzzin,/api/v1/people/8474162,D,Defenseman,Defenseman,D
+24,8474190,Wayne Simmonds,/api/v1/people/8474190,R,Right Wing,Forward,RW
+24,8474567,Zach Bogosian,/api/v1/people/8474567,D,Defenseman,Defenseman,D
+78,8474673,TJ Brodie,/api/v1/people/8474673,D,Defenseman,Defenseman,D
+91,8475166,John Tavares,/api/v1/people/8475166,C,Center,Forward,C
+3,8475718,Justin Holl,/api/v1/people/8475718,D,Defenseman,Defenseman,D
+18,8475786,Zach Hyman,/api/v1/people/8475786,L,Left Wing,Forward,LW
+18,8475844,Kenny Agostino,/api/v1/people/8475844,L,Left Wing,Forward,LW
+72,8476329,Travis Boyd,/api/v1/people/8476329,C,Center,Forward,C
+23,8476474,Stefan Noesen,/api/v1/people/8476474,R,Right Wing,Forward,RW
+17,8476851,Alex Galchenyuk,/api/v1/people/8476851,C,Center,Forward,C
+44,8476853,Morgan Rielly,/api/v1/people/8476853,D,Defenseman,Defenseman,D
+26,8476918,Jimmy Vesey,/api/v1/people/8476918,L,Left Wing,Forward,LW
+17,8477018,Ben Hutton,/api/v1/people/8477018,D,Defenseman,Defenseman,D
+15,8477021,Alex Kerfoot,/api/v1/people/8477021,C,Center,Forward,C
+49,8477149,Scott Sabourin,/api/v1/people/8477149,R,Right Wing,Forward,RW
+19,8477464,Nic Petan,/api/v1/people/8477464,C,Center,Forward,C
+88,8477939,William Nylander,/api/v1/people/8477939,R,Right Wing,Forward,RW
+18,8478115,Pierre Engvall,/api/v1/people/8478115,L,Left Wing,Forward,LW
+33,8478408,Travis Dermott,/api/v1/people/8478408,D,Defenseman,Defenseman,D
+16,8478483,Mitchell Marner,/api/v1/people/8478483,R,Right Wing,Forward,RW
+22,8478996,Adam Brooks,/api/v1/people/8478996,C,Center,Forward,C
+15,8479315,Joey Anderson,/api/v1/people/8479315,R,Right Wing,Forward,RW
+34,8479318,Auston Matthews,/api/v1/people/8479318,C,Center,Forward,C
+37,8480043,Timothy Liljegren,/api/v1/people/8480043,D,Defenseman,Defenseman,D
+38,8480873,Rasmus Sandin,/api/v1/people/8480873,D,Defenseman,Defenseman,D
+89,8481582,Nicholas Robertson,/api/v1/people/8481582,L,Left Wing,Forward,LW
+65,8481624,Ilya Mikheyev,/api/v1/people/8481624,R,Right Wing,Forward,RW
+94,8482222,Alexander Barabanov,/api/v1/people/8482222,L,Left Wing,Forward,LW
+43,8482247,Mikko Lehtonen,/api/v1/people/8482247,D,Defenseman,Defenseman,D
+18,8474062,Riley Nash,/api/v1/people/8474062,C,Center,Forward,C
+31,8474636,Michael Hutchinson,/api/v1/people/8474636,G,Goalie,Goalie,G
+36,8475789,Jack Campbell,/api/v1/people/8475789,G,Goalie,Goalie,G
+31,8475883,Frederik Andersen,/api/v1/people/8475883,G,Goalie,Goalie,G
+31,8479496,David Rittich,/api/v1/people/8479496,G,Goalie,Goalie,G

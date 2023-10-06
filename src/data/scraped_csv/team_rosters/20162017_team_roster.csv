@@ -1,0 +1,35 @@
+jerseyNumber,person.id,person.fullName,person.link,position.code,position.name,position.type,position.abbreviation
+18,8470599,Milan Michalek,/api/v1/people/8470599,L,Left Wing,Forward,LW
+21,8470611,Eric Fehr,/api/v1/people/8470611,C,Center,Forward,C
+11,8470619,Brian Boyle,/api/v1/people/8470619,C,Center,Forward,C
+45,8471392,Roman Polak,/api/v1/people/8471392,D,Defenseman,Defenseman,D
+48,8471436,Matt Hunwick,/api/v1/people/8471436,D,Defenseman,Defenseman,D
+47,8473463,Leo Komarov,/api/v1/people/8473463,R,Right Wing,Forward,RW
+21,8474037,James van Riemsdyk,/api/v1/people/8474037,L,Left Wing,Forward,LW
+51,8474581,Jake Gardiner,/api/v1/people/8474581,D,Defenseman,Defenseman,D
+17,8474709,Matt Martin,/api/v1/people/8474709,L,Left Wing,Forward,LW
+18,8474727,Ben Smith,/api/v1/people/8474727,R,Right Wing,Forward,RW
+21,8475098,Tyler Bozak,/api/v1/people/8475098,C,Center,Forward,C
+91,8475172,Nazem Kadri,/api/v1/people/8475172,C,Center,Forward,C
+,8475180,Peter Holland,/api/v1/people/8475180,C,Center,Forward,C
+51,8475278,Byron Froese,/api/v1/people/8475278,C,Center,Forward,C
+52,8475716,Martin Marincin,/api/v1/people/8475716,D,Defenseman,Defenseman,D
+18,8475786,Zach Hyman,/api/v1/people/8475786,L,Left Wing,Forward,LW
+3,8476289,Alexey Marchenko,/api/v1/people/8476289,D,Defenseman,Defenseman,D
+18,8476302,Frank Corrado,/api/v1/people/8476302,D,Defenseman,Defenseman,D
+17,8476410,Josh Leivo,/api/v1/people/8476410,L,Left Wing,Forward,LW
+23,8476495,Seth Griffith,/api/v1/people/8476495,C,Center,Forward,C
+44,8476853,Morgan Rielly,/api/v1/people/8476853,D,Defenseman,Defenseman,D
+36,8476941,Connor Carrick,/api/v1/people/8476941,D,Defenseman,Defenseman,D
+28,8477015,Connor Brown,/api/v1/people/8477015,R,Right Wing,Forward,RW
+38,8477512,Frederik Gauthier,/api/v1/people/8477512,C,Center,Forward,C
+88,8477939,William Nylander,/api/v1/people/8477939,R,Right Wing,Forward,RW
+42,8477953,Kasperi Kapanen,/api/v1/people/8477953,R,Right Wing,Forward,RW
+41,8478373,Nikita Soshnikov,/api/v1/people/8478373,R,Right Wing,Forward,RW
+16,8478483,Mitchell Marner,/api/v1/people/8478483,R,Right Wing,Forward,RW
+34,8479318,Auston Matthews,/api/v1/people/8479318,C,Center,Forward,C
+22,8479458,Nikita Zaitsev,/api/v1/people/8479458,D,Defenseman,Defenseman,D
+35,8470147,Curtis McElhinney,/api/v1/people/8470147,G,Goalie,Goalie,G
+31,8473523,Jhonas Enroth,/api/v1/people/8473523,G,Goalie,Goalie,G
+31,8475883,Frederik Andersen,/api/v1/people/8475883,G,Goalie,Goalie,G
+30,8477312,Antoine Bibeau,/api/v1/people/8477312,G,Goalie,Goalie,G

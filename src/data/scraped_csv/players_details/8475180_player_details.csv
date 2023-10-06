@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8475180,Peter Holland,/api/v1/people/8475180,Peter,Holland,1991-01-14,Toronto,ON,CAN,CAN,"6' 2""",193,False,False,L,N,C,Center,Forward,C

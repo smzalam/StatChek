@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8474727,Ben Smith,/api/v1/people/8474727,Ben,Smith,18,1988-07-11,Winston-Salem,NC,USA,USA,"5' 11""",203,False,False,R,N,R,Right Wing,Forward,RW

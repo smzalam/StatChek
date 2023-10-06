@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8468575,Dominic Moore,/api/v1/people/8468575,Dominic,Moore,20,1980-08-03,Thornhill,ON,CAN,CAN,"6' 0""",192,False,False,L,Y,C,Center,Forward,C

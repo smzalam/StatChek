@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8475857,Kevin Gravel,/api/v1/people/8475857,Kevin,Gravel,5,1992-03-06,31,Kingsford,MI,USA,USA,"6' 4""",205,True,False,False,False,L,N,18,Nashville Predators,/api/v1/teams/18,D,Defenseman,Defenseman,D

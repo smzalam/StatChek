@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8473463,Leo Komarov,/api/v1/people/8473463,Leo,Komarov,47,1987-01-23,Narva,EST,FIN,"5' 11""",205,False,False,L,N,R,Right Wing,Forward,RW

@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8481614,Mikko Kokkonen,/api/v1/people/8481614,Mikko,Kokkonen,84,2001-01-18,22,Mikkeli,FIN,FIN,"6' 0""",200,True,False,False,True,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D

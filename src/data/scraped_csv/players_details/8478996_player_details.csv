@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8478996,Adam Brooks,/api/v1/people/8478996,Adam,Brooks,22,1996-05-06,27,Winnipeg,MB,CAN,CAN,"6' 0""",179,True,False,False,False,L,N,4,Philadelphia Flyers,/api/v1/teams/4,C,Center,Forward,C

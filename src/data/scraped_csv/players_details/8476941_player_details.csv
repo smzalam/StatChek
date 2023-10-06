@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8476941,Connor Carrick,/api/v1/people/8476941,Connor,Carrick,36,1994-04-13,29,Orland Park,IL,USA,USA,"5' 10""",198,True,False,False,False,R,N,55,Seattle Kraken,/api/v1/teams/55,D,Defenseman,Defenseman,D

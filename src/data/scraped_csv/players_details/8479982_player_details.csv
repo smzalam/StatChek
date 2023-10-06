@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8479982,Conor Timmins,/api/v1/people/8479982,Conor,Timmins,25,1998-09-18,25,St. Catharines,ON,CAN,CAN,"6' 2""",206,True,False,False,False,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D

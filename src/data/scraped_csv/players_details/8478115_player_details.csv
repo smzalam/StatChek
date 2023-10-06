@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8478115,Pierre Engvall,/api/v1/people/8478115,Pierre,Engvall,18,1996-05-31,27,Ljungby,SWE,SWE,"6' 5""",215,True,False,False,False,L,Y,2,New York Islanders,/api/v1/teams/2,L,Left Wing,Forward,LW

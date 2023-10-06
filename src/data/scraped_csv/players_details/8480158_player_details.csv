@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8480158,Andreas Borgman,/api/v1/people/8480158,Andreas,Borgman,6,1995-06-18,Stockholm,SWE,SWE,"6' 0""",200,False,False,L,N,D,Defenseman,Defenseman,D

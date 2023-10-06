@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8469521,Tomas Plekanec,/api/v1/people/8469521,Tomas,Plekanec,14,1982-10-31,Kladno,CZE,CZE,"5' 11""",190,False,False,L,N,C,Center,Forward,C

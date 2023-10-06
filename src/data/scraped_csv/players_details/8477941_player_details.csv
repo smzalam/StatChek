@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8477941,Nick Ritchie,/api/v1/people/8477941,Nick,Ritchie,27,1995-12-05,Orangeville,ON,CAN,CAN,"6' 3""",236,False,False,L,N,L,Left Wing,Forward,LW

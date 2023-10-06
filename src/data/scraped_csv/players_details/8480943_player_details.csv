@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8480943,Igor Ozhiganov,/api/v1/people/8480943,Igor,Ozhiganov,92,1992-10-13,Krasnogorsk,RUS,RUS,"6' 2""",210,False,False,R,Y,D,Defenseman,Defenseman,D

@@ -1,0 +1,30 @@
+jerseyNumber,person.id,person.fullName,person.link,position.code,position.name,position.type,position.abbreviation
+12,8466139,Patrick Marleau,/api/v1/people/8466139,C,Center,Forward,C
+81,8468493,Ron Hainsey,/api/v1/people/8468493,D,Defenseman,Defenseman,D
+8,8474162,Jake Muzzin,/api/v1/people/8474162,D,Defenseman,Defenseman,D
+51,8474581,Jake Gardiner,/api/v1/people/8474581,D,Defenseman,Defenseman,D
+63,8474589,Tyler Ennis,/api/v1/people/8474589,R,Right Wing,Forward,RW
+91,8475166,John Tavares,/api/v1/people/8475166,C,Center,Forward,C
+91,8475172,Nazem Kadri,/api/v1/people/8475172,C,Center,Forward,C
+52,8475716,Martin Marincin,/api/v1/people/8475716,D,Defenseman,Defenseman,D
+3,8475718,Justin Holl,/api/v1/people/8475718,D,Defenseman,Defenseman,D
+18,8475786,Zach Hyman,/api/v1/people/8475786,L,Left Wing,Forward,LW
+17,8476410,Josh Leivo,/api/v1/people/8476410,L,Left Wing,Forward,LW
+44,8476853,Morgan Rielly,/api/v1/people/8476853,D,Defenseman,Defenseman,D
+28,8477015,Connor Brown,/api/v1/people/8477015,R,Right Wing,Forward,RW
+18,8477341,Andreas Johnsson,/api/v1/people/8477341,L,Left Wing,Forward,LW
+19,8477464,Nic Petan,/api/v1/people/8477464,C,Center,Forward,C
+38,8477512,Frederik Gauthier,/api/v1/people/8477512,C,Center,Forward,C
+88,8477939,William Nylander,/api/v1/people/8477939,R,Right Wing,Forward,RW
+42,8477953,Kasperi Kapanen,/api/v1/people/8477953,R,Right Wing,Forward,RW
+33,8478408,Travis Dermott,/api/v1/people/8478408,D,Defenseman,Defenseman,D
+16,8478483,Mitchell Marner,/api/v1/people/8478483,R,Right Wing,Forward,RW
+34,8479318,Auston Matthews,/api/v1/people/8479318,C,Center,Forward,C
+22,8479458,Nikita Zaitsev,/api/v1/people/8479458,D,Defenseman,Defenseman,D
+12,8479675,Trevor Moore,/api/v1/people/8479675,L,Left Wing,Forward,LW
+43,8480157,Calle Rosen,/api/v1/people/8480157,D,Defenseman,Defenseman,D
+92,8480943,Igor Ozhiganov,/api/v1/people/8480943,D,Defenseman,Defenseman,D
+26,8480944,Par Lindholm,/api/v1/people/8480944,C,Center,Forward,C
+31,8474636,Michael Hutchinson,/api/v1/people/8474636,G,Goalie,Goalie,G
+31,8475883,Frederik Andersen,/api/v1/people/8475883,G,Goalie,Goalie,G
+80,8476343,Garret Sparks,/api/v1/people/8476343,G,Goalie,Goalie,G

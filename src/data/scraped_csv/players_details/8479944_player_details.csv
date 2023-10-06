@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8479944,Zach Aston-Reese,/api/v1/people/8479944,Zach,Aston-Reese,12,1994-08-10,Staten Island,NY,USA,USA,"6' 1""",205,False,False,L,N,C,Center,Forward,C

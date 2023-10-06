@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8483183,Jett Alexander,/api/v1/people/8483183,Jett,Alexander,1999-11-08,Bloomfield,ON,CAN,CAN,"6' 5""",214,False,True,L,N,G,Goalie,Goalie,G

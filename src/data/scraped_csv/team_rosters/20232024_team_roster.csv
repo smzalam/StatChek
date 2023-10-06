@@ -1,0 +1,34 @@
+jerseyNumber,person.id,person.fullName,person.link,position.code,position.name,position.type,position.abbreviation
+8,8474162,Jake Muzzin,/api/v1/people/8474162,D,Defenseman,Defenseman,D
+89,8481582,Nicholas Robertson,/api/v1/people/8481582,L,Left Wing,Forward,LW
+55,8470966,Mark Giordano,/api/v1/people/8470966,D,Defenseman,Defenseman,D
+75,8471817,Ryan Reaves,/api/v1/people/8471817,R,Right Wing,Forward,RW
+78,8474673,TJ Brodie,/api/v1/people/8474673,D,Defenseman,Defenseman,D
+31,8474889,Martin Jones,/api/v1/people/8474889,G,Goalie,Goalie,G
+43,8475160,Kyle Clifford,/api/v1/people/8475160,L,Left Wing,Forward,LW
+91,8475166,John Tavares,/api/v1/people/8475166,C,Center,Forward,C
+19,8475714,Calle Jarnkrok,/api/v1/people/8475714,C,Center,Forward,C
+3,8475906,John Klingberg,/api/v1/people/8475906,D,Defenseman,Defenseman,D
+44,8476853,Morgan Rielly,/api/v1/people/8476853,D,Defenseman,Defenseman,D
+22,8476931,Jake McCabe,/api/v1/people/8476931,D,Defenseman,Defenseman,D
+59,8477479,Tyler Bertuzzi,/api/v1/people/8477479,L,Left Wing,Forward,LW
+11,8477503,Max Domi,/api/v1/people/8477503,C,Center,Forward,C
+88,8477939,William Nylander,/api/v1/people/8477939,R,Right Wing,Forward,RW
+85,8478021,William Lagesson,/api/v1/people/8478021,D,Defenseman,Defenseman,D
+28,8478043,Sam Lafferty,/api/v1/people/8478043,C,Center,Forward,C
+16,8478483,Mitchell Marner,/api/v1/people/8478483,R,Right Wing,Forward,RW
+35,8478492,Ilya Samsonov,/api/v1/people/8478492,G,Goalie,Goalie,G
+34,8479318,Auston Matthews,/api/v1/people/8479318,C,Center,Forward,C
+48,8479320,Max Lajoie,/api/v1/people/8479320,D,Defenseman,Defenseman,D
+60,8479361,Joseph Woll,/api/v1/people/8479361,G,Goalie,Goalie,G
+57,8479580,Dylan Gambrell,/api/v1/people/8479580,C,Center,Forward,C
+25,8479982,Conor Timmins,/api/v1/people/8479982,D,Defenseman,Defenseman,D
+37,8480043,Timothy Liljegren,/api/v1/people/8480043,D,Defenseman,Defenseman,D
+64,8480144,David Kampf,/api/v1/people/8480144,C,Center,Forward,C
+29,8480995,Pontus Holmberg,/api/v1/people/8480995,R,Right Wing,Forward,RW
+2,8481122,Simon Benoit,/api/v1/people/8481122,D,Defenseman,Defenseman,D
+84,8481614,Mikko Kokkonen,/api/v1/people/8481614,D,Defenseman,Defenseman,D
+74,8482259,Bobby McMann,/api/v1/people/8482259,C,Center,Forward,C
+23,8482720,Matthew Knies,/api/v1/people/8482720,L,Left Wing,Forward,LW
+39,8483489,Fraser Minten,/api/v1/people/8483489,C,Center,Forward,C
+53,8484158,Easton Cowan,/api/v1/people/8484158,R,Right Wing,Forward,RW

@@ -1,0 +1,2 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
+8473422,Nick Foligno,/api/v1/people/8473422,Nick,Foligno,17,1987-10-31,35,Buffalo,NY,USA,USA,"6' 0""",210,True,False,False,False,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,L,Left Wing,Forward,LW
