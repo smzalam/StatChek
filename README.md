@@ -14,7 +14,8 @@ The point of this analysis is to figure out which players in the vast talent poo
 
 There are a few imporant things to note about this analysis.
 
-    - Only players who have been with the Maple Leafs for 2 or more years will be considered in this study. The motivation for this is to study lines combinations that have been together for a considerable amount of time rather than combinations that were made up on the fly for the purpose of innovation, game situations, or injuries.
+    - Only players who have been with the Maple Leafs for 2 or more years will be considered in this study. 
+      The motivation for this is to study lines combinations that have been together for a considerable amount of time rather than combinations that were made up on the fly for the purpose of innovation, game situations, or injuries.
 
     - There are a plethora of questions to address in this analysis such as, but not limited to, the following:
         * Which players have been with the Maple Leafs for a considerable amount of time (> 1.5 seasons)?
