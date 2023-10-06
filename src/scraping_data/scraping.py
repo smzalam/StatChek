@@ -11,12 +11,13 @@ years = [2016 + x for x in range(year - 2015)]
 api_urls = {
     "base_url": "https://statsapi.web.nhl.com",
     "team": "/api/v1/teams/10",
+    "team_stats": "/api/v1/teams/10/stats?season={season}",
     "rosters": "/api/v1/teams/10?expand=team.roster&season={season}",
     "players": "/api/v1/people/{id}",
 }
 
 
-def async_aiohttp_get_all(urls):
+def async_aiohttp_get_all(urls, years):
     """
     performs asynchronous get requests
     """
@@ -35,26 +36,28 @@ def async_aiohttp_get_all(urls):
             async def get_team_data(urls):
                 data = await fetch(urls["team"])
                 df = pd.json_normalize(data["teams"][0], max_level=1)
-                title = "teamFranchiseDetails.csv"
+                title = "./scraped_csv/team_details/teamFranchiseDetails.csv"
                 df.to_csv(title, index=False)
 
-            async def get_team_data(urls):
-                data = await fetch(urls["team"])
-                df = pd.json_normalize(data["teams"][0], max_level=1)
-                title = "teamFranchiseDetails"
-                df.to_csv(title, index=False)
+            async def get_team_stats(urls, years):
+                for year in years:
+                    season = f"{year}{year+1}"
+                    data = await fetch(urls["team_stats"].format(season))
+                    df = pd.json_normalize(data["teams"][0], max_level=1)
+                    title = f"./scraped_csv/team_stats/{season}_team_stats.csv"
+                    df.to_csv(title, index=False)
 
-            async def get_team_data(urls):
-                data = await fetch(urls["team"])
-                df = pd.json_normalize(data["teams"][0], max_level=1)
-                title = "teamFranchiseDetails"
-                df.to_csv(title, index=False)
+            # async def get_team_data(urls):
+            #     data = await fetch(urls["team"])
+            #     df = pd.json_normalize(data["teams"][0], max_level=1)
+            #     title = "teamFranchiseDetails"
+            #     df.to_csv(title, index=False)
 
-            async def get_team_data(urls):
-                data = await fetch(urls["team"])
-                df = pd.json_normalize(data["teams"][0], max_level=1)
-                title = "teamFranchiseDetails"
-                df.to_csv(title, index=False)
+            # async def get_team_data(urls):
+            #     data = await fetch(urls["team"])
+            #     df = pd.json_normalize(data["teams"][0], max_level=1)
+            #     title = "teamFranchiseDetails"
+            #     df.to_csv(title, index=False)
 
             await get_team_data(urls)
             # return await asyncio.gather(*[fetch(url) for url in urls])
