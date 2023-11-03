@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8476474,Stefan Noesen,/api/v1/people/8476474,Stefan,Noesen,23,1993-02-12,30,Plano,TX,USA,USA,"6' 1""",205,True,False,False,False,R,Y,12,Carolina Hurricanes,/api/v1/teams/12,R,Right Wing,Forward,RW

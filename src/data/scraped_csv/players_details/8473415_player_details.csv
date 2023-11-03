@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8473415,Alex Biega,/api/v1/people/8473415,Alex,Biega,33,1988-04-04,Montréal,QC,CAN,CAN,"5' 10""",195,False,False,R,N,D,Defenseman,Defenseman,D

@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8477312,Antoine Bibeau,/api/v1/people/8477312,Antoine,Bibeau,30,1994-05-01,Victoriaville,QC,CAN,CAN,"6' 3""",205,False,False,L,N,G,Goalie,Goalie,G

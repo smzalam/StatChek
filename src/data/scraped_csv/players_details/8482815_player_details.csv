@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8482815,Kirill Semyonov,/api/v1/people/8482815,Kirill,Semyonov,94,1994-10-27,Omsk,RUS,RUS,"6' 0""",171,False,False,L,N,C,Center,Forward,C

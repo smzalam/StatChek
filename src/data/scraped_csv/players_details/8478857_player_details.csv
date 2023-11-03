@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8478857,Dmytro Timashov,/api/v1/people/8478857,Dmytro,Timashov,41,1996-10-01,Kirovograd,UKR,UKR,"5' 10""",189,False,False,L,N,L,Left Wing,Forward,LW

@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8473523,Jhonas Enroth,/api/v1/people/8473523,Jhonas,Enroth,31,1988-06-25,Stockholm,SWE,SWE,"5' 10""",175,False,False,L,Y,G,Goalie,Goalie,G

@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8474636,Michael Hutchinson,/api/v1/people/8474636,Michael,Hutchinson,31,1990-03-02,Barrie,ON,CAN,CAN,"6' 3""",201,False,False,R,N,G,Goalie,Goalie,G

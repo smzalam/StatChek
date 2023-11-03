@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8478408,Travis Dermott,/api/v1/people/8478408,Travis,Dermott,33,1996-12-22,26,Newmarket,ON,CAN,CAN,"6' 0""",202,True,False,False,False,L,Y,53,Arizona Coyotes,/api/v1/teams/53,D,Defenseman,Defenseman,D

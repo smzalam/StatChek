@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8471392,Roman Polak,/api/v1/people/8471392,Roman,Polak,45,1986-04-28,Ostrava,CZE,CZE,"6' 2""",240,False,False,R,N,D,Defenseman,Defenseman,D

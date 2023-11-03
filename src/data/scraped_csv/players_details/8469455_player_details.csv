@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8469455,Jason Spezza,/api/v1/people/8469455,Jason,Spezza,19,1983-06-13,Toronto,ON,CAN,CAN,"6' 3""",219,False,False,R,Y,C,Center,Forward,C

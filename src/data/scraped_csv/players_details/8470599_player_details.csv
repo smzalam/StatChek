@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8470599,Milan Michalek,/api/v1/people/8470599,Milan,Michalek,18,1984-12-07,Jindrichuv Hradec,CZE,CZE,"6' 2""",225,False,False,L,N,L,Left Wing,Forward,LW

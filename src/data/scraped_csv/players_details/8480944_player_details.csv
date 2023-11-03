@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8480944,Par Lindholm,/api/v1/people/8480944,Par,Lindholm,26,1991-10-05,Kusmark,SWE,SWE,"6' 0""",181,False,False,L,N,C,Center,Forward,C

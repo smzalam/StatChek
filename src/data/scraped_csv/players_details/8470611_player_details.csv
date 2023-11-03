@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8470611,Eric Fehr,/api/v1/people/8470611,Eric,Fehr,21,1985-09-07,Winkler,MB,CAN,CAN,"6' 4""",209,False,False,R,Y,C,Center,Forward,C

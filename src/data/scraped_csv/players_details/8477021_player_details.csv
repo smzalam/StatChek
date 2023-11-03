@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8477021,Alex Kerfoot,/api/v1/people/8477021,Alex,Kerfoot,15,1994-08-11,29,Vancouver,BC,CAN,CAN,"5' 11""",186,True,False,False,False,L,Y,53,Arizona Coyotes,/api/v1/teams/53,C,Center,Forward,C

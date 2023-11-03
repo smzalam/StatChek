@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8478131,Ondrej Kase,/api/v1/people/8478131,Ondrej,Kase,73,1995-11-08,Kadan,CZE,CZE,"6' 0""",187,False,False,R,I,R,Right Wing,Forward,RW

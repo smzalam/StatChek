@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8475098,Tyler Bozak,/api/v1/people/8475098,Tyler,Bozak,21,1986-03-19,Regina,SK,CAN,CAN,"6' 1""",187,False,False,R,Y,C,Center,Forward,C

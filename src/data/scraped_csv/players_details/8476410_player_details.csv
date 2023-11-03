@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8476410,Josh Leivo,/api/v1/people/8476410,Josh,Leivo,17,1993-05-26,Innisfil,ON,CAN,CAN,"6' 2""",192,False,False,R,Y,L,Left Wing,Forward,LW

@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8478047,Michael Bunting,/api/v1/people/8478047,Michael,Bunting,58,1995-09-17,28,Scarborough,ON,CAN,CAN,"6' 0""",192,True,False,False,False,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,L,Left Wing,Forward,LW

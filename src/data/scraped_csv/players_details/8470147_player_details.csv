@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8470147,Curtis McElhinney,/api/v1/people/8470147,Curtis,McElhinney,35,1983-05-23,London,ON,CAN,CAN,"6' 1""",210,False,False,L,Y,G,Goalie,Goalie,G

@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8479361,Joseph Woll,/api/v1/people/8479361,Joseph,Woll,60,1998-07-12,25,Dardenne Prairie,MO,USA,USA,"6' 3""",202,True,False,False,True,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,G,Goalie,Goalie,G

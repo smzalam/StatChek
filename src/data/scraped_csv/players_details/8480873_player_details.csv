@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8480873,Rasmus Sandin,/api/v1/people/8480873,Rasmus,Sandin,38,2000-03-07,23,Uppsala,SWE,SWE,"5' 11""",182,True,False,False,False,L,Y,15,Washington Capitals,/api/v1/teams/15,D,Defenseman,Defenseman,D

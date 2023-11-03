@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8481582,Nicholas Robertson,/api/v1/people/8481582,Nicholas,Robertson,89,2001-09-11,22,Pasadena,CA,USA,USA,"5' 9""",178,True,False,False,False,L,I,10,Toronto Maple Leafs,/api/v1/teams/10,L,Left Wing,Forward,LW

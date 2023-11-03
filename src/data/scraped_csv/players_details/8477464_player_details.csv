@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeam.id,currentTeam.name,currentTeam.link,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8477464,Nic Petan,/api/v1/people/8477464,Nic,Petan,19,1995-03-22,28,Delta,BC,CAN,CAN,"5' 9""",175,True,False,False,False,L,N,30,Minnesota Wild,/api/v1/teams/30,C,Center,Forward,C

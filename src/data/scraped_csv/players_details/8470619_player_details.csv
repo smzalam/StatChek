@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8470619,Brian Boyle,/api/v1/people/8470619,Brian,Boyle,11,1984-12-18,Hingham,MA,USA,USA,"6' 6""",245,False,False,L,Y,C,Center,Forward,C

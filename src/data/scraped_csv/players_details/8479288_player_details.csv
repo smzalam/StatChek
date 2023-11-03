@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8479288,Kasimir Kaskisuo,/api/v1/people/8479288,Kasimir,Kaskisuo,73,1993-10-02,Vantaa,FIN,FIN,"6' 3""",203,False,False,L,Y,G,Goalie,Goalie,G

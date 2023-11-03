@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8482247,Mikko Lehtonen,/api/v1/people/8482247,Mikko,Lehtonen,43,1994-01-16,Turku,FIN,FIN,"6' 0""",187,False,False,L,N,D,Defenseman,Defenseman,D

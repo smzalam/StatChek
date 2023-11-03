@@ -1,2 +1,0 @@
-id,fullName,link,firstName,lastName,primaryNumber,birthDate,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,rookie,shootsCatches,rosterStatus,primaryPosition.code,primaryPosition.name,primaryPosition.type,primaryPosition.abbreviation
-8476406,Nicholas Shore,/api/v1/people/8476406,Nicholas,Shore,21,1992-09-26,Denver,CO,USA,USA,"6' 1""",198,False,False,R,N,C,Center,Forward,C
