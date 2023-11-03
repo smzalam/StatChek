@@ -1,0 +1,8 @@
+*.html
+*.txt
+data.csv
+random_tests.py
+.vscode
+venv/
+test_files
+.env
