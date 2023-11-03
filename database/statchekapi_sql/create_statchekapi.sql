@@ -163,3 +163,14 @@ CREATE TABLE rosters(
         REFERENCES players(player_id)
 );
 
+CREATE TABLE links(
+    link_id int NOT NULL,
+    team_id int NOT NULL,
+    hashtag varchar(100) NOT NULL,
+    instagram_link varchar(100) NOT NULL,
+    twitter_link varchar(100) NOT NULL,
+    PRIMARY KEY (link_id),
+    CONSTRAINT fk_team
+        FOREIGN KEY (team_id)
+            REFERENCES teams(team_id)
+)

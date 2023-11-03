@@ -1,6 +1,6 @@
 from psycopg.errors import OperationalError, ProgrammingError, InternalError
 from db_connect import get_conn
-from helper_functions import readSQLCommands
+from db_helper_functions import readSQLCommands
 
 file_commands = readSQLCommands('./database/statchekapi_sql/create_statchekapi.sql')
 sql_commands = [command for command in file_commands if '---' not in command and command != '']
