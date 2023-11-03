@@ -1,0 +1,3 @@
+id,name,link,abbreviation,active
+6,Eastern,/api/v1/conferences/6,E,True
+5,Western,/api/v1/conferences/5,W,True
