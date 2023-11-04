@@ -1,6 +1,6 @@
-from database.db_commands import *
-from database.db_helper_functions import *
-from database.db_commands import *
+from .database.db_commands import *
+from .database.db_helper_functions import *
+from .database.db_commands import *
 from pprint import pprint
 
 

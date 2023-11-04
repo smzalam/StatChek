@@ -1,4 +1,6 @@
+import asyncio
 from fastapi import FastAPI
+from pydantic import BaseModel
 from .routers import conferences, divisions, teams, players
 
 # from fastapi.params import Body
@@ -10,6 +12,13 @@ app.include_router(conferences.router)
 app.include_router(divisions.router)
 app.include_router(teams.router)
 app.include_router(players.router)
+
+
+async def check_connections():
+    while True:
+        await asyncio.sleep(600)
+        print("check connections")
+        pool.check()
 
 
 @app.get("/")
