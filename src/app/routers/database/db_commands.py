@@ -1,33 +1,37 @@
 from pprint import pprint
 
-conferences: """
+conferences = """
                 SELECT * FROM conferences;
 """
-divisions: """
+divisions = """
                 SELECT * FROM divisions;
 """
-teams: """
+teams = """
                 SELECT * FROM teams;
 """
-teams_info: """
+teams_info = """
                 SELECT * FROM teams_info;
 """
-teams_stats: """
+teams_stats = """
                 SELECT * FROM teams_stats;
 """
-teams_ranks: """
+teams_ranks = """
                 SELECT * FROM teams_ranks;
 """
-rosters: """
+rosters = """
                 SELECT * FROM rosters;
 """
-players: """
+players = """
                 SELECT * FROM players;
 """
-column_names: """
+select_column_names = """
                 SELECT column_name
                 FROM information_schema.columns 
                 WHERE table_schema = 'public'
                 AND table_name = %s
                 ORDER BY ordinal_position;
+"""
+
+select_all_records = """
+                SELECT * FROM {table};
 """
