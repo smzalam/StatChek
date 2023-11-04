@@ -115,7 +115,7 @@ def conference_id_teams_data(
     teams_data = select_teams_by_ids_function(
         pool_conn, tables["teams_table"], "conference_id", conference_id
     )
-    response = {"conference": conference_data, "teams": division_data}
+    response = {"conference": conference_data, "teams": teams_data}
     if not response:
         return {
             "message": f"No such conference exists with id: {conference_id}",
