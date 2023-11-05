@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
 from .db_api_mediation_functions import *
 from .database.db_connect import get_pool
+from .schemas import *
 from pprint import pprint
 
 
@@ -19,28 +20,21 @@ def get_all_teams_data(team_ids: list):
     for team_id in team_ids:
         team_data = select_teams_by_ids_function(
             pool_conn, table["teams_table"], "team_id", team_id
-        )
-        players_data = select_players_by_ids_function(
+        )[0]
+        team_data["players"] = select_players_by_ids_function(
             pool_conn, table["players_table"], "team_id", team_id
         )
-        stats_data = select_teamstatsranks_by_teamid_function(
+        team_data["stats"] = select_teamstatsranks_by_teamid_function(
             pool_conn, table["stats_table"], "team_id", team_id, "stats"
         )
-        ranks_data = select_teamstatsranks_by_teamid_function(
+        team_data["ranks"] = select_teamstatsranks_by_teamid_function(
             pool_conn, table["ranks_table"], "team_id", team_id, "ranks"
         )
-        response.append(
-            {
-                "team": team_data,
-                "players": players_data,
-                "stats": stats_data,
-                "ranks": ranks_data,
-            }
-        )
+        response.append(team_data)
     return response
 
 
-@router.get("/teams")
+@router.get("/teams", response_model=Teams)
 def teams_data(all: bool = False):
     if all:
         table = "teams"
@@ -48,89 +42,86 @@ def teams_data(all: bool = False):
         team_ids = []
         for team_id in team_ids_request:
             team_ids.append(team_id["team_id"])
-        response = get_all_teams_data(team_ids)
+        teams_data = get_all_teams_data(team_ids)
+        response = {"teams": teams_data}
         return response
     else:
         table = "teams_info"
-        response = select_all_function(pool_conn, table)
+        teams_data = select_all_function(pool_conn, table)
+        response = {"teams": teams_data}
         return response
 
 
-@router.get("/teams/{team_id}")
+@router.get("/teams/{team_id}", response_model=Teams)
 def teams_data_id(team_id: int = 0, show_ids: bool = False):
     if show_ids:
         table = "teams"
-        response = select_all_function(pool_conn, table)
+        teams_data = select_all_function(pool_conn, table)
+        response = {"teams": teams_data}
         return response
     else:
         table = "teams_info"
-        response = select_teams_by_ids_function(pool_conn, table, "team_id", team_id)
+        teams_data = select_teams_by_ids_function(pool_conn, table, "team_id", team_id)
+        response = {"teams": teams_data}
         return response
 
 
-@router.get("/teams/{team_id}/players")
+@router.get("/teams/{team_id}/players", response_model=Teams)
 def teams_id_players_data(team_id: int, season: int = None):
     table = {"teams_table": "teams_info", "players_table": "rosters"}
     teams_data = select_teams_by_ids_function(
         pool_conn, table["teams_table"], "team_id", team_id
-    )
+    )[0]
     if not season:
-        players_data = select_players_by_ids_function(
+        teams_data["players"] = select_players_by_ids_function(
             pool_conn, table["players_table"], "team_id", team_id
         )
-        response = {
-            "team": teams_data,
-            "players": players_data,
-        }
+        response = {"teams": [teams_data]}
     else:
-        players_data = select_players_by_teamid_season_function(
+        teams_data["players"] = select_players_by_teamid_season_function(
             pool_conn, table["players_table"], team_id, season
         )
-        response = {
-            "team": teams_data,
-            "season": season,
-            "players": players_data,
-        }
+        response = {"season": season, "teams": [teams_data]}
 
     return response
 
 
-@router.get("/teams/{team_id}/stats")
+@router.get("/teams/{team_id}/stats", response_model=Teams)
 def teams_id_stats_data(team_id: int, season: int = None):
     table = {"teams_table": "teams_info", "stats_table": "teams_stats"}
-    team_data = select_teams_by_ids_function(
+    teams_data = select_teams_by_ids_function(
         pool_conn, table["teams_table"], "team_id", team_id
-    )
+    )[0]
     if season:
-        stats_data = select_teamstatsranks_by_teamid_season_function(
+        teams_data["stats"] = select_teamstatsranks_by_teamid_season_function(
             pool_conn, table["stats_table"], team_id, season, "stats"
         )
-        response = {"team": team_data, "season": season, "stats": stats_data}
+        response = {"season": season, "teams": [teams_data]}
     else:
-        stats_data = select_teamstatsranks_by_teamid_function(
+        teams_data["stats"] = select_teamstatsranks_by_teamid_function(
             pool_conn, table["stats_table"], "team_id", team_id, "stats"
         )
-        response = {"team": team_data, "stats": stats_data}
+        response = {"teams": [teams_data]}
 
     return response
 
 
-@router.get("/teams/{team_id}/ranks")
+@router.get("/teams/{team_id}/ranks", response_model=Teams)
 def teams_id_ranks_data(team_id: int, season: int = None):
     table = {"teams_table": "teams_info", "ranks_table": "teams_ranks"}
-    team_data = select_teams_by_ids_function(
+    teams_data = select_teams_by_ids_function(
         pool_conn, table["teams_table"], "team_id", team_id
-    )
+    )[0]
     if season:
-        ranks_data = select_teamstatsranks_by_teamid_season_function(
+        teams_data["ranks"] = select_teamstatsranks_by_teamid_season_function(
             pool_conn, table["ranks_table"], team_id, season, "ranks"
         )
-        response = {"team": team_data, "season": season, "ranks": ranks_data}
+        response = {"season": season, "teams": [teams_data]}
     else:
-        ranks_data = select_teamstatsranks_by_teamid_function(
+        teams_data["ranks"] = select_teamstatsranks_by_teamid_function(
             pool_conn, table["ranks_table"], "team_id", team_id, "ranks"
         )
-        response = {"team": team_data, "ranks": ranks_data}
+        response = {"teams": [teams_data]}
 
     return response
 
