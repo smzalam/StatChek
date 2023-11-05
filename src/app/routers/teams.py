@@ -8,11 +8,52 @@ router = APIRouter()
 pool_conn = get_pool()
 
 
-@router.get("/teams")
-def teams_data():
-    table = "teams_info"
-    response = select_all_function(pool_conn, table)
+def get_all_teams_data(team_ids: list):
+    table = {
+        "teams_table": "teams_info",
+        "players_table": "rosters",
+        "stats_table": "teams_stats",
+        "ranks_table": "teams_ranks",
+    }
+    response = []
+    for team_id in team_ids:
+        team_data = select_teams_by_ids_function(
+            pool_conn, table["teams_table"], "team_id", team_id
+        )
+        players_data = select_players_by_ids_function(
+            pool_conn, table["players_table"], "team_id", team_id
+        )
+        stats_data = select_teamstatsranks_by_teamid_function(
+            pool_conn, table["stats_table"], "team_id", team_id, "stats"
+        )
+        ranks_data = select_teamstatsranks_by_teamid_function(
+            pool_conn, table["ranks_table"], "team_id", team_id, "ranks"
+        )
+        response.append(
+            {
+                "team": team_data,
+                "players": players_data,
+                "stats": stats_data,
+                "ranks": ranks_data,
+            }
+        )
     return response
+
+
+@router.get("/teams")
+def teams_data(all: bool = False):
+    if all:
+        table = "teams"
+        team_ids_request = select_all_function(pool_conn, table)
+        team_ids = []
+        for team_id in team_ids_request:
+            team_ids.append(team_id["team_id"])
+        response = get_all_teams_data(team_ids)
+        return response
+    else:
+        table = "teams_info"
+        response = select_all_function(pool_conn, table)
+        return response
 
 
 @router.get("/teams/{team_id}")
@@ -81,15 +122,15 @@ def teams_id_ranks_data(team_id: int, season: int = None):
         pool_conn, table["teams_table"], "team_id", team_id
     )
     if season:
-        stats_data = select_teamstatsranks_by_teamid_season_function(
+        ranks_data = select_teamstatsranks_by_teamid_season_function(
             pool_conn, table["ranks_table"], team_id, season, "ranks"
         )
-        response = {"team": team_data, "season": season, "ranks": stats_data}
+        response = {"team": team_data, "season": season, "ranks": ranks_data}
     else:
-        stats_data = select_teamstatsranks_by_teamid_function(
+        ranks_data = select_teamstatsranks_by_teamid_function(
             pool_conn, table["ranks_table"], "team_id", team_id, "ranks"
         )
-        response = {"team": team_data, "ranks": stats_data}
+        response = {"team": team_data, "ranks": ranks_data}
 
     return response
 
