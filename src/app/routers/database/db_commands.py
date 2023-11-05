@@ -30,3 +30,42 @@ select_teams_by_id = """
                             FROM teams_info
                             WHERE {table} = %s
 """
+
+select_teamstats_by_id = """
+                            SELECT *
+                            FROM teams_stats
+                            WHERE {table} = %s
+"""
+
+select_teamstats_by_id_season = """
+                            SELECT *
+                            FROM teams_stats
+                            WHERE team_id = (%s)
+                            AND season = (%s)
+"""
+
+select_teamranks_by_id = """
+                            SELECT *
+                            FROM teams_ranks
+                            WHERE {table} = %s
+"""
+
+select_teamranks_by_id_season = """
+                            SELECT *
+                            FROM teams_ranks
+                            WHERE team_id = (%s)
+                            AND season = (%s)
+"""
+
+select_players_by_id = """
+                            SELECT * 
+                            FROM rosters
+                            WHERE {table} = %s
+"""
+
+select_players_by_teamid_season = """
+                            SELECT *
+                            FROM rosters
+                            WHERE team_id = (%s)
+                            AND season = (%s)
+"""
