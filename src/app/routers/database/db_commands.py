@@ -73,7 +73,7 @@ select_players_by_teamid_season = """
 """
 
 select_user_details_id = """
-                    SELECT user_id, email
+                    SELECT *
                     FROM users
                     WHERE {table} = %s
 """
