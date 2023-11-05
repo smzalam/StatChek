@@ -67,6 +67,7 @@ class StatsRequest(BaseModel):
 
 
 class PlayersRequest(BaseModel):
+    team_id: int
     season: int
     player_id: int
     full_name: str
@@ -130,3 +131,8 @@ class Divisions(BaseModel):
 class Teams(BaseModel):
     season: int | str = "all"
     teams: list[TeamsRequest | TeamsIds]
+
+
+class Players(BaseModel):
+    player_id: int
+    players: list[PlayersRequest]
