@@ -1,7 +1,6 @@
 from functools import lru_cache
 from pydantic import BaseModel
 from pydantic_settings import BaseSettings
-from pprint import pprint
 
 
 class DBSettings(BaseModel):
@@ -35,6 +34,3 @@ def get_db_settings():
 @lru_cache
 def get_auth_settings():
     return Settings().auth_config
-
-
-# pprint(get_auth_settings().algorithm)
