@@ -5,8 +5,10 @@ from pprint import pprint
 
 
 def select_all_function(db_conn, table):
-    columns = format_table_item(db_conn, select_column_names, True, params=[table])
-    records = format_table_item(db_conn, select_all_records, False, table)
+    columns = format_table_item(
+        db_conn, select_column_names, True, None, params=[table]
+    )
+    records = format_table_item(db_conn, select_all_records, False, None, table)
     data = format_db_response(columns, records)
     return data
 
