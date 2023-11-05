@@ -194,8 +194,9 @@ def select_user_details_id_function(db_conn, table, id_type, id_num):
 
 
 def insert_users_new_function(db_conn, table, user_details: list):
+    id_type = "user_id"
     sql_execute_write_query(db_conn, insert_new_user, user_details)
-    new_user = select_user_details_id_function(db_conn, table, None, user_details[0])
+    new_user = select_user_details_id_function(db_conn, table, id_type, user_details[0])
     return new_user
 
 

@@ -143,3 +143,12 @@ class UserCreate(BaseModel):
     user_id: str | None = None
     email: EmailStr
     password: str
+
+
+class UserRequest(BaseModel):
+    user_id: str
+    email: EmailStr
+
+
+class User(BaseModel):
+    users: list[UserRequest]

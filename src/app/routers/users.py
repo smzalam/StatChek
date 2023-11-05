@@ -11,19 +11,21 @@ router = APIRouter()
 pool_conn = get_pool()
 
 
-@router.get("/users/new", status_code=status.HTTP_201_CREATED)
+@router.get("/users/new", status_code=status.HTTP_201_CREATED, response_model=User)
 def new_user(user: UserCreate):
     table = "users"
     user.user_id = str(uuid.uuid4())
     user_data = insert_users_new_function(
         pool_conn, table, [user.user_id, user.email, user.password]
     )
-    return user_data
+    response = {"users": user_data}
+    return response
 
 
-@router.get("/users/{email}", status_code=status.HTTP_200_OK)
+@router.get("/users/{email}", status_code=status.HTTP_200_OK, response_model=User)
 def current_user(email: EmailStr):
     table = "users"
     id_type = "email"
     user_data = select_user_details_id_function(pool_conn, table, id_type, email)
-    return user_data
+    response = {"users": user_data}
+    return response
