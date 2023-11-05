@@ -1,9 +1,9 @@
 from functools import lru_cache
 import psycopg
 from psycopg_pool import ConnectionPool
-from ..database.db_config import get_settings
+from config import get_db_settings
 
-settings = get_settings()
+settings = get_db_settings()
 
 conninfo = f"""
     user = {settings.db_user} 
