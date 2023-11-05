@@ -2,6 +2,9 @@ from pydantic import BaseModel, EmailStr
 from datetime import datetime
 
 
+"""API DATA SCHEMAS"""
+
+
 class RanksRequest(BaseModel):
     team_id: int
     season: int
@@ -139,6 +142,9 @@ class Players(BaseModel):
     players: list[PlayersRequest]
 
 
+"""USER SCHEMAS"""
+
+
 class UserCreate(BaseModel):
     user_id: str | None = None
     email: EmailStr
@@ -149,6 +155,11 @@ class UserRequest(BaseModel):
     user_id: str
     email: EmailStr
     created_at: datetime
+
+
+class UserLogin(BaseModel):
+    email: EmailStr
+    password: str
 
 
 class User(BaseModel):
