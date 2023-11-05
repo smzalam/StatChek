@@ -7,5 +7,12 @@ from pprint import pprint
 router = APIRouter()
 pool_conn = get_pool()
 
-# @app.get("/players/{player_id}")
+
+@router.get("/players/{player_id}")
+def player_data(player_id: int):
+    table = "rosters"
+    response = select_players_by_ids_function(pool_conn, table, "player_id", player_id)
+    return response
+
+
 # @app.get("/players/search")
