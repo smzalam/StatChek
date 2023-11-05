@@ -1,4 +1,5 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
+from datetime import datetime
 
 
 class RanksRequest(BaseModel):
@@ -136,3 +137,8 @@ class Teams(BaseModel):
 class Players(BaseModel):
     player_id: int
     players: list[PlayersRequest]
+
+
+class UserCreate(BaseModel):
+    email: EmailStr
+    password: str

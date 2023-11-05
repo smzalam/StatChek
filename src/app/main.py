@@ -2,7 +2,7 @@ import asyncio
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from .routers import conferences, divisions, teams, players
+from .routers import conferences, divisions, teams, players, users
 
 # from fastapi.params import Body
 # from pydantic import BaseModel
@@ -19,6 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(users.router)
 app.include_router(conferences.router)
 app.include_router(divisions.router)
 app.include_router(teams.router)

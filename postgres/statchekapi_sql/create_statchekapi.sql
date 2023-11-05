@@ -176,8 +176,10 @@ CREATE TABLE links(
 );
 
 CREATE TABLE users(
-    user_id int NOT NULL,
+    user_id varchar(100) NOT NULL UNIQUE,
     email varchar(100) NOT NULL UNIQUE,
     password varchar(100) NOT NULL,
-    created_at timestamptz NOT NULL
+    created_at timestamptz NOT NULL 
+        DEFAULT (current_timestamp AT TIME ZONE 'UTC'),
+    PRIMARY KEY(user_id)
 );

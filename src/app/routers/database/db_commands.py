@@ -1,6 +1,8 @@
 from pprint import pprint
 
 
+"""SELECT COMMANDS"""
+
 select_column_names = """
                 SELECT column_name
                 FROM information_schema.columns 
@@ -69,3 +71,10 @@ select_players_by_teamid_season = """
                             WHERE team_id = (%s)
                             AND season = (%s)
 """
+
+"""INSERT COMMANDS"""
+
+insert_new_user = """
+                    INSERT INTO users(user_id, email, password)
+                    VALUES (%s, %s, %s)
+ """

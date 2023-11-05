@@ -186,4 +186,9 @@ def select_players_by_teamid_season_function(db_conn, table, team_id, season):
     return data
 
 
+def insert_users_new_function(db_conn, user_details: list):
+    new_user = sql_execute_write_query(db_conn, insert_new_user, user_details)
+    return new_user
+
+
 update_cache()
