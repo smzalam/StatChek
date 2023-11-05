@@ -186,8 +186,16 @@ def select_players_by_teamid_season_function(db_conn, table, team_id, season):
     return data
 
 
-def insert_users_new_function(db_conn, user_details: list):
-    new_user = sql_execute_write_query(db_conn, insert_new_user, user_details)
+def select_user_details_id_function(db_conn, table, id_type, id_num):
+    data = executing_formatting_query_from_db(
+        db_conn, select_user_details_id, None, id_type, table, [id_num]
+    )
+    return data
+
+
+def insert_users_new_function(db_conn, table, user_details: list):
+    sql_execute_write_query(db_conn, insert_new_user, user_details)
+    new_user = select_user_details_id_function(db_conn, table, None, user_details[0])
     return new_user
 
 

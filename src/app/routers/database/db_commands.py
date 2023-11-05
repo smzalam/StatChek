@@ -72,6 +72,12 @@ select_players_by_teamid_season = """
                             AND season = (%s)
 """
 
+select_user_details_id = """
+                    SELECT user_id, email
+                    FROM users
+                    WHERE {table} = %s
+"""
+
 """INSERT COMMANDS"""
 
 insert_new_user = """

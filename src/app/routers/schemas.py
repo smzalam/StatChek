@@ -140,5 +140,6 @@ class Players(BaseModel):
 
 
 class UserCreate(BaseModel):
+    user_id: str | None = None
     email: EmailStr
     password: str
