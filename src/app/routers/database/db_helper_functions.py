@@ -19,12 +19,13 @@ def format_table_item(
     identifier: str = None,
     params: list | tuple = None,
 ):
-    table_columns = sql_execute_query(db_conn, query, identifier, params)
     if column:
+        table_columns = sql_execute_query(db_conn, query, identifier, params)
         formatted_table_columns = [name[0] for name in table_columns]
         return formatted_table_columns
     else:
-        formatted_table_records = [list(name) for name in table_columns]
+        table_records = sql_execute_query(db_conn, query, identifier, params)
+        formatted_table_records = [list(name) for name in table_records]
         return formatted_table_records
 
 
