@@ -1,15 +1,6 @@
 from pydantic import BaseModel
 
 
-class DivisionsRequest(BaseModel):
-    id: int
-    name: str
-    abbreviation: str
-    link: str
-    active: bool
-    conference_id: int
-
-
 class TeamsRequest(BaseModel):
     id: int
     team_id: int
@@ -21,6 +12,16 @@ class TeamsRequest(BaseModel):
     venue: str
     division_id: int
     conference_id: int
+
+
+class DivisionsRequest(BaseModel):
+    id: int
+    name: str
+    abbreviation: str
+    link: str
+    active: bool
+    conference_id: int
+    teams: list[TeamsRequest] | None = None
 
 
 class ConferencesRequest(BaseModel):
@@ -35,3 +36,7 @@ class ConferencesRequest(BaseModel):
 
 class Conferences(BaseModel):
     conferences: list[ConferencesRequest]
+
+
+class Divisions(BaseModel):
+    divisions: list[DivisionsRequest]

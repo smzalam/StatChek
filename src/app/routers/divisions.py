@@ -1,6 +1,16 @@
-from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
+from fastapi import (
+    FastAPI,
+    Response,
+    status,
+    HTTPException,
+    Depends,
+    APIRouter,
+    Query,
+    Path,
+)
 from .db_api_mediation_functions import *
 from .database.db_connect import get_pool
+from .schemas import *
 from pprint import pprint
 
 
@@ -17,28 +27,25 @@ def get_all_divisons_data(division_ids: list):
     for division_id in division_ids:
         division_data = select_divisions_by_ids_function(
             pool_conn, tables["divisions_table"], "id", division_id
-        )
-        teams_data = select_teams_by_ids_function(
+        )[0]
+        division_data["teams"] = select_teams_by_ids_function(
             pool_conn, tables["teams_table"], "division_id", division_id
         )
-        response.append(
-            {
-                "divisions": division_data,
-                "teams": teams_data,
-            }
-        )
+        response.append(division_data)
     return response
 
 
-@router.get("/divisions")
+@router.get("/divisions", response_model=Divisions)
 def divisions_data(all: bool = False):
     if not all:
         table = "divisions"
-        response = select_all_function(pool_conn, table)
+        division_data = select_all_function(pool_conn, table)
+        response = {"divisions": division_data}
         return response
     else:
         division_ids = [15, 16, 17, 18]
-        response = get_all_divisons_data(division_ids)
+        division_data = get_all_divisons_data(division_ids)
+        response = {"divisions": division_data}
         if not response:
             return {
                 "message": f"No such division exists with id: {division_ids}",
@@ -48,11 +55,14 @@ def divisions_data(all: bool = False):
             return response
 
 
-@router.get("/divisions/{division_id}")
+@router.get("/divisions/{division_id}", response_model=Divisions)
 def divisions_data_id(division_id: int, all: bool = False):
     if not all:
         table = "divisions"
-        response = select_divisions_by_ids_function(pool_conn, table, "id", division_id)
+        division_data = select_divisions_by_ids_function(
+            pool_conn, table, "id", division_id
+        )
+        response = {"divisions": division_data}
         if not response:
             return {
                 "message": f"No such division exists with id: {division_id}",
@@ -61,20 +71,21 @@ def divisions_data_id(division_id: int, all: bool = False):
         else:
             return response
     else:
-        response = get_all_divisons_data([division_id])
+        division_data = get_all_divisons_data([division_id])
+        response = {"divisions": division_data}
         return response
 
 
-@router.get("/divisions/{division_id}/teams")
+@router.get("/divisions/{division_id}/teams", response_model=Divisions)
 def division_id_teams_data(division_id):
     tables = {"divisions_table": "divisions", "teams_table": "teams_info"}
     division_data = select_divisions_by_ids_function(
         pool_conn, tables["divisions_table"], "id", division_id
-    )
-    teams_data = select_teams_by_ids_function(
+    )[0]
+    division_data["teams"] = select_teams_by_ids_function(
         pool_conn, tables["teams_table"], "division_id", division_id
     )
-    response = {"division": division_data, "teams": teams_data}
+    response = {"divisions": [division_data]}
     if not response:
         return {
             "message": f"No such division exists with id: {division_id}",
