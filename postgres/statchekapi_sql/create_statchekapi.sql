@@ -173,4 +173,11 @@ CREATE TABLE links(
     CONSTRAINT fk_team
         FOREIGN KEY (team_id)
             REFERENCES teams(team_id)
-)
+);
+
+CREATE TABLE users(
+    user_id int NOT NULL,
+    email varchar(100) NOT NULL UNIQUE,
+    password varchar(100) NOT NULL,
+    created_at timestamptz NOT NULL
+);
