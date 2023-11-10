@@ -1,6 +1,6 @@
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
-from config import get_auth_settings
+from src.config import get_auth_settings
 
 
 def create_access_token(data: dict):

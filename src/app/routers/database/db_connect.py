@@ -1,7 +1,7 @@
 from functools import lru_cache
 import psycopg
 from psycopg_pool import ConnectionPool
-from config import get_db_settings
+from src.config import get_db_settings
 
 settings = get_db_settings()
 
