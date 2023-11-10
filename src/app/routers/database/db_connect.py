@@ -16,4 +16,8 @@ conninfo = f"""
 
 @lru_cache
 def get_pool():
-    return ConnectionPool(conninfo=conninfo)
+    pool_conn = ConnectionPool(conninfo=conninfo)
+    try:
+        return pool_conn
+    except Exception as e:
+        return {"message": "error", "error": e}

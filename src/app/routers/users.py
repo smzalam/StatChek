@@ -6,14 +6,15 @@ from .database.db_connect import get_pool
 from .schemas import *
 from .utils import *
 from .oauth2 import *
+from psycopg_pool import ConnectionPool
 
 
 router = APIRouter()
-pool_conn = get_pool()
+# pool_conn = get_pool()
 
 
-@router.get("/users/new", status_code=status.HTTP_201_CREATED, response_model=User)
-def new_user(user: UserCreate):
+@router.post("/users/new", status_code=status.HTTP_201_CREATED, response_model=User)
+def new_user(user: UserCreate, pool_conn: ConnectionPool = Depends(get_pool)):
     metadata = {"table": "users"}
     # generating random user_id
     user.user_id = generate_random_user_id()
@@ -28,7 +29,7 @@ def new_user(user: UserCreate):
 
 
 @router.post("/users/login")
-def login(user_credentials: UserLogin):
+def login(user_credentials: UserLogin, pool_conn: ConnectionPool = Depends(get_pool)):
     metadata = {"table": "users", "id_type": "email"}
 
     user_data = select_user_details_id_function(
@@ -51,7 +52,7 @@ def login(user_credentials: UserLogin):
 
 
 @router.get("/users/{user_email}", status_code=status.HTTP_200_OK, response_model=User)
-def current_user(user_email: EmailStr):
+def current_user(user_email: EmailStr, pool_conn: ConnectionPool = Depends(get_pool)):
     metadata = {"table": "users", "id_type": "email"}
     user_data = select_user_details_id_function(
         pool_conn, metadata["table"], metadata["id_type"], user_email
