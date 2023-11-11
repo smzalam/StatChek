@@ -49,17 +49,23 @@ def format_db_response(columns: list, records: list):
 
 def executing_formatting_query_from_db(
     db_conn,
+    col_query,
     rec_query,
     col_identifer,
     rec_identifier,
     col_params,
     rec_params,
 ):
-    columns = db_utils.format_table_columns(
-        db_conn, select_column_names, col_identifer, params=list(col_params)
+    columns = format_table_columns(
+        db_conn, col_query, col_identifer, params=[col_params]
     )
-    records = db_utils.format_table_records(
-        db_conn, rec_query, rec_identifier, params=list(rec_params)
+    try:
+        rec_params = list(rec_params) if rec_params != None else None
+    except TypeError as e:
+        print(f"Error: {e}")
+        rec_params = [rec_params]
+    records = format_table_records(
+        db_conn, rec_query, rec_identifier, params=rec_params
     )
-    data = db_utils.format_db_response(columns, records)
+    data = format_db_response(columns, records)
     return data

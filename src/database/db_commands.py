@@ -21,6 +21,11 @@ select_conference_by_id = """
                             WHERE id = %s
 """
 
+select_conference_ids = """
+                        SELECT id
+                        FROM conferences;
+"""
+
 select_division_by_id = """
                             SELECT * 
                             FROM divisions
