@@ -114,7 +114,7 @@ def conference_id_teams_data(
     response_model=schemas.Conferences,
     status_code=status.HTTP_200_OK,
 )
-def conference_data_id(
+def all_conference_data_id(
     conference_id: int,
     conference_data: schemas.Conferences = Depends(
         dependencies.valid_conference_id_data
