@@ -1,0 +1,11 @@
+CACHE_DIRECTORY = "src/teams/cache"
+TEAMS_TABLE = "teams"
+TEAMS_INFO_TABLE = "teams_info"
+PLAYERS_TABLE = "rosters"
+STATS_TABLE = "teams_stats"
+RANKS_TABLE = "teams_ranks"
+TEAM_NAME_COLUMN = "name"
+TEAM_ID_COLUMN = "team_id"
+STATS = "stats"
+RANKS = "ranks"
+ALL_TEAM_IDS = []

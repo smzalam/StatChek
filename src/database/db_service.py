@@ -87,6 +87,7 @@ def select_all_ids_function(directory, db_conn, db_table):
         "conferences": db_commands.select_conference_ids,
         "divisions": db_commands.select_division_ids,
         "teams": db_commands.select_team_ids,
+        "teams_info": db_commands.select_team_ids,
     }
     json_cache = f"{directory}/{db_table}_all_ids"
     data = query_data_from_db(
@@ -147,38 +148,38 @@ def select_divisions_by_ids_function(directory, db_conn, db_table, division_id):
     return data
 
 
-def select_teams_by_ids_function(directory, db_conn, db_table, id_type, id_num):
-    json_cache = f"{directory}/{db_table}_{id_type}_{id_num}"
+def select_teams_by_ids_function(directory, db_conn, db_table, team_id):
+    json_cache = f"{directory}/{db_table}_{team_id}"
     data = query_data_from_db(
         json_cache_api=json_cache,
         db_conn_api=db_conn,
         rec_query_api=db_commands.select_teams_by_id,
         col_identifier_api=None,
-        rec_identifier_api=id_type,
+        rec_identifier_api=db_table,
         col_paramas_api=db_table,
-        rec_params_api=id_num,
+        rec_params_api=team_id,
     )
 
     return data
 
 
 def select_teamstatsranks_by_teamid_function(
-    directory, db_conn, table, id_type, id_num, detail_type
+    directory, db_conn, db_table, team_id, detail_type
 ):
     db_function = (
         db_commands.select_teamstats_by_id
         if detail_type == "stats"
         else db_commands.select_teamranks_by_id
     )
-    json_cache = f"{directory}/{db_table}_{id_type}_{id_num}"
+    json_cache = f"{directory}/{db_table}_{detail_type}_{team_id}"
     data = query_data_from_db(
         json_cache_api=json_cache,
         db_conn_api=db_conn,
         rec_query_api=db_function,
         col_identifier_api=None,
-        rec_identifier_api=id_type,
+        rec_identifier_api=None,
         col_paramas_api=db_table,
-        rec_params_api=id_num,
+        rec_params_api=team_id,
     )
 
     return data
@@ -193,6 +194,7 @@ def select_teamstatsranks_by_teamid_season_function(
         else db_commands.select_teamranks_by_id_season
     )
     json_cache = f"{directory}/{db_table}_{team_id}_{season}_{detail_type}"
+    print(json_cache)
     data = query_data_from_db(
         json_cache_api=json_cache,
         db_conn_api=db_conn,
@@ -206,25 +208,25 @@ def select_teamstatsranks_by_teamid_season_function(
     return data
 
 
-def select_players_by_ids_function(directory, db_conn, db_table, id_type, id_num):
-    json_cache = f"{directory}/{db_table}_{id_type}_{id_num}"
+def select_players_by_teamid_function(directory, db_conn, db_table, team_id):
+    json_cache = f"{directory}/{db_table}_{team_id}"
     data = query_data_from_db(
         json_cache_api=json_cache,
         db_conn_api=db_conn,
         rec_query_api=db_commands.select_players_by_id,
         col_identifier_api=None,
-        rec_identifier_api=id_type,
+        rec_identifier_api=None,
         col_paramas_api=db_table,
-        rec_params_api=id_num,
+        rec_params_api=team_id,
     )
 
     return data
 
 
 def select_players_by_teamid_season_function(
-    directory, db_conn, table, team_id, season
+    directory, db_conn, db_table, team_id, season
 ):
-    json_cache = f"{directory}/{table}_{team_id}_{season}"
+    json_cache = f"{directory}/{db_table}_{team_id}_{season}"
     data = query_data_from_db(
         json_cache_api=json_cache,
         db_conn_api=db_conn,
@@ -254,4 +256,4 @@ def insert_users_new_function(db_conn, table, user_details: list):
     return new_user
 
 
-update_cache("src/conferences/cache")
+update_cache("src/teams/cache")

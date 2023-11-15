@@ -39,19 +39,19 @@ select_division_ids = """
 
 select_teams_by_id = """
                             SELECT * 
-                            FROM teams_info
-                            WHERE {table} = %s
+                            FROM {table}
+                            WHERE team_id = %s
 """
 
 select_team_ids = """
-                        SELECT team_id, name
+                        SELECT team_id
                         FROM teams_info;
 """
 
 select_teamstats_by_id = """
                             SELECT *
                             FROM teams_stats
-                            WHERE {table} = %s
+                            WHERE team_id = %s
 """
 
 select_teamstats_by_id_season = """
@@ -64,7 +64,7 @@ select_teamstats_by_id_season = """
 select_teamranks_by_id = """
                             SELECT *
                             FROM teams_ranks
-                            WHERE {table} = %s
+                            WHERE team_id = %s
 """
 
 select_teamranks_by_id_season = """
@@ -77,7 +77,7 @@ select_teamranks_by_id_season = """
 select_players_by_id = """
                             SELECT * 
                             FROM rosters
-                            WHERE {table} = %s
+                            WHERE team_id = %s
 """
 
 select_players_by_teamid_season = """
