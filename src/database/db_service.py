@@ -44,7 +44,7 @@ DATABASE FUNCTIONS
 
 
 def query_data_from_db(
-    json_cache_api: str,
+    json_cache_api: str | None,
     db_conn_api,
     rec_query_api,
     col_identifier_api,
@@ -194,7 +194,6 @@ def select_teamstatsranks_by_teamid_season_function(
         else db_commands.select_teamranks_by_id_season
     )
     json_cache = f"{directory}/{db_table}_{team_id}_{season}_{detail_type}"
-    print(json_cache)
     data = query_data_from_db(
         json_cache_api=json_cache,
         db_conn_api=db_conn,
@@ -240,20 +239,46 @@ def select_players_by_teamid_season_function(
     return data
 
 
-def select_user_details_id_function(db_conn, table, id_type, id_num):
-    data = db_utils.executing_formatting_query_from_db(
-        db_conn, select_user_details_id, None, id_type, table, [id_num]
+def select_user_details_id_function(db_conn, db_table, id_type, id_num):
+    json_cache = None
+    data = query_data_from_db(
+        json_cache_api=json_cache,
+        db_conn_api=db_conn,
+        rec_query_api=db_commands.select_user_details_id,
+        col_identifier_api=None,
+        rec_identifier_api=id_type,
+        col_paramas_api=db_table,
+        rec_params_api=[id_num],
+        cache=False,
     )
+
     return data
 
 
-def insert_users_new_function(db_conn, table, user_details: list):
-    metadata = {"id_type": "user_id"}
-    db_utils.sql_execute_write_query(db_conn, insert_new_user, user_details)
+def delete_user_function(db_conn, db_table, user_details: list, id_type):
+    db_utils.sql_execute_write_query(
+        db_conn=db_conn,
+        query=db_commands.delete_user,
+        params=user_details,
+    )
+    return f"Deleted user with email: {user_details[0]} successfully!"
+
+
+def insert_users_new_function(
+    db_conn,
+    db_table,
+    user_details: list,
+    id_type,
+):
+    db_utils.sql_execute_write_query(
+        db_conn=db_conn,
+        query=db_commands.insert_new_user,
+        params=user_details,
+    )
     new_user = select_user_details_id_function(
-        db_conn, table, metadata["id_type"], user_details[0]
+        db_conn=db_conn,
+        db_table=db_table,
+        id_type=id_type,
+        id_num=user_details[0],
     )
     return new_user
-
-
-update_cache("src/teams/cache")

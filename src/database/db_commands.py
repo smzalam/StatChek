@@ -99,3 +99,12 @@ insert_new_user = """
                     INSERT INTO users(user_id, email, password)
                     VALUES (%s, %s, %s)
  """
+
+
+"""DELETE COMMANDS"""
+
+delete_user = """
+                DELETE 
+                FROM users
+                WHERE email = %s
+"""
