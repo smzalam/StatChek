@@ -77,7 +77,8 @@ def valid_players_data(
         directory=constants.CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.PLAYERS_TABLE,
-        team_id=team_id,
+        id_type=constants.TEAM_ID_COLUMN,
+        id_num=team_id,
     )
 
     if not players_data:

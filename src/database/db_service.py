@@ -208,16 +208,16 @@ def select_teamstatsranks_by_teamid_season_function(
     return data
 
 
-def select_players_by_teamid_function(directory, db_conn, db_table, team_id):
-    json_cache = f"{directory}/{db_table}_{team_id}"
+def select_players_by_teamid_function(directory, db_conn, db_table, id_type, id_num):
+    json_cache = f"{directory}/{db_table}_{id_type}_{id_num}"
     data = query_data_from_db(
         json_cache_api=json_cache,
         db_conn_api=db_conn,
         rec_query_api=db_commands.select_players_by_id,
         col_identifier_api=None,
-        rec_identifier_api=None,
+        rec_identifier_api=id_type,
         col_paramas_api=db_table,
-        rec_params_api=team_id,
+        rec_params_api=id_num,
     )
 
     return data

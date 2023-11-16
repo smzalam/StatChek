@@ -6,6 +6,7 @@ from .routers import teams, players, users
 from src.conferences import router as conferences
 from src.divisions import router as divisions
 from src.teams import router as teams
+from src.players import router as players
 
 # from fastapi.params import Body
 # from pydantic import BaseModel
