@@ -1,5 +1,6 @@
 *.html
 *.txt
+!requirements.txt
 data.csv
 random_tests.py
 .vscode
