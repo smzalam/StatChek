@@ -30,6 +30,6 @@ router = APIRouter()
 )
 def player_data(
     player_id: int,
-    player_data: schemas.Players = Depends(dependencies.valid_player_id_data),
+    player_data=Depends(dependencies.valid_player_id_data),
 ):
     return player_data

@@ -29,7 +29,7 @@ select_conference_ids = """
 select_division_by_id = """
                             SELECT * 
                             FROM divisions
-                            WHERE id = %s
+                            WHERE {table} = %s
 """
 
 select_division_ids = """
@@ -39,8 +39,8 @@ select_division_ids = """
 
 select_teams_by_id = """
                             SELECT * 
-                            FROM {table}
-                            WHERE team_id = %s
+                            FROM teams_info
+                            WHERE {table} = %s
 """
 
 select_team_ids = """
@@ -77,7 +77,7 @@ select_teamranks_by_id_season = """
 select_players_by_id = """
                             SELECT * 
                             FROM rosters
-                            WHERE team_id = %s
+                            WHERE {table} = %s
 """
 
 select_players_by_teamid_season = """

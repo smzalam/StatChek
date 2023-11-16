@@ -116,3 +116,4 @@ def get_conference_data(
 
 constants.ALL_CONFERENCE_IDS = valid_conference_ids_list()
 print("Updated conference ids constant!")
+db_funcs.update_cache(constants.CACHE_DIRECTORY)

@@ -47,7 +47,8 @@ def valid_team_id_data(
         directory=constants.CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.TEAMS_INFO_TABLE,
-        team_id=team_id,
+        id_type=constants.TEAM_ID_COLUMN,
+        id_num=team_id,
     )
     if not team_data:
         raise NameError
@@ -195,3 +196,4 @@ def valid_season_ranks_data(
 
 constants.ALL_TEAM_IDS = valid_teams_ids_list()
 print("Updated team ids constant!")
+db_funcs.update_cache(constants.CACHE_DIRECTORY)

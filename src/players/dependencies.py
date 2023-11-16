@@ -15,13 +15,15 @@ def valid_player_id_data(
     player_data = db_funcs.select_players_by_teamid_function(
         directory=constants.CACHE_DIRECTORY,
         db_conn=pool_conn,
-        db_table=constants.DIVISION_TABLE,
-        id_type=constants.PLAYERS_ID_COLUMN,
+        db_table=constants.PLAYERS_TABLE,
+        id_type="player_id",
         id_num=player_id,
     )
-
-    return {"players": player_data}
+    if not player_data:
+        raise NameError
+    return {"player_id": player_id, "players": player_data}
 
 
 # constants.ALL_PLAYER_IDS = valid_divisions_ids_list()
 print("No function to update player ids constant!")
+db_funcs.update_cache(constants.CACHE_DIRECTORY)

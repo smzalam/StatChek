@@ -48,7 +48,8 @@ def valid_division_id_data(
         directory=constants.CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.DIVISION_TABLE,
-        division_id=division_id,
+        id_type=constants.DIVISION_ID_COLUMN,
+        id_num=division_id,
     )
     if not division_data:
         raise NameError
@@ -97,3 +98,4 @@ def get_conference_data(
 
 constants.ALL_DIVISION_IDS = valid_divisions_ids_list()
 print("Updated division ids constant!")
+db_funcs.update_cache(constants.CACHE_DIRECTORY)
