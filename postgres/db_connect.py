@@ -1,6 +1,6 @@
 import psycopg
 from psycopg_pool import ConnectionPool
-from src.config import get_db_settings
+from config import get_db_settings
 
 settings = get_db_settings()
 
