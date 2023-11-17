@@ -6,24 +6,26 @@ CREATE DATABASE statchekapi;
 
 CREATE TABLE conferences (
     ID int NOT NULL,
+    conference_id int NOT NULL UNIQUE,
     name varchar(100) NOT NULL,
     link varchar(100) NOT NULL,
     abbreviation varchar(1) NOT NULL,
     active bool NOT NULL,
-    PRIMARY KEY(ID)
+    PRIMARY KEY(conference_id)
 );
 
 CREATE TABLE divisions (
     ID int NOT NULL,
+    division_id int NOT NULL UNIQUE,
     name varchar(100) NOT NULL,
     abbreviation varchar(5) NOT NULL,
     link varchar(100) NOT NULL,
     active bool NOT NULL,
     conference_id int NOT NULL,
-    PRIMARY KEY(ID),
+    PRIMARY KEY(division_id),
     CONSTRAINT fk_conference
         FOREIGN KEY (conference_id)
-            REFERENCES conferences(ID)
+            REFERENCES conferences(conference_id)
 );
 
 CREATE TABLE teams (
@@ -50,10 +52,10 @@ CREATE TABLE teams_info (
             REFERENCES teams(team_id),
     CONSTRAINT fk_division
         FOREIGN KEY (division_id) 
-            REFERENCES divisions(ID),
+            REFERENCES divisions(division_id),
     CONSTRAINT fk_conference
         FOREIGN KEY (conference_id) 
-            REFERENCES conferences(ID)
+            REFERENCES conferences(conference_id)
 );
 
 CREATE TABLE teams_stats (

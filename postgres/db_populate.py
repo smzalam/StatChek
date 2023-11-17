@@ -7,7 +7,7 @@ from psycopg.errors import (
     UniqueViolation,
 )
 from db_connect import get_conn
-from helper_functions import readSQLCommands, convert_csv_to_tuple_list
+from db_helper_functions import readSQLCommands, convert_csv_to_tuple_list
 import pandas as pd
 import os
 import csv
@@ -36,25 +36,37 @@ sql_table_names = [
 ]
 sql_csv_files = {k: v for k, v in zip(sql_table_names, csv_files)}
 
-with get_conn(db=True, auto=True) as conn:
-    for order, table in enumerate(sql_table_names):
+
+def main():
+    def check_null(table):
         table_null = conn.execute(
             sql.SQL(sql_check_null_command).format(table=sql.Identifier(table))
         ).fetchone()[0]
-        if not table_null:
-            try:
-                data = convert_csv_to_tuple_list(f"{base_file_path}{csv_files[order]}")
-            except Exception as e:
-                print(e)
-            try:
-                with conn.cursor().copy(
-                    sql.SQL(sql_db_command).format(table=sql.Identifier(table))
-                ) as copy:
-                    for record in data[1:]:
-                        print(record)
-                        copy.write_row(record)
-                print("All records successfully inserted.")
-            except (ProgrammingError, OperationalError, InternalError) as e:
-                print(e)
-        else:
-            continue
+        return True if not table_null else False
+
+    def insert_records(table, data):
+        with conn.cursor().copy(
+            sql.SQL(sql_db_command).format(table=sql.Identifier(table))
+        ) as copy:
+            for record in data[1:]:
+                print(record)
+                copy.write_row(record)
+        print("All records successfully inserted.")
+
+    with get_conn(db=True, auto=True) as conn:
+        for order, table in enumerate(sql_table_names):
+            null_value = check_null(table)
+            if null_value:
+                try:
+                    data = convert_csv_to_tuple_list(
+                        f"{base_file_path}{csv_files[order]}"
+                    )
+                    insert_records(table, data)
+                except (ProgrammingError, OperationalError, InternalError) as e:
+                    print(e)
+            else:
+                continue
+
+
+if __name__ == "__main__":
+    main()
