@@ -18,11 +18,11 @@ select_all_records = """
 select_conference_by_id = """
                             SELECT * 
                             FROM conferences
-                            WHERE id = %s
+                            WHERE conference_id = %s
 """
 
 select_conference_ids = """
-                        SELECT id
+                        SELECT conference_id
                         FROM conferences;
 """
 
@@ -33,7 +33,7 @@ select_division_by_id = """
 """
 
 select_division_ids = """
-                        SELECT id
+                        SELECT division_id
                         FROM divisions;
 """
 

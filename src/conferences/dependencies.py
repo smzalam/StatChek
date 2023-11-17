@@ -32,8 +32,8 @@ def valid_conference_ids(
         #! CHANGE 'ID' TO 'CONFERENCE_ID' FOR CONFERENCES TABLE IN DATABASE
         #! CHANGE 'NAME' TO 'CONFERENCE_NAME' FOR CONFERENCES TABLE IN DATABASE
         {
-            "conference_id": conference_data_row[constants.CONFERENCE_ID_COLUMN],
-            "name": conference_data_row[constants.CONFERENCE_NAME_COLUMN],
+            "conference_id": conference_data_row[constants.CONFERENCE_ID_TYPE],
+            "name": conference_data_row[constants.CONFERENCE_NAME_TYPE],
         }
         for conference_data_row in conference_data
     ]

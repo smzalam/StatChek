@@ -32,8 +32,8 @@ def valid_division_ids(
         #! CHANGE 'ID' TO 'DIVISION_ID' FOR DIVISONS TABLE IN DATABASE
         #! CHANGE 'NAME' TO 'DIVISION_NAME' FOR DIVISIONS TABLE IN DATABASE
         {
-            "division_id": division_data_row[constants.DIVISION_ID_COLUMN],
-            "name": division_data_row[constants.DIVISION_NAME_COLUMN],
+            "division_id": division_data_row[constants.DIVISION_ID_TYPE],
+            "name": division_data_row[constants.DIVISION_NAME_TYPE],
         }
         for division_data_row in division_data
     ]
@@ -48,7 +48,7 @@ def valid_division_id_data(
         directory=constants.CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.DIVISION_TABLE,
-        id_type=constants.DIVISION_ID_COLUMN,
+        id_type=constants.DIVISION_ID_TYPE,
         id_num=division_id,
     )
     if not division_data:
