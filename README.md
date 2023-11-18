@@ -1,9 +1,13 @@
-# StatChek
+# StatChek API
 
-## Purpose
-To find out which lines performed statistically the best in the last 6 to 7 seasons for the Toronto Maple Leafs.
+## Description
+> * An API that provides statistics of the NHL, including but not limited to conferences, divisions, teams, players, stats, rankings, schedules, etc.
 
-## Motivation
+## Table of Contents
+
+
+
+<!-- ## Motivation
 Usually in hockey, the best offensive players are spread out on the first and second lines. The third and fourth lines then comprise of players that are decent at what they do and do the small things well. 
 
 Same goes for defensive hockey lines, although it is more spread out with the first and second pairing often being split up in terms of best defensive players.
@@ -31,4 +35,5 @@ There are a few imporant things to note about this analysis.
             - In the regular season?
             - During comeback situations?
     During this analysis, it will be impossible to answer all these questions due to insufficient data sets access, organization and structuring of data issues, etc. 
-    However, once the initial analysis is done, a slow, thorough dive will be taken into exploring this analysis further once the required data sets and skills to perform those analysis are acquired.
+    However, once the initial analysis is done, a slow, thorough dive will be taken into exploring this analysis further once the required data sets and skills to perform those analysis are acquired. -->
+
