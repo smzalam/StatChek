@@ -1,1 +1,0 @@
-[{"id": 0, "conference_id": 6, "name": "Eastern", "link": "/api/v1/conferences/6", "abbreviation": "E", "active": true}, {"id": 1, "conference_id": 5, "name": "Western", "link": "/api/v1/conferences/5", "abbreviation": "W", "active": true}]
