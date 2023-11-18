@@ -4,8 +4,8 @@ import json
 import os
 import shutil
 
-import src.database.db_commands as db_commands
-import src.database.database_utils as db_utils
+import src.app.database.db_commands as db_commands
+import src.app.database.database_utils as db_utils
 
 
 """

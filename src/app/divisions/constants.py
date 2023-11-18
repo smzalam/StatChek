@@ -1,4 +1,4 @@
-CACHE_DIRECTORY = "src/divisions/cache"
+CACHE_DIRECTORY = "src/app/divisions/cache"
 DIVISION_TABLE = "divisions"
 TEAMS_TABLE = "teams"
 TEAMS_INFO_TABLE = "teams_info"

@@ -1,6 +1,6 @@
 from functools import lru_cache
 from pydantic import BaseModel
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class DBSettings(BaseModel):
@@ -21,9 +21,7 @@ class Settings(BaseSettings):
     db_config: DBSettings
     auth_config: AuthSettings
 
-    class Config:
-        env_file = ".env"
-        env_nested_delimiter = "__"
+    model_config = SettingsConfigDict(env_file=".env", env_nested_delimiter="__")
 
 
 @lru_cache

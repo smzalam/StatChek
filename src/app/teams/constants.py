@@ -1,4 +1,4 @@
-CACHE_DIRECTORY = "src/teams/cache"
+CACHE_DIRECTORY = "src/app/teams/cache"
 TEAMS_TABLE = "teams"
 TEAMS_INFO_TABLE = "teams_info"
 PLAYERS_TABLE = "rosters"

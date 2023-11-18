@@ -3,11 +3,11 @@ from fastapi import Depends
 from pprint import pprint
 from pydantic import EmailStr
 
-import src.database.database as db
-import src.database.db_service as db_funcs
-import src.users.schemas as schemas
-import src.users.constants as constants
-import src.users.utils as utils
+import src.app.database.database as db
+import src.app.database.db_service as db_funcs
+import src.app.users.schemas as schemas
+import src.app.users.constants as constants
+import src.app.users.utils as utils
 
 
 def valid_new_user(

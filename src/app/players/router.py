@@ -14,10 +14,10 @@ from fastapi import (
 )
 from psycopg_pool import ConnectionPool
 
-import src.database.database as db
+import src.app.database.database as db
 
-import src.players.dependencies as dependencies
-import src.players.schemas as schemas
+import src.app.players.dependencies as dependencies
+import src.app.players.schemas as schemas
 
 
 router = APIRouter()

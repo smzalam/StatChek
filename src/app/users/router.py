@@ -15,10 +15,10 @@ from fastapi import (
 from psycopg_pool import ConnectionPool
 from pydantic import EmailStr
 
-import src.database.database as db
+import src.app.database.database as db
 
-import src.users.dependencies as dependencies
-import src.users.schemas as schemas
+import src.app.users.dependencies as dependencies
+import src.app.users.schemas as schemas
 
 
 router = APIRouter()

@@ -2,10 +2,10 @@ from psycopg_pool import ConnectionPool
 from fastapi import Depends
 from pprint import pprint
 
-import src.database.database as db
-import src.database.db_service as db_funcs
-import src.divisions.schemas as schemas
-import src.divisions.constants as constants
+import src.app.database.database as db
+import src.app.database.db_service as db_funcs
+import src.app.divisions.schemas as schemas
+import src.app.divisions.constants as constants
 
 
 def valid_divisions_ids_list(

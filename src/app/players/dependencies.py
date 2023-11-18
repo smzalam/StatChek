@@ -2,10 +2,10 @@ from psycopg_pool import ConnectionPool
 from fastapi import Depends
 from pprint import pprint
 
-import src.database.database as db
-import src.database.db_service as db_funcs
-import src.players.schemas as schemas
-import src.players.constants as constants
+import src.app.database.database as db
+import src.app.database.db_service as db_funcs
+import src.app.players.schemas as schemas
+import src.app.players.constants as constants
 
 
 def valid_player_id_data(

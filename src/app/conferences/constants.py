@@ -1,4 +1,4 @@
-CACHE_DIRECTORY = "src/conferences/cache"
+CACHE_DIRECTORY = "src/app/conferences/cache"
 CONFERENCE_TABLE = "conferences"
 DIVISIONS_TABLE = "divisions"
 TEAMS_TABLE = "teams"

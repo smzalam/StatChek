@@ -2,9 +2,10 @@ import uuid
 from passlib.context import CryptContext
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
-from src.config import get_auth_settings
+from src.app.config import get_auth_settings
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
 
 def create_access_token(data: dict):
     auth_settings = get_auth_settings()
@@ -20,7 +21,6 @@ def create_access_token(data: dict):
     )
 
     return token
-
 
 
 # generates random user id

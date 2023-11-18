@@ -2,10 +2,10 @@ from psycopg_pool import ConnectionPool
 from fastapi import Depends
 from pprint import pprint
 
-import src.database.database as db
-import src.database.db_service as db_funcs
-import src.teams.schemas as schemas
-import src.teams.constants as constants
+import src.app.database.database as db
+import src.app.database.db_service as db_funcs
+import src.app.teams.schemas as schemas
+import src.app.teams.constants as constants
 
 
 def valid_teams_ids_list(
