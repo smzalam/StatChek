@@ -1,26 +1,13 @@
 import uuid
+from fastapi import status
 from passlib.context import CryptContext
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
 from src.app.config import get_auth_settings
+from src.app.users import schemas as schemas
 
+auth_settings = get_auth_settings()
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
-
-def create_access_token(data: dict):
-    auth_settings = get_auth_settings()
-    to_encode = data.copy()
-
-    expire = datetime.now() + timedelta(
-        minutes=auth_settings.access_token_expire_minutes
-    )
-    to_encode.update({"exp": expire})
-
-    token = jwt.encode(
-        to_encode, auth_settings.secret_key, algorithm=auth_settings.algorithm
-    )
-
-    return token
 
 
 # generates random user id

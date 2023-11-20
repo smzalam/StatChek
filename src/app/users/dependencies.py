@@ -1,8 +1,10 @@
 from psycopg_pool import ConnectionPool
-from fastapi import Depends
+from fastapi import Depends, status, HTTPException
+from fastapi.security import OAuth2PasswordBearer
 from pprint import pprint
 from pydantic import EmailStr
 
+import src.app.auth as auth
 import src.app.database.database as db
 import src.app.database.db_service as db_funcs
 import src.app.users.schemas as schemas
@@ -39,26 +41,30 @@ def valid_user_login(
         id_type=constants.EMAIL_ID_TYPE,
         id_num=user_credentials.email,
     )
+    print(user_data)
 
     if not user_data:
         raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND, detail=f"Invalid Credentials"
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail={"message": f"Invalid Credentials", "error": "No such user exists."},
         )
     else:
         user_data = user_data[0]
         if not utils.verify(user_credentials.password, user_data["password"]):
             raise HTTPException(
-                status_code=status.HTTP_404_NOT_FOUND, detail=f"Invalid Credentials"
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail={"message": f"Invalid Credentials"},
             )
         else:
-            access_token = utils.create_access_token(
-                data={"user_id": user_data["user_id"]}
+            access_token = auth.create_access_token(
+                data={"user_id": user_data["user_id"], "email": user_data["email"]}
             )
             return {"token": access_token, "token_type": "bearer"}
 
 
 def valid_user_details(
     user_email: EmailStr,
+    # valid_current_user: int = Depends(auth.valid_current_user),
     pool_conn: ConnectionPool = Depends(db.get_pool),
 ):
     user_data = db_funcs.select_user_details_id_function(

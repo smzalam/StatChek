@@ -14,13 +14,15 @@ from fastapi import (
 )
 from psycopg_pool import ConnectionPool
 
+import src.app.auth as auth
+
 import src.app.database.database as db
 
 import src.app.teams.dependencies as dependencies
 import src.app.teams.schemas as schemas
 
 
-router = APIRouter()
+router = APIRouter(dependencies=[Depends(auth.valid_current_user)])
 
 
 def get_all_teams_data(team_ids: list, pool_conn: ConnectionPool):

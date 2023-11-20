@@ -14,13 +14,15 @@ from fastapi import (
 )
 from psycopg_pool import ConnectionPool
 
+import src.app.auth as auth
+
 import src.app.database.database as db
 
 import src.app.conferences.dependencies as dependencies
 import src.app.conferences.schemas as schemas
 
 
-router = APIRouter()
+router = APIRouter(dependencies=[Depends(auth.valid_current_user)])
 
 
 @router.get(

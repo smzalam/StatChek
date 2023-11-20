@@ -29,7 +29,7 @@ class Teams(BaseModel):
 
 
 class DivisionsRequest(BaseModel):
-    id: int
+    division_id: int
     name: str
     abbreviation: str
     link: str
@@ -50,7 +50,7 @@ class ConferenceIds(BaseModel):
 
 
 class ConferencesRequest(BaseModel):
-    id: int
+    conference_id: int
     name: str
     link: str
     abbreviation: str
