@@ -1,6 +1,13 @@
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
-from src.app.main import app
+
+# from src.app.main import app
+import os
+import sys
+
+module_dir = os.path.dirname(__file__)
+sys.path.append(os.path.join(module_dir, "../src/app/"))
+from main import app
 
 client = TestClient(app)
 
