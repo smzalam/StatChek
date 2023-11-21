@@ -41,7 +41,6 @@ def valid_user_login(
         id_type=constants.EMAIL_ID_TYPE,
         id_num=user_credentials.email,
     )
-    print(user_data)
 
     if not user_data:
         raise HTTPException(

@@ -7,7 +7,6 @@ from src.app.users import schemas as schemas
 
 oath2_scheme = OAuth2PasswordBearer(tokenUrl="users/login")
 auth_settings = get_auth_settings()
-print(auth_settings.access_token_expire_minutes)
 
 
 def create_access_token(data: dict):
@@ -34,7 +33,6 @@ def verify_access_token(token: str, credentials_exception):
         )
 
         id: str = payload.get("user_id")
-        print(id)
 
         if id is None:
             raise credentials_exception

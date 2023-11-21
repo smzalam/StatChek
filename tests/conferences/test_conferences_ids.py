@@ -14,8 +14,11 @@ from tests.test_main import client
 
 
 @pytest.fixture(scope="module")
-def conferences_endpoint_response():
-    response = client.get("/conferences/ids")
+def conferences_endpoint_response(test_user_auth_token):
+    response = client.get(
+        "/conferences/ids",
+        headers={"Authorization": f"Bearer {test_user_auth_token}"},
+    )
     return response
 
 
@@ -34,7 +37,6 @@ def test_conference_ids_response_body_attrs(
     conferences_endpoint_response, conference_ids_schema
 ):
     conferences = conferences_endpoint_response.json()
-    validation_error_count = 0
     for conference in conferences["conference_ids"]:
         assert conference_ids_schema.model_validate_json(json.dumps(conference))
 

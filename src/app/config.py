@@ -9,6 +9,8 @@ class DBSettings(BaseModel):
     db_host: str
     db_port: str
     db_name: str
+    dev_db_url: str
+    test_db_url: str
 
 
 class AuthSettings(BaseModel):

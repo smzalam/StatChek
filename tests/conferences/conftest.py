@@ -11,6 +11,11 @@ def conferences_length():
 
 
 @pytest.fixture(scope="package")
+def conferences_id_data_length():
+    return 1
+
+
+@pytest.fixture(scope="package")
 def conference_ids():
     return constants.ALL_CONFERENCE_IDS
 
@@ -18,3 +23,8 @@ def conference_ids():
 @pytest.fixture()
 def conference_ids_schema():
     return schemas.ConferenceIds
+
+
+@pytest.fixture()
+def conference_all_schema():
+    return schemas.ConferencesRequest

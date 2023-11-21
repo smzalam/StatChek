@@ -49,6 +49,10 @@ class ConferenceIds(BaseModel):
     name: str
 
 
+class ConferenceId(BaseModel):
+    conference_ids: list[ConferenceIds]
+
+
 class ConferencesRequest(BaseModel):
     conference_id: int
     name: str
