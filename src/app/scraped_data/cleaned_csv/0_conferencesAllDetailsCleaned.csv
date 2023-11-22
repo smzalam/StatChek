@@ -1,3 +1,0 @@
-,conference_id,name,link,abbreviation,active
-0,6,Eastern,/api/v1/conferences/6,E,True
-1,5,Western,/api/v1/conferences/5,W,True

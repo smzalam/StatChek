@@ -1,5 +1,0 @@
-id,name,nameShort,link,abbreviation,active,conference.id,conference.name,conference.link
-17,Atlantic,ATL,/api/v1/divisions/17,A,True,6,Eastern,/api/v1/conferences/6
-16,Central,CEN,/api/v1/divisions/16,C,True,5,Western,/api/v1/conferences/5
-18,Metropolitan,Metro,/api/v1/divisions/18,M,True,6,Eastern,/api/v1/conferences/6
-15,Pacific,PAC,/api/v1/divisions/15,P,True,5,Western,/api/v1/conferences/5
