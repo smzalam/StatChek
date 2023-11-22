@@ -1,0 +1,65 @@
+team_id,season,stat.gamesPlayed,stat.wins,stat.losses,stat.ot,stat.pts,stat.ptPctg,stat.goalsPerGame,stat.goalsAgainstPerGame,stat.evGGARatio,stat.powerPlayPercentage,stat.powerPlayGoals,stat.powerPlayGoalsAgainst,stat.powerPlayOpportunities,stat.penaltyKillPercentage,stat.shotsPerGame,stat.shotsAllowed,stat.winScoreFirst,stat.winOppScoreFirst,stat.winLeadFirstPer,stat.winLeadSecondPer,stat.winOutshootOpp,stat.winOutshotByOpp,stat.faceOffsTaken,stat.faceOffsWon,stat.faceOffsLost,stat.faceOffWinPercentage,stat.shootingPctg,stat.savePctg,team.id,team.name,team.link,stat.penaltyKillOpportunities,stat.savePctRank,stat.shootingPctRank
+1,2021,82.0,27,46,9,63,38.4,2.988,3.683,0.8341,15.6,35.0,42.0,225.0,80.2,31.2439,30.9756,0.421,0.25,0.56,0.762,0.39,0.275,4726.0,2214.0,2512.0,46.9,9.6,0.881,1,New Jersey Devils,/api/v1/teams/1,,,
+1,2021,,28th,28th,16th,28th,28th,19th,29th,23rd,28th,28th,9th,23rd,14th,15th,12th,29th,23rd,31st,28th,28th,28th,11th,26th,29th,31st,,,1,New Jersey Devils,/api/v1/teams/1,4th,31st,16th
+2,2021,82.0,37,35,10,84,51.2,2.793,2.817,0.9938,22.1,46.0,34.0,208.0,84.2,28.8659,32.5488,0.644,0.216,0.833,0.844,0.48,0.453,4342.0,2228.0,2114.0,51.3,9.7,0.913,2,New York Islanders,/api/v1/teams/2,,,
+2,2021,,20th,20th,14th,20th,20th,22nd,8th,18th,12th,22nd,4th,31st,4th,30th,22nd,16th,28th,8th,19th,23rd,23rd,30th,23rd,1st,8th,,,2,New York Islanders,/api/v1/teams/2,5th,3rd,14th
+3,2021,82.0,52,24,6,110,67.1,3.049,2.488,1.0743,25.2,55.0,40.0,218.0,82.3,29.1707,30.8293,0.829,0.439,0.857,0.886,0.625,0.633,4288.0,2061.0,2227.0,48.1,10.5,0.919,3,New York Rangers,/api/v1/teams/3,,,
+3,2021,,6th,9th,28th,8th,8th,16th,2nd,14th,4th,9th,6th,28th,7th,28th,11th,9th,6th,6th,12th,10th,10th,32nd,31st,8th,24th,,,3,New York Rangers,/api/v1/teams/3,14th,1st,8th
+4,2021,82.0,25,46,11,61,37.2,2.561,3.585,0.8377,12.6,30.0,57.0,239.0,75.7,30.9634,33.9634,0.541,0.111,0.6,0.778,0.333,0.255,4695.0,2448.0,2247.0,52.1,8.3,0.894,4,Philadelphia Flyers,/api/v1/teams/4,,,
+4,2021,,30th,29th,12th,29th,29th,31st,27th,22nd,32nd,31st,25th,16th,26th,16th,29th,28th,32nd,29th,27th,30th,30th,15th,6th,12th,6th,,,4,Philadelphia Flyers,/api/v1/teams/4,19th,25th,31st
+5,2021,82.0,46,25,11,103,62.8,3.28,2.707,1.1765,20.2,50.0,33.0,248.0,84.4,34.7439,31.4146,0.814,0.282,0.828,0.914,0.64,0.4,4619.0,2362.0,2257.0,51.1,9.4,0.914,5,Pittsburgh Penguins,/api/v1/teams/5,,,
+5,2021,,12th,10th,8th,12th,12th,11th,5th,9th,19th,16th,2nd,7th,3rd,6th,14th,7th,22nd,11th,7th,8th,8th,20th,11th,13th,11th,,,5,Pittsburgh Penguins,/api/v1/teams/5,2nd,2nd,19th
+6,2021,82.0,51,26,5,107,65.2,3.085,2.659,1.1862,21.2,50.0,49.0,236.0,81.3,36.122,28.7073,0.755,0.424,0.824,0.892,0.7,0.381,4880.0,2644.0,2236.0,54.2,8.5,0.907,6,Boston Bruins,/api/v1/teams/6,,,
+6,2021,,8th,11th,32nd,10th,10th,15th,4th,7th,15th,15th,16th,18th,9th,2nd,3rd,4th,12th,12th,11th,3rd,3rd,3rd,1st,9th,3rd,,,6,Boston Bruins,/api/v1/teams/6,28th,9th,30th
+7,2021,82.0,32,39,11,75,45.7,2.793,3.5,0.79,21.2,47.0,50.0,222.0,76.4,29.8902,32.9512,0.561,0.22,0.545,0.677,0.543,0.267,4418.0,2032.0,2386.0,46.0,9.3,0.894,7,Buffalo Sabres,/api/v1/teams/7,,,
+7,2021,,24th,24th,11th,24th,24th,23rd,25th,29th,16th,19th,18th,24th,23rd,22nd,23rd,23rd,27th,32nd,32nd,18th,18th,29th,32nd,23rd,32nd,,,7,Buffalo Sabres,/api/v1/teams/7,3rd,27th,24th
+8,2021,82.0,22,49,11,55,33.5,2.659,3.866,0.7908,13.7,34.0,67.0,248.0,75.5,29.7805,34.4268,0.533,0.115,0.722,0.842,0.318,0.259,4719.0,2321.0,2398.0,49.2,8.9,0.888,8,Montréal Canadiens,/api/v1/teams/8,,,
+8,2021,,32nd,31st,13th,32nd,32nd,27th,32nd,28th,31st,29th,32nd,9th,27th,23rd,30th,30th,30th,21st,20th,31st,31st,13th,15th,25th,20th,,,8,Montréal Canadiens,/api/v1/teams/8,30th,30th,28th
+9,2021,82.0,33,42,7,73,44.5,2.732,3.22,0.84,19.3,47.0,49.0,243.0,80.3,30.0366,33.4146,0.553,0.273,0.636,0.885,0.464,0.385,4624.0,2216.0,2408.0,47.9,9.1,0.904,9,Ottawa Senators,/api/v1/teams/9,,,
+9,2021,,22nd,26th,25th,26th,26th,26th,22nd,21st,20th,20th,17th,13th,13th,21st,27th,27th,19th,25th,14th,25th,25th,19th,25th,26th,25th,,,9,Ottawa Senators,/api/v1/teams/9,22nd,16th,25th
+10,2021,82.0,54,21,7,115,70.1,3.805,3.073,1.1538,27.3,63.0,42.0,231.0,82.0,34.5732,30.622,0.795,0.5,0.829,0.909,0.642,0.679,4788.0,2636.0,2152.0,55.0,11.0,0.9,10,Toronto Maple Leafs,/api/v1/teams/10,,,
+10,2021,,4th,4th,21st,4th,4th,2nd,19th,10th,1st,4th,7th,21st,8th,7th,9th,6th,5th,10th,8th,7th,7th,8th,3rd,3rd,1st,,,10,Toronto Maple Leafs,/api/v1/teams/10,18th,22nd,5th
+12,2021,82.0,54,20,8,116,70.7,3.378,2.439,1.383,22.0,51.0,33.0,232.0,88.0,34.122,28.1707,0.796,0.455,0.829,0.895,0.698,0.615,4853.0,2616.0,2237.0,53.9,9.9,0.913,12,Carolina Hurricanes,/api/v1/teams/12,,,
+12,2021,,3rd,3rd,17th,3rd,3rd,9th,1st,2nd,13th,14th,1st,20th,1st,9th,1st,2nd,10th,9th,10th,4th,4th,5th,4th,10th,4th,,,12,Carolina Hurricanes,/api/v1/teams/12,31st,4th,13th
+13,2021,82.0,58,18,6,122,74.4,4.11,2.951,1.3457,24.4,64.0,53.0,262.0,79.5,37.3415,30.6707,0.773,0.632,0.879,0.975,0.672,0.75,4901.0,2364.0,2537.0,48.2,11.0,0.904,13,Florida Panthers,/api/v1/teams/13,,,
+13,2021,,1st,1st,27th,1st,1st,1st,12th,4th,5th,3rd,21st,2nd,16th,1st,10th,8th,1st,4th,1st,6th,6th,1st,10th,31st,22nd,,,13,Florida Panthers,/api/v1/teams/13,27th,15th,4th
+14,2021,82.0,51,23,8,110,67.1,3.476,2.78,1.2349,23.9,62.0,49.0,259.0,80.6,30.9146,29.7683,0.769,0.488,0.806,0.868,0.75,0.471,4669.0,2340.0,2329.0,50.1,11.2,0.907,14,Tampa Bay Lightning,/api/v1/teams/14,,,
+14,2021,,7th,8th,18th,7th,7th,7th,6th,6th,8th,6th,15th,3rd,11th,17th,7th,14th,2nd,16th,15th,2nd,2nd,16th,13th,17th,15th,,,14,Tampa Bay Lightning,/api/v1/teams/14,24th,11th,3rd
+15,2021,82.0,44,26,12,100,61.0,3.293,2.951,1.1401,18.8,48.0,44.0,256.0,80.4,31.4268,29.0,0.654,0.333,0.818,0.813,0.521,0.571,4724.0,2225.0,2499.0,47.1,10.5,0.898,15,Washington Capitals,/api/v1/teams/15,,,
+15,2021,,15th,12th,3rd,13th,13th,10th,13th,11th,23rd,17th,11th,6th,12th,14th,6th,10th,24th,14th,23rd,20th,20th,12th,24th,28th,30th,,,15,Washington Capitals,/api/v1/teams/15,12th,23rd,9th
+16,2021,82.0,28,42,12,68,41.5,2.598,3.524,0.7448,19.2,47.0,53.0,245.0,76.2,28.8049,32.9634,0.622,0.111,0.6,0.714,0.435,0.259,4299.0,2134.0,2165.0,49.6,9.0,0.893,16,Chicago Blackhawks,/api/v1/teams/16,,,
+16,2021,,27th,27th,5th,27th,27th,28th,26th,31st,21st,21st,23rd,12th,24th,31st,24th,24th,31st,28th,31st,26th,26th,31st,29th,4th,16th,,,16,Chicago Blackhawks,/api/v1/teams/16,9th,28th,26th
+17,2021,82.0,32,40,10,74,45.1,2.768,3.78,0.7756,16.3,37.0,59.0,227.0,73.8,29.439,33.6707,0.629,0.213,0.737,0.821,0.567,0.3,4552.0,2247.0,2305.0,49.4,9.4,0.888,17,Detroit Red Wings,/api/v1/teams/17,,,
+17,2021,,25th,25th,15th,25th,25th,25th,31st,30th,26th,27th,29th,22nd,32nd,25th,28th,25th,25th,20th,22nd,16th,16th,22nd,22nd,16th,18th,,,17,Detroit Red Wings,/api/v1/teams/17,13th,29th,22nd
+18,2021,82.0,45,30,7,97,59.1,3.195,3.049,1.051,24.4,63.0,59.0,258.0,79.2,29.7439,32.2683,0.744,0.333,0.857,0.939,0.543,0.568,4869.0,2495.0,2374.0,51.2,10.7,0.906,18,Nashville Predators,/api/v1/teams/18,,,
+18,2021,,14th,16th,23rd,16th,16th,12th,17th,15th,6th,5th,28th,5th,18th,24th,20th,12th,15th,7th,2nd,17th,17th,4th,5th,22nd,10th,,,18,Nashville Predators,/api/v1/teams/18,32nd,12th,7th
+19,2021,82.0,49,22,11,109,66.5,3.768,2.915,1.1765,27.0,65.0,35.0,241.0,84.1,30.3902,31.5976,0.667,0.525,0.808,0.86,0.611,0.561,4516.0,2269.0,2247.0,50.2,12.4,0.908,19,St. Louis Blues,/api/v1/teams/19,,,
+19,2021,,10th,7th,7th,9th,9th,3rd,11th,8th,2nd,2nd,5th,14th,5th,18th,16th,17th,3rd,15th,17th,11th,11th,24th,18th,11th,14th,,,19,St. Louis Blues,/api/v1/teams/19,7th,8th,1st
+20,2021,82.0,50,21,11,111,67.7,3.549,2.512,1.4173,22.9,54.0,42.0,236.0,83.2,35.4634,28.9512,0.722,0.393,0.821,0.93,0.683,0.35,4788.0,2446.0,2342.0,51.1,10.0,0.913,20,Calgary Flames,/api/v1/teams/20,,,
+20,2021,,9th,5th,6th,6th,6th,6th,3rd,1st,10th,10th,8th,17th,6th,3rd,5th,3rd,21st,13th,4th,5th,5th,9th,7th,19th,12th,,,20,Calgary Flames,/api/v1/teams/20,23rd,5th,12th
+21,2021,82.0,56,19,7,119,72.6,3.756,2.829,1.2941,24.0,67.0,48.0,279.0,79.7,35.0488,32.0122,0.827,0.433,0.909,0.907,0.784,0.516,4899.0,2316.0,2583.0,47.3,10.7,0.912,21,Colorado Avalanche,/api/v1/teams/21,,,
+21,2021,,2nd,2nd,20th,2nd,2nd,4th,9th,5th,7th,1st,14th,1st,15th,4th,19th,1st,14th,3rd,9th,1st,1st,2nd,16th,32nd,28th,,,21,Colorado Avalanche,/api/v1/teams/21,20th,6th,6th
+22,2021,82.0,49,27,6,104,63.4,3.476,3.061,1.0462,26.0,61.0,52.0,235.0,79.4,34.0244,32.2805,0.879,0.408,0.966,0.921,0.595,0.622,4708.0,2414.0,2294.0,51.3,10.2,0.905,22,Edmonton Oilers,/api/v1/teams/22,,,
+22,2021,,11th,13th,29th,11th,11th,8th,18th,16th,3rd,7th,20th,19th,17th,10th,21st,15th,4th,1st,6th,12th,12th,14th,8th,14th,9th,,,22,Edmonton Oilers,/api/v1/teams/22,25th,13th,11th
+23,2021,82.0,40,30,12,92,56.1,3.0,2.817,1.0979,23.5,58.0,58.0,247.0,74.9,31.9756,31.8537,0.692,0.302,0.762,0.844,0.474,0.55,4625.0,2403.0,2222.0,52.0,9.4,0.912,23,Vancouver Canucks,/api/v1/teams/23,,,
+23,2021,,18th,17th,4th,18th,18th,18th,7th,13th,9th,8th,26th,10th,30th,13th,17th,19th,16th,18th,18th,24th,24th,18th,9th,7th,7th,,,23,Vancouver Canucks,/api/v1/teams/23,16th,7th,21st
+24,2021,82.0,31,37,14,76,46.3,2.78,3.244,0.8298,21.9,48.0,43.0,219.0,80.8,29.1829,33.2317,0.595,0.15,0.714,0.778,0.484,0.34,4510.0,2174.0,2336.0,48.2,9.5,0.902,24,Anaheim Ducks,/api/v1/teams/24,,,
+24,2021,,26th,22nd,1st,23rd,23rd,24th,23rd,24th,14th,18th,10th,27th,10th,27th,26th,20th,29th,22nd,26th,22nd,22nd,25th,27th,18th,23rd,,,24,Anaheim Ducks,/api/v1/teams/24,11th,18th,18th
+25,2021,82.0,46,30,6,98,59.8,2.841,2.976,0.9245,22.4,54.0,46.0,241.0,79.0,30.3171,31.0366,0.727,0.368,0.867,0.813,0.585,0.526,4812.0,2638.0,2174.0,54.8,9.4,0.904,25,Dallas Stars,/api/v1/teams/25,,,
+25,2021,,13th,15th,30th,15th,15th,21st,14th,20th,11th,11th,12th,15th,19th,19th,13th,11th,13th,5th,24th,15th,15th,7th,2nd,5th,2nd,,,25,Dallas Stars,/api/v1/teams/25,6th,14th,20th
+26,2021,82.0,44,27,11,99,60.4,2.866,2.829,1.0196,16.1,40.0,53.0,248.0,76.7,34.939,28.5488,0.7,0.381,0.773,0.784,0.586,0.45,4447.0,2321.0,2126.0,52.2,8.2,0.901,26,Los Angeles Kings,/api/v1/teams/26,,,
+26,2021,,16th,14th,9th,14th,14th,20th,10th,17th,27th,25th,22nd,8th,22nd,5th,2nd,18th,8th,17th,25th,14th,14th,28th,14th,2nd,5th,,,26,Los Angeles Kings,/api/v1/teams/26,15th,19th,32nd
+28,2021,82.0,32,37,13,77,47.0,2.573,3.183,0.7933,19.0,41.0,33.0,216.0,85.2,29.2683,31.9756,0.605,0.205,0.652,0.833,0.333,0.417,4570.0,2267.0,2303.0,49.6,8.8,0.9,28,San Jose Sharks,/api/v1/teams/28,,,
+28,2021,,23rd,21st,2nd,22nd,22nd,30th,21st,27th,22nd,24th,3rd,29th,2nd,26th,18th,22nd,26th,24th,21st,29th,29th,21st,19th,15th,17th,,,28,San Jose Sharks,/api/v1/teams/28,8th,21st,29th
+29,2021,82.0,37,38,7,81,49.4,3.146,3.622,0.8271,18.6,41.0,51.0,220.0,78.6,30.0366,35.2073,0.6,0.34,0.667,0.714,0.593,0.382,4654.0,2256.0,2398.0,48.5,10.5,0.897,29,Columbus Blue Jackets,/api/v1/teams/29,,,
+29,2021,,21st,23rd,24th,21st,21st,14th,28th,25th,24th,23rd,19th,25th,20th,20th,31st,26th,9th,23rd,30th,13th,13th,17th,21st,24th,21st,,,29,Columbus Blue Jackets,/api/v1/teams/29,21st,24th,10th
+30,2021,82.0,53,22,7,113,68.9,3.72,3.037,1.3709,20.5,53.0,63.0,258.0,76.1,32.5122,31.4268,0.8,0.459,0.912,0.921,0.63,0.657,4815.0,2294.0,2521.0,47.6,11.4,0.903,30,Minnesota Wild,/api/v1/teams/30,,,
+30,2021,,5th,6th,22nd,5th,5th,5th,16th,3rd,18th,12th,30th,4th,25th,11th,15th,5th,7th,2nd,5th,9th,9th,6th,17th,30th,27th,,,30,Minnesota Wild,/api/v1/teams/30,29th,17th,2nd
+52,2021,82.0,39,32,11,89,54.3,3.049,3.085,0.963,21.1,52.0,58.0,247.0,75.0,32.2561,33.1829,0.6,0.357,0.56,0.931,0.528,0.435,4458.0,2262.0,2196.0,50.7,9.5,0.907,52,Winnipeg Jets,/api/v1/teams/52,,,
+52,2021,,19th,19th,10th,19th,19th,17th,20th,19th,17th,13th,27th,11th,28th,12th,25th,21st,11th,30th,3rd,19th,19th,26th,20th,6th,13th,,,52,Winnipeg Jets,/api/v1/teams/52,17th,10th,17th
+53,2021,82.0,25,50,7,57,34.8,2.512,3.768,0.7104,13.9,28.0,64.0,202.0,75.0,25.8659,35.4878,0.444,0.236,0.615,0.867,0.3,0.31,4454.0,2105.0,2349.0,47.3,9.7,0.894,53,Arizona Coyotes,/api/v1/teams/53,,,
+53,2021,,31st,32nd,26th,31st,31st,32nd,30th,32nd,30th,32nd,31st,32nd,29th,32nd,32nd,32nd,17th,27th,16th,32nd,32nd,27th,30th,20th,29th,,,53,Arizona Coyotes,/api/v1/teams/53,26th,26th,15th
+54,2021,82.0,43,31,8,94,57.3,3.195,2.976,1.1024,18.4,39.0,47.0,212.0,77.4,34.5122,29.9756,0.689,0.324,0.759,0.886,0.5,0.545,4760.0,2348.0,2412.0,49.3,9.3,0.901,54,Vegas Golden Knights,/api/v1/teams/54,,,
+54,2021,,17th,18th,19th,17th,17th,13th,15th,12th,25th,26th,13th,30th,21st,8th,8th,13th,18th,19th,13th,21st,21st,10th,12th,27th,19th,,,54,Vegas Golden Knights,/api/v1/teams/54,1st,20th,23rd
+55,2021,82.0,27,49,6,60,36.6,2.598,3.463,0.8042,14.6,32.0,56.0,220.0,74.9,29.0244,28.8659,0.484,0.235,0.619,0.739,0.41,0.231,4519.0,2154.0,2365.0,47.7,8.9,0.88,55,Seattle Kraken,/api/v1/teams/55,,,
+55,2021,,29th,30th,31st,30th,30th,29th,24th,26th,29th,30th,24th,26th,31st,29th,4th,31st,20th,26th,29th,27th,27th,23rd,28th,21st,26th,,,55,Seattle Kraken,/api/v1/teams/55,10th,32nd,27th

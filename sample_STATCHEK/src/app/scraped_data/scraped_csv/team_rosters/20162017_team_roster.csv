@@ -1,0 +1,1054 @@
+team_id,season,jerseyNumber,person.id,person.fullName,person.link,position.code,position.name,position.type,position.abbreviation
+1,2016,13,8469500,Michael Cammalleri,/api/v1/people/8469500,L,Left Wing,Forward,LW
+1,2016,11,8469707,PA Parenteau,/api/v1/people/8469707,R,Right Wing,Forward,RW
+1,2016,83,8469759,Vernon Fiddler,/api/v1/people/8469759,C,Center,Forward,C
+1,2016,27,8470724,Kyle Quincey,/api/v1/people/8470724,D,Defenseman,Defenseman,D
+1,2016,14,8471233,Travis Zajac,/api/v1/people/8471233,C,Center,Forward,C
+1,2016,4,8472382,Andy Greene,/api/v1/people/8472382,D,Defenseman,Defenseman,D
+1,2016,21,8473933,Ben Lovejoy,/api/v1/people/8473933,D,Defenseman,Defenseman,D
+1,2016,17,8473989,Luke Gazdic,/api/v1/people/8473989,L,Left Wing,Forward,LW
+1,2016,14,8474641,Adam Henrique,/api/v1/people/8474641,C,Center,Forward,C
+1,2016,5,8474774,Dalton Prout,/api/v1/people/8474774,D,Defenseman,Defenseman,D
+1,2016,21,8475151,Kyle Palmieri,/api/v1/people/8475151,C,Center,Forward,C
+1,2016,10,8475185,Jacob Josefson,/api/v1/people/8475185,C,Center,Forward,C
+1,2016,2,8475186,John Moore,/api/v1/people/8475186,D,Defenseman,Defenseman,D
+1,2016,42,8475274,Seth Helgeson,/api/v1/people/8475274,D,Defenseman,Defenseman,D
+1,2016,4,8475750,Jon Merrill,/api/v1/people/8475750,D,Defenseman,Defenseman,D
+1,2016,25,8475758,Devante Smith-Pelly,/api/v1/people/8475758,R,Right Wing,Forward,RW
+1,2016,78,8475761,Beau Bennett,/api/v1/people/8475761,R,Right Wing,Forward,RW
+1,2016,71,8475791,Taylor Hall,/api/v1/people/8475791,L,Left Wing,Forward,LW
+1,2016,56,8476370,Blake Pietila,/api/v1/people/8476370,L,Left Wing,Forward,LW
+1,2016,20,8476399,Blake Coleman,/api/v1/people/8476399,C,Center,Forward,C
+1,2016,24,8476423,Reid Boucher,/api/v1/people/8476423,C,Center,Forward,C
+1,2016,23,8476474,Stefan Noesen,/api/v1/people/8476474,R,Right Wing,Forward,RW
+1,2016,43,8476526,Ben Thomson,/api/v1/people/8476526,L,Left Wing,Forward,LW
+1,2016,46,8476798,Karl Stollery,/api/v1/people/8476798,D,Defenseman,Defenseman,D
+1,2016,78,8476923,Damon Severson,/api/v1/people/8476923,D,Defenseman,Defenseman,D
+1,2016,47,8477010,Joseph Blandisi,/api/v1/people/8477010,C,Center,Forward,C
+1,2016,28,8477425,Miles Wood,/api/v1/people/8477425,L,Left Wing,Forward,LW
+1,2016,,8477463,Steven Santini,/api/v1/people/8477463,D,Defenseman,Defenseman,D
+1,2016,47,8477961,John Quenneville,/api/v1/people/8477961,C,Center,Forward,C
+1,2016,18,8478401,Pavel Zacha,/api/v1/people/8478401,C,Center,Forward,C
+1,2016,39,8478480,Blake Speers,/api/v1/people/8478480,C,Center,Forward,C
+1,2016,51,8478566,Sergey Kalinin,/api/v1/people/8478566,C,Center,Forward,C
+1,2016,25,8479250,Nick Lappin,/api/v1/people/8479250,R,Right Wing,Forward,RW
+1,2016,21,8479291,Kevin Rooney,/api/v1/people/8479291,C,Center,Forward,C
+1,2016,81,8479483,Yohann Auvitu,/api/v1/people/8479483,D,Defenseman,Defenseman,D
+1,2016,,8480081,Michael Kapla,/api/v1/people/8480081,D,Defenseman,Defenseman,D
+1,2016,35,8471239,Cory Schneider,/api/v1/people/8471239,G,Goalie,Goalie,G
+1,2016,1,8476234,Keith Kinkaid,/api/v1/people/8476234,G,Goalie,Goalie,G
+2,2016,20,8466251,Jason Chimera,/api/v1/people/8466251,L,Left Wing,Forward,LW
+2,2016,44,8469619,Dennis Seidenberg,/api/v1/people/8469619,D,Defenseman,Defenseman,D
+2,2016,55,8470187,Johnny Boychuk,/api/v1/people/8470187,D,Defenseman,Defenseman,D
+2,2016,16,8471217,Andrew Ladd,/api/v1/people/8471217,L,Left Wing,Forward,LW
+2,2016,,8471996,Bracken Kearns,/api/v1/people/8471996,C,Center,Forward,C
+2,2016,10,8472410,Stephen Gionta,/api/v1/people/8472410,C,Center,Forward,C
+2,2016,15,8473504,Cal Clutterbuck,/api/v1/people/8473504,R,Right Wing,Forward,RW
+2,2016,86,8473579,Nikolay Kulemin,/api/v1/people/8473579,L,Left Wing,Forward,LW
+2,2016,42,8474066,Thomas Hickey,/api/v1/people/8474066,D,Defenseman,Defenseman,D
+2,2016,12,8474573,Josh Bailey,/api/v1/people/8474573,R,Right Wing,Forward,RW
+2,2016,23,8474612,Travis Hamonic,/api/v1/people/8474612,D,Defenseman,Defenseman,D
+2,2016,91,8475166,John Tavares,/api/v1/people/8475166,C,Center,Forward,C
+2,2016,44,8475177,Calvin de Haan,/api/v1/people/8475177,D,Defenseman,Defenseman,D
+2,2016,4,8475181,Nick Leddy,/api/v1/people/8475181,D,Defenseman,Defenseman,D
+2,2016,53,8475231,Casey Cizikas,/api/v1/people/8475231,C,Center,Forward,C
+2,2016,27,8475314,Anders Lee,/api/v1/people/8475314,L,Left Wing,Forward,LW
+2,2016,29,8475754,Brock Nelson,/api/v1/people/8475754,C,Center,Forward,C
+2,2016,11,8476386,Shane Prince,/api/v1/people/8476386,L,Left Wing,Forward,LW
+2,2016,26,8476409,Alan Quine,/api/v1/people/8476409,C,Center,Forward,C
+2,2016,24,8476429,Scott Mayfield,/api/v1/people/8476429,D,Defenseman,Defenseman,D
+2,2016,16,8476458,Ryan Strome,/api/v1/people/8476458,C,Center,Forward,C
+2,2016,3,8476917,Adam Pelech,/api/v1/people/8476917,D,Defenseman,Defenseman,D
+2,2016,6,8477506,Ryan Pulock,/api/v1/people/8477506,D,Defenseman,Defenseman,D
+2,2016,48,8477881,Connor Jones,/api/v1/people/8477881,C,Center,Forward,C
+2,2016,52,8477959,Joshua Ho-Sang,/api/v1/people/8477959,R,Right Wing,Forward,RW
+2,2016,13,8478445,Mathew Barzal,/api/v1/people/8478445,C,Center,Forward,C
+2,2016,72,8478463,Anthony Beauvillier,/api/v1/people/8478463,L,Left Wing,Forward,LW
+2,2016,41,8470860,Jaroslav Halak,/api/v1/people/8470860,G,Goalie,Goalie,G
+2,2016,1,8471306,Thomas Greiss,/api/v1/people/8471306,G,Goalie,Goalie,G
+2,2016,30,8475234,J-F Berube,/api/v1/people/8475234,G,Goalie,Goalie,G
+3,2016,61,8470041,Rick Nash,/api/v1/people/8470041,L,Left Wing,Forward,LW
+3,2016,8,8470630,Kevin Klein,/api/v1/people/8470630,D,Defenseman,Defenseman,D
+3,2016,15,8470854,Tanner Glass,/api/v1/people/8470854,L,Left Wing,Forward,LW
+3,2016,18,8471686,Marc Staal,/api/v1/people/8471686,D,Defenseman,Defenseman,D
+3,2016,5,8471958,Dan Girardi,/api/v1/people/8471958,D,Defenseman,Defenseman,D
+3,2016,40,8473546,Michael Grabner,/api/v1/people/8473546,L,Left Wing,Forward,LW
+3,2016,44,8474000,Steven Kampfer,/api/v1/people/8474000,D,Defenseman,Defenseman,D
+3,2016,2,8474090,Brendan Smith,/api/v1/people/8474090,D,Defenseman,Defenseman,D
+3,2016,27,8474151,Ryan McDonagh,/api/v1/people/8474151,D,Defenseman,Defenseman,D
+3,2016,5,8474207,Nick Holden,/api/v1/people/8474207,D,Defenseman,Defenseman,D
+3,2016,21,8474613,Derek Stepan,/api/v1/people/8474613,C,Center,Forward,C
+3,2016,20,8475184,Chris Kreider,/api/v1/people/8475184,L,Left Wing,Forward,LW
+3,2016,28,8475192,Taylor Beck,/api/v1/people/8475192,L,Left Wing,Forward,LW
+3,2016,73,8475204,Brandon Pirri,/api/v1/people/8475204,C,Center,Forward,C
+3,2016,36,8475692,Mats Zuccarello,/api/v1/people/8475692,R,Right Wing,Forward,RW
+3,2016,24,8475715,Oscar Lindberg,/api/v1/people/8475715,L,Left Wing,Forward,LW
+3,2016,12,8475763,Kevin Hayes,/api/v1/people/8475763,R,Right Wing,Forward,RW
+3,2016,25,8475795,Dylan McIlrath,/api/v1/people/8475795,D,Defenseman,Defenseman,D
+3,2016,71,8475855,Jesper Fast,/api/v1/people/8475855,R,Right Wing,Forward,RW
+3,2016,46,8475949,Marek Hrivik,/api/v1/people/8475949,L,Left Wing,Forward,LW
+3,2016,6,8476431,Adam Clendening,/api/v1/people/8476431,D,Defenseman,Defenseman,D
+3,2016,93,8476459,Mika Zibanejad,/api/v1/people/8476459,C,Center,Forward,C
+3,2016,9,8476468,J.T. Miller,/api/v1/people/8476468,C,Center,Forward,C
+3,2016,54,8476477,Matt Puempel,/api/v1/people/8476477,L,Left Wing,Forward,LW
+3,2016,39,8476482,Nicklas Jensen,/api/v1/people/8476482,R,Right Wing,Forward,RW
+3,2016,76,8476869,Brady Skjei,/api/v1/people/8476869,D,Defenseman,Defenseman,D
+3,2016,26,8476918,Jimmy Vesey,/api/v1/people/8476918,L,Left Wing,Forward,LW
+3,2016,59,8476922,Boo Nieves,/api/v1/people/8476922,C,Center,Forward,C
+3,2016,89,8477402,Pavel Buchnevich,/api/v1/people/8477402,L,Left Wing,Forward,LW
+3,2016,36,8477591,Josh Jooris,/api/v1/people/8477591,R,Right Wing,Forward,RW
+3,2016,30,8468685,Henrik Lundqvist,/api/v1/people/8468685,G,Goalie,Goalie,G
+3,2016,45,8476433,Magnus Hellberg,/api/v1/people/8476433,G,Goalie,Goalie,G
+3,2016,32,8477293,Antti Raanta,/api/v1/people/8477293,G,Goalie,Goalie,G
+4,2016,32,8468309,Mark Streit,/api/v1/people/8468309,D,Defenseman,Defenseman,D
+4,2016,55,8468513,Nick Schultz,/api/v1/people/8468513,D,Defenseman,Defenseman,D
+4,2016,51,8470047,Valtteri Filppula,/api/v1/people/8470047,C,Center,Forward,C
+4,2016,27,8470159,Boyd Gordon,/api/v1/people/8470159,C,Center,Forward,C
+4,2016,36,8470644,Colin McDonald,/api/v1/people/8470644,R,Right Wing,Forward,RW
+4,2016,76,8471762,Chris VandeVelde,/api/v1/people/8471762,C,Center,Forward,C
+4,2016,28,8473512,Claude Giroux,/api/v1/people/8473512,R,Right Wing,Forward,RW
+4,2016,47,8473584,Andrew MacDonald,/api/v1/people/8473584,D,Defenseman,Defenseman,D
+4,2016,,8474161,Jakub Voracek,/api/v1/people/8474161,R,Right Wing,Forward,RW
+4,2016,24,8474190,Wayne Simmonds,/api/v1/people/8474190,R,Right Wing,Forward,RW
+4,2016,4,8474584,Michael Del Zotto,/api/v1/people/8474584,D,Defenseman,Defenseman,D
+4,2016,22,8474668,Dale Weise,/api/v1/people/8474668,R,Right Wing,Forward,RW
+4,2016,10,8475170,Brayden Schenn,/api/v1/people/8475170,C,Center,Forward,C
+4,2016,26,8475430,Brandon Manning,/api/v1/people/8475430,D,Defenseman,Defenseman,D
+4,2016,7,8475462,Radko Gudas,/api/v1/people/8475462,D,Defenseman,Defenseman,D
+4,2016,43,8475738,Jordan Weal,/api/v1/people/8475738,C,Center,Forward,C
+4,2016,10,8476177,Matt Read,/api/v1/people/8476177,R,Right Wing,Forward,RW
+4,2016,21,8476393,Nick Cousins,/api/v1/people/8476393,C,Center,Forward,C
+4,2016,14,8476461,Sean Couturier,/api/v1/people/8476461,C,Center,Forward,C
+4,2016,21,8476872,Scott Laughton,/api/v1/people/8476872,C,Center,Forward,C
+4,2016,41,8476906,Shayne Gostisbehere,/api/v1/people/8476906,D,Defenseman,Defenseman,D
+4,2016,20,8476955,Taylor Leier,/api/v1/people/8476955,L,Left Wing,Forward,LW
+4,2016,18,8477290,Michael Raffl,/api/v1/people/8477290,L,Left Wing,Forward,LW
+4,2016,18,8477462,Robert Hagg,/api/v1/people/8477462,D,Defenseman,Defenseman,D
+4,2016,55,8477502,Samuel Morin,/api/v1/people/8477502,L,Left Wing,Forward,LW
+4,2016,41,8477930,Pierre-Edouard Bellemare,/api/v1/people/8477930,L,Left Wing,Forward,LW
+4,2016,11,8478439,Travis Konecny,/api/v1/people/8478439,R,Right Wing,Forward,RW
+4,2016,9,8478500,Ivan Provorov,/api/v1/people/8478500,D,Defenseman,Defenseman,D
+4,2016,13,8479648,Roman Lyubimov,/api/v1/people/8479648,L,Left Wing,Forward,LW
+4,2016,36,8480087,Mike Vecchione,/api/v1/people/8480087,R,Right Wing,Forward,RW
+4,2016,,8473461,Steve Mason,/api/v1/people/8473461,G,Goalie,Goalie,G
+4,2016,30,8473607,Michal Neuvirth,/api/v1/people/8473607,G,Goalie,Goalie,G
+4,2016,41,8476932,Anthony Stolarz,/api/v1/people/8476932,G,Goalie,Goalie,G
+5,2016,7,8464989,Matt Cullen,/api/v1/people/8464989,C,Center,Forward,C
+5,2016,32,8468309,Mark Streit,/api/v1/people/8468309,D,Defenseman,Defenseman,D
+5,2016,81,8468493,Ron Hainsey,/api/v1/people/8468493,D,Defenseman,Defenseman,D
+5,2016,83,8470110,Trevor Daley,/api/v1/people/8470110,D,Defenseman,Defenseman,D
+5,2016,14,8470543,Chris Kunitz,/api/v1/people/8470543,L,Left Wing,Forward,LW
+5,2016,21,8470611,Eric Fehr,/api/v1/people/8470611,C,Center,Forward,C
+5,2016,71,8471215,Evgeni Malkin,/api/v1/people/8471215,C,Center,Forward,C
+5,2016,12,8471331,Kevin Porter,/api/v1/people/8471331,C,Center,Forward,C
+5,2016,87,8471675,Sidney Crosby,/api/v1/people/8471675,C,Center,Forward,C
+5,2016,58,8471724,Kris Letang,/api/v1/people/8471724,D,Defenseman,Defenseman,D
+5,2016,70,8471887,Patric Hornqvist,/api/v1/people/8471887,R,Right Wing,Forward,RW
+5,2016,25,8473542,Tom Sestito,/api/v1/people/8473542,L,Left Wing,Forward,LW
+5,2016,8,8473548,Phil Kessel,/api/v1/people/8473548,R,Right Wing,Forward,RW
+5,2016,12,8474009,Nick Bonino,/api/v1/people/8474009,C,Center,Forward,C
+5,2016,82,8474013,Ian Cole,/api/v1/people/8474013,D,Defenseman,Defenseman,D
+5,2016,62,8474176,Carl Hagelin,/api/v1/people/8474176,L,Left Wing,Forward,LW
+5,2016,4,8474602,Justin Schultz,/api/v1/people/8474602,D,Defenseman,Defenseman,D
+5,2016,33,8474611,Cameron Gaunce,/api/v1/people/8474611,D,Defenseman,Defenseman,D
+5,2016,55,8474660,David Warsofsky,/api/v1/people/8474660,D,Defenseman,Defenseman,D
+5,2016,8,8475208,Brian Dumoulin,/api/v1/people/8475208,D,Defenseman,Defenseman,D
+5,2016,17,8475810,Bryan Rust,/api/v1/people/8475810,R,Right Wing,Forward,RW
+5,2016,14,8475832,Tom Kuhnhackl,/api/v1/people/8475832,R,Right Wing,Forward,RW
+5,2016,43,8476162,Steve Oleksy,/api/v1/people/8476162,D,Defenseman,Defenseman,D
+5,2016,26,8476293,Scott Wilson,/api/v1/people/8476293,C,Center,Forward,C
+5,2016,18,8476302,Frank Corrado,/api/v1/people/8476302,D,Defenseman,Defenseman,D
+5,2016,15,8476326,Josh Archibald,/api/v1/people/8476326,R,Right Wing,Forward,RW
+5,2016,2,8476874,Olli Maatta,/api/v1/people/8476874,D,Defenseman,Defenseman,D
+5,2016,33,8476884,Derrick Pouliot,/api/v1/people/8476884,D,Defenseman,Defenseman,D
+5,2016,70,8476897,Oskar Sundqvist,/api/v1/people/8476897,C,Center,Forward,C
+5,2016,37,8477240,Carter Rowney,/api/v1/people/8477240,C,Center,Forward,C
+5,2016,2,8477244,Chad Ruhwedel,/api/v1/people/8477244,D,Defenseman,Defenseman,D
+5,2016,59,8477404,Jake Guentzel,/api/v1/people/8477404,L,Left Wing,Forward,LW
+5,2016,48,8477520,Jean-Sebastien Dea,/api/v1/people/8477520,C,Center,Forward,C
+5,2016,73,8477839,Conor Sheary,/api/v1/people/8477839,L,Left Wing,Forward,LW
+5,2016,51,8478866,Dominik Simon,/api/v1/people/8478866,C,Center,Forward,C
+5,2016,29,8470594,Marc-Andre Fleury,/api/v1/people/8470594,G,Goalie,Goalie,G
+5,2016,30,8476899,Matt Murray,/api/v1/people/8476899,G,Goalie,Goalie,G
+5,2016,1,8477237,Mike Condon,/api/v1/people/8477237,G,Goalie,Goalie,G
+5,2016,35,8477465,Tristan Jarry,/api/v1/people/8477465,G,Goalie,Goalie,G
+6,2016,33,8465009,Zdeno Chara,/api/v1/people/8465009,D,Defenseman,Defenseman,D
+6,2016,20,8468575,Dominic Moore,/api/v1/people/8468575,C,Center,Forward,C
+6,2016,26,8468639,John-Michael Liles,/api/v1/people/8468639,D,Defenseman,Defenseman,D
+6,2016,37,8470638,Patrice Bergeron,/api/v1/people/8470638,C,Center,Forward,C
+6,2016,21,8470655,David Backes,/api/v1/people/8470655,R,Right Wing,Forward,RW
+6,2016,18,8471226,Drew Stafford,/api/v1/people/8471226,R,Right Wing,Forward,RW
+6,2016,46,8471276,David Krejci,/api/v1/people/8471276,C,Center,Forward,C
+6,2016,54,8471717,Adam McQuaid,/api/v1/people/8471717,D,Defenseman,Defenseman,D
+6,2016,63,8473419,Brad Marchand,/api/v1/people/8473419,L,Left Wing,Forward,LW
+6,2016,39,8473492,Matt Beleskey,/api/v1/people/8473492,L,Left Wing,Forward,LW
+6,2016,18,8474062,Riley Nash,/api/v1/people/8474062,C,Center,Forward,C
+6,2016,11,8474625,Jimmy Hayes,/api/v1/people/8474625,R,Right Wing,Forward,RW
+6,2016,15,8475727,Ryan Spooner,/api/v1/people/8475727,C,Center,Forward,C
+6,2016,86,8476191,Kevan Miller,/api/v1/people/8476191,D,Defenseman,Defenseman,D
+6,2016,46,8476303,Rob O'Gara,/api/v1/people/8476303,D,Defenseman,Defenseman,D
+6,2016,7,8476374,Sean Kuraly,/api/v1/people/8476374,C,Center,Forward,C
+6,2016,70,8476476,Joe Morrow,/api/v1/people/8476476,D,Defenseman,Defenseman,D
+6,2016,24,8476525,Colin Miller,/api/v1/people/8476525,D,Defenseman,Defenseman,D
+6,2016,47,8476792,Torey Krug,/api/v1/people/8476792,D,Defenseman,Defenseman,D
+6,2016,48,8476891,Matt Grzelcyk,/api/v1/people/8476891,D,Defenseman,Defenseman,D
+6,2016,59,8477213,Tim Schaller,/api/v1/people/8477213,L,Left Wing,Forward,LW
+6,2016,25,8477320,Anton Blidh,/api/v1/people/8477320,L,Left Wing,Forward,LW
+6,2016,22,8477417,Peter Cehlarik,/api/v1/people/8477417,L,Left Wing,Forward,LW
+6,2016,88,8477956,David Pastrnak,/api/v1/people/8477956,R,Right Wing,Forward,RW
+6,2016,43,8478046,Danton Heinen,/api/v1/people/8478046,L,Left Wing,Forward,LW
+6,2016,77,8478366,Frank Vatrano,/api/v1/people/8478366,R,Right Wing,Forward,RW
+6,2016,23,8478417,Jakob Forsbacka Karlsson,/api/v1/people/8478417,C,Center,Forward,C
+6,2016,25,8478443,Brandon Carlo,/api/v1/people/8478443,D,Defenseman,Defenseman,D
+6,2016,21,8478512,Austin Czarnik,/api/v1/people/8478512,C,Center,Forward,C
+6,2016,55,8478569,Noel Acciari,/api/v1/people/8478569,C,Center,Forward,C
+6,2016,,8474019,Tommy Cross,/api/v1/people/8474019,D,Defenseman,Defenseman,D
+6,2016,73,8479325,Charlie McAvoy,/api/v1/people/8479325,D,Defenseman,Defenseman,D
+6,2016,31,8471418,Anton Khudobin,/api/v1/people/8471418,G,Goalie,Goalie,G
+6,2016,40,8471695,Tuukka Rask,/api/v1/people/8471695,G,Goalie,Goalie,G
+6,2016,31,8475876,Zane McIntyre,/api/v1/people/8475876,G,Goalie,Goalie,G
+6,2016,32,8476876,Malcolm Subban,/api/v1/people/8476876,G,Goalie,Goalie,G
+7,2016,12,8467407,Brian Gionta,/api/v1/people/8467407,R,Right Wing,Forward,RW
+7,2016,4,8470324,Josh Gorges,/api/v1/people/8470324,D,Defenseman,Defenseman,D
+7,2016,,8470852,Matt Moulson,/api/v1/people/8470852,L,Left Wing,Forward,LW
+7,2016,11,8471742,Cody Franson,/api/v1/people/8471742,D,Defenseman,Defenseman,D
+7,2016,8,8471811,Cal O'Reilly,/api/v1/people/8471811,C,Center,Forward,C
+7,2016,21,8473449,Kyle Okposo,/api/v1/people/8473449,R,Right Wing,Forward,RW
+7,2016,42,8473992,Justin Falk,/api/v1/people/8473992,D,Defenseman,Defenseman,D
+7,2016,24,8474567,Zach Bogosian,/api/v1/people/8474567,D,Defenseman,Defenseman,D
+7,2016,63,8474589,Tyler Ennis,/api/v1/people/8474589,R,Right Wing,Forward,RW
+7,2016,38,8474683,Derek Grant,/api/v1/people/8474683,C,Center,Forward,C
+7,2016,90,8475158,Ryan O'Reilly,/api/v1/people/8475158,C,Center,Forward,C
+7,2016,91,8475169,Evander Kane,/api/v1/people/8475169,L,Left Wing,Forward,LW
+7,2016,7,8475179,Dmitry Kulikov,/api/v1/people/8475179,D,Defenseman,Defenseman,D
+7,2016,17,8475220,Marcus Foligno,/api/v1/people/8475220,L,Left Wing,Forward,LW
+7,2016,44,8475235,Nicolas Deslauriers,/api/v1/people/8475235,L,Left Wing,Forward,LW
+7,2016,22,8475728,Johan Larsson,/api/v1/people/8475728,L,Left Wing,Forward,LW
+7,2016,46,8475982,Erik Burgdoerfer,/api/v1/people/8475982,D,Defenseman,Defenseman,D
+7,2016,4,8476166,Taylor Fedun,/api/v1/people/8476166,D,Defenseman,Defenseman,D
+7,2016,29,8476766,Cole Schneider,/api/v1/people/8476766,L,Left Wing,Forward,LW
+7,2016,28,8476878,Zemgus Girgensons,/api/v1/people/8476878,L,Left Wing,Forward,LW
+7,2016,22,8476931,Jake McCabe,/api/v1/people/8476931,D,Defenseman,Defenseman,D
+7,2016,67,8477041,Brady Austin,/api/v1/people/8477041,D,Defenseman,Defenseman,D
+7,2016,43,8477391,Sean Malone,/api/v1/people/8477391,C,Center,Forward,C
+7,2016,20,8477392,Hudson Fasching,/api/v1/people/8477392,R,Right Wing,Forward,RW
+7,2016,95,8477473,Justin Bailey,/api/v1/people/8477473,R,Right Wing,Forward,RW
+7,2016,28,8477478,William Carrier,/api/v1/people/8477478,L,Left Wing,Forward,LW
+7,2016,13,8477491,Nick Baptiste,/api/v1/people/8477491,R,Right Wing,Forward,RW
+7,2016,55,8477499,Rasmus Ristolainen,/api/v1/people/8477499,D,Defenseman,Defenseman,D
+7,2016,13,8477933,Sam Reinhart,/api/v1/people/8477933,C,Center,Forward,C
+7,2016,9,8478403,Jack Eichel,/api/v1/people/8478403,C,Center,Forward,C
+7,2016,2,8478425,Brendan Guhle,/api/v1/people/8478425,D,Defenseman,Defenseman,D
+7,2016,17,8478542,Evan Rodrigues,/api/v1/people/8478542,C,Center,Forward,C
+7,2016,8,8479268,Casey Nelson,/api/v1/people/8479268,D,Defenseman,Defenseman,D
+7,2016,11,8479423,Alex Nylander,/api/v1/people/8479423,L,Left Wing,Forward,LW
+7,2016,17,8480083,C.J. Smith,/api/v1/people/8480083,L,Left Wing,Forward,LW
+7,2016,,8475195,Anders Nilsson,/api/v1/people/8475195,G,Goalie,Goalie,G
+7,2016,90,8475215,Robin Lehner,/api/v1/people/8475215,G,Goalie,Goalie,G
+7,2016,35,8476999,Linus Ullmark,/api/v1/people/8476999,G,Goalie,Goalie,G
+8,2016,79,8467496,Andrei Markov,/api/v1/people/8467496,D,Defenseman,Defenseman,D
+8,2016,92,8468505,Steve Ott,/api/v1/people/8468505,C,Center,Forward,C
+8,2016,14,8469521,Tomas Plekanec,/api/v1/people/8469521,C,Center,Forward,C
+8,2016,6,8470642,Shea Weber,/api/v1/people/8470642,D,Defenseman,Defenseman,D
+8,2016,47,8471228,Alexander Radulov,/api/v1/people/8471228,R,Right Wing,Forward,RW
+8,2016,25,8471296,Alexei Emelin,/api/v1/people/8471296,D,Defenseman,Defenseman,D
+8,2016,71,8471338,Torrey Mitchell,/api/v1/people/8471338,C,Center,Forward,C
+8,2016,51,8471976,David Desharnais,/api/v1/people/8471976,C,Center,Forward,C
+8,2016,46,8473507,Jeff Petry,/api/v1/people/8473507,D,Defenseman,Defenseman,D
+8,2016,41,8474038,Paul Byron,/api/v1/people/8474038,L,Left Wing,Forward,LW
+8,2016,15,8474052,Chris Terry,/api/v1/people/8474052,L,Left Wing,Forward,LW
+8,2016,21,8474100,Dwight King,/api/v1/people/8474100,L,Left Wing,Forward,LW
+8,2016,67,8474157,Max Pacioretty,/api/v1/people/8474157,L,Left Wing,Forward,LW
+8,2016,29,8474688,Greg Pateryn,/api/v1/people/8474688,D,Defenseman,Defenseman,D
+8,2016,44,8474717,Mark Barberio,/api/v1/people/8474717,D,Defenseman,Defenseman,D
+8,2016,38,8474743,Zach Redmond,/api/v1/people/8474743,D,Defenseman,Defenseman,D
+8,2016,18,8474818,Jordie Benn,/api/v1/people/8474818,D,Defenseman,Defenseman,D
+8,2016,11,8475848,Brendan Gallagher,/api/v1/people/8475848,R,Right Wing,Forward,RW
+8,2016,88,8475869,Brandon Davidson,/api/v1/people/8475869,D,Defenseman,Defenseman,D
+8,2016,89,8476300,Nikita Nesterov,/api/v1/people/8476300,D,Defenseman,Defenseman,D
+8,2016,65,8476381,Andrew Shaw,/api/v1/people/8476381,R,Right Wing,Forward,RW
+8,2016,28,8476470,Nathan Beaulieu,/api/v1/people/8476470,D,Defenseman,Defenseman,D
+8,2016,24,8476479,Phillip Danault,/api/v1/people/8476479,C,Center,Forward,C
+8,2016,44,8476769,Bobby Farnham,/api/v1/people/8476769,R,Right Wing,Forward,RW
+8,2016,46,8476808,Brian Flynn,/api/v1/people/8476808,C,Center,Forward,C
+8,2016,17,8476851,Alex Galchenyuk,/api/v1/people/8476851,C,Center,Forward,C
+8,2016,54,8476948,Charles Hudon,/api/v1/people/8476948,L,Left Wing,Forward,LW
+8,2016,10,8477413,Sven Andrighetto,/api/v1/people/8477413,R,Right Wing,Forward,RW
+8,2016,47,8477446,Michael McCarron,/api/v1/people/8477446,R,Right Wing,Forward,RW
+8,2016,61,8477455,Jacob de la Rose,/api/v1/people/8477455,L,Left Wing,Forward,LW
+8,2016,62,8477476,Artturi Lehkonen,/api/v1/people/8477476,L,Left Wing,Forward,LW
+8,2016,44,8477810,Joel Hanley,/api/v1/people/8477810,D,Defenseman,Defenseman,D
+8,2016,28,8477901,Daniel Carr,/api/v1/people/8477901,L,Left Wing,Forward,LW
+8,2016,21,8477957,Nikita Scherbak,/api/v1/people/8477957,R,Right Wing,Forward,RW
+8,2016,8,8478004,Brett Lernout,/api/v1/people/8478004,D,Defenseman,Defenseman,D
+8,2016,23,8478561,Andreas Martinsen,/api/v1/people/8478561,L,Left Wing,Forward,LW
+8,2016,75,8478963,Ryan Johnston,/api/v1/people/8478963,D,Defenseman,Defenseman,D
+8,2016,98,8479410,Mikhail Sergachev,/api/v1/people/8479410,D,Defenseman,Defenseman,D
+8,2016,35,8471219,Al Montoya,/api/v1/people/8471219,G,Goalie,Goalie,G
+8,2016,31,8471679,Carey Price,/api/v1/people/8471679,G,Goalie,Goalie,G
+8,2016,79,8479292,Charlie Lindgren,/api/v1/people/8479292,G,Goalie,Goalie,G
+9,2016,25,8467493,Chris Neil,/api/v1/people/8467493,R,Right Wing,Forward,RW
+9,2016,22,8467967,Chris Kelly,/api/v1/people/8467967,C,Center,Forward,C
+9,2016,14,8470358,Alexandre Burrows,/api/v1/people/8470358,R,Right Wing,Forward,RW
+9,2016,3,8470602,Dion Phaneuf,/api/v1/people/8470602,D,Defenseman,Defenseman,D
+9,2016,16,8470667,Clarke MacArthur,/api/v1/people/8470667,L,Left Wing,Forward,LW
+9,2016,33,8470760,Marc Methot,/api/v1/people/8470760,D,Defenseman,Defenseman,D
+9,2016,20,8471663,Mike Blunden,/api/v1/people/8471663,R,Right Wing,Forward,RW
+9,2016,54,8471676,Bobby Ryan,/api/v1/people/8471676,R,Right Wing,Forward,RW
+9,2016,10,8471768,Tom Pyatt,/api/v1/people/8471768,L,Left Wing,Forward,LW
+9,2016,24,8473537,Viktor Stalberg,/api/v1/people/8473537,L,Left Wing,Forward,LW
+9,2016,61,8473544,Derick Brassard,/api/v1/people/8473544,C,Center,Forward,C
+9,2016,49,8474018,Christopher DiDomenico,/api/v1/people/8474018,L,Left Wing,Forward,LW
+9,2016,8,8474068,Kyle Turris,/api/v1/people/8474068,C,Center,Forward,C
+9,2016,15,8474250,Zack Smith,/api/v1/people/8474250,C,Center,Forward,C
+9,2016,65,8474578,Erik Karlsson,/api/v1/people/8474578,D,Defenseman,Defenseman,D
+9,2016,90,8474697,Mark Borowiecki,/api/v1/people/8474697,D,Defenseman,Defenseman,D
+9,2016,57,8474739,Tommy Wingels,/api/v1/people/8474739,C,Center,Forward,C
+9,2016,68,8474884,Mike Hoffman,/api/v1/people/8474884,C,Center,Forward,C
+9,2016,6,8475227,Chris Wideman,/api/v1/people/8475227,D,Defenseman,Defenseman,D
+9,2016,44,8475321,Phil Varone,/api/v1/people/8475321,C,Center,Forward,C
+9,2016,61,8475913,Mark Stone,/api/v1/people/8475913,R,Right Wing,Forward,RW
+9,2016,23,8476279,Jyrki Jokipakka,/api/v1/people/8476279,D,Defenseman,Defenseman,D
+9,2016,19,8476288,Ryan Dzingel,/api/v1/people/8476288,C,Center,Forward,C
+9,2016,71,8476323,Max McCormick,/api/v1/people/8476323,L,Left Wing,Forward,LW
+9,2016,3,8476368,Fredrik Claesson,/api/v1/people/8476368,D,Defenseman,Defenseman,D
+9,2016,44,8476419,Jean-Gabriel Pageau,/api/v1/people/8476419,C,Center,Forward,C
+9,2016,54,8476477,Matt Puempel,/api/v1/people/8476477,L,Left Wing,Forward,LW
+9,2016,5,8476879,Cody Ceci,/api/v1/people/8476879,D,Defenseman,Defenseman,D
+9,2016,53,8477210,Buddy Robinson,/api/v1/people/8477210,R,Right Wing,Forward,RW
+9,2016,20,8477426,Nicholas Paul,/api/v1/people/8477426,L,Left Wing,Forward,LW
+9,2016,5,8477433,Ben Harpur,/api/v1/people/8477433,D,Defenseman,Defenseman,D
+9,2016,42,8477508,Curtis Lazar,/api/v1/people/8477508,C,Center,Forward,C
+9,2016,5,8477971,Andreas Englund,/api/v1/people/8477971,D,Defenseman,Defenseman,D
+9,2016,37,8478376,Casey Bailey,/api/v1/people/8478376,R,Right Wing,Forward,RW
+9,2016,36,8478400,Colin White,/api/v1/people/8478400,C,Center,Forward,C
+9,2016,72,8478469,Thomas Chabot,/api/v1/people/8478469,D,Defenseman,Defenseman,D
+9,2016,41,8467950,Craig Anderson,/api/v1/people/8467950,G,Goalie,Goalie,G
+9,2016,60,8476904,Chris Driedger,/api/v1/people/8476904,G,Goalie,Goalie,G
+9,2016,35,8477202,Andrew Hammond,/api/v1/people/8477202,G,Goalie,Goalie,G
+9,2016,1,8477237,Mike Condon,/api/v1/people/8477237,G,Goalie,Goalie,G
+10,2016,18,8470599,Milan Michalek,/api/v1/people/8470599,L,Left Wing,Forward,LW
+10,2016,21,8470611,Eric Fehr,/api/v1/people/8470611,C,Center,Forward,C
+10,2016,11,8470619,Brian Boyle,/api/v1/people/8470619,C,Center,Forward,C
+10,2016,45,8471392,Roman Polak,/api/v1/people/8471392,D,Defenseman,Defenseman,D
+10,2016,48,8471436,Matt Hunwick,/api/v1/people/8471436,D,Defenseman,Defenseman,D
+10,2016,47,8473463,Leo Komarov,/api/v1/people/8473463,R,Right Wing,Forward,RW
+10,2016,21,8474037,James van Riemsdyk,/api/v1/people/8474037,L,Left Wing,Forward,LW
+10,2016,51,8474581,Jake Gardiner,/api/v1/people/8474581,D,Defenseman,Defenseman,D
+10,2016,17,8474709,Matt Martin,/api/v1/people/8474709,L,Left Wing,Forward,LW
+10,2016,18,8474727,Ben Smith,/api/v1/people/8474727,R,Right Wing,Forward,RW
+10,2016,21,8475098,Tyler Bozak,/api/v1/people/8475098,C,Center,Forward,C
+10,2016,91,8475172,Nazem Kadri,/api/v1/people/8475172,C,Center,Forward,C
+10,2016,,8475180,Peter Holland,/api/v1/people/8475180,C,Center,Forward,C
+10,2016,51,8475278,Byron Froese,/api/v1/people/8475278,C,Center,Forward,C
+10,2016,52,8475716,Martin Marincin,/api/v1/people/8475716,D,Defenseman,Defenseman,D
+10,2016,18,8475786,Zach Hyman,/api/v1/people/8475786,L,Left Wing,Forward,LW
+10,2016,3,8476289,Alexey Marchenko,/api/v1/people/8476289,D,Defenseman,Defenseman,D
+10,2016,18,8476302,Frank Corrado,/api/v1/people/8476302,D,Defenseman,Defenseman,D
+10,2016,17,8476410,Josh Leivo,/api/v1/people/8476410,L,Left Wing,Forward,LW
+10,2016,23,8476495,Seth Griffith,/api/v1/people/8476495,C,Center,Forward,C
+10,2016,44,8476853,Morgan Rielly,/api/v1/people/8476853,D,Defenseman,Defenseman,D
+10,2016,36,8476941,Connor Carrick,/api/v1/people/8476941,D,Defenseman,Defenseman,D
+10,2016,28,8477015,Connor Brown,/api/v1/people/8477015,R,Right Wing,Forward,RW
+10,2016,38,8477512,Frederik Gauthier,/api/v1/people/8477512,C,Center,Forward,C
+10,2016,88,8477939,William Nylander,/api/v1/people/8477939,R,Right Wing,Forward,RW
+10,2016,42,8477953,Kasperi Kapanen,/api/v1/people/8477953,R,Right Wing,Forward,RW
+10,2016,41,8478373,Nikita Soshnikov,/api/v1/people/8478373,R,Right Wing,Forward,RW
+10,2016,16,8478483,Mitchell Marner,/api/v1/people/8478483,R,Right Wing,Forward,RW
+10,2016,34,8479318,Auston Matthews,/api/v1/people/8479318,C,Center,Forward,C
+10,2016,22,8479458,Nikita Zaitsev,/api/v1/people/8479458,D,Defenseman,Defenseman,D
+10,2016,35,8470147,Curtis McElhinney,/api/v1/people/8470147,G,Goalie,Goalie,G
+10,2016,31,8473523,Jhonas Enroth,/api/v1/people/8473523,G,Goalie,Goalie,G
+10,2016,31,8475883,Frederik Andersen,/api/v1/people/8475883,G,Goalie,Goalie,G
+10,2016,30,8477312,Antoine Bibeau,/api/v1/people/8477312,G,Goalie,Goalie,G
+12,2016,81,8468493,Ron Hainsey,/api/v1/people/8468493,D,Defenseman,Defenseman,D
+12,2016,18,8469508,Jay McClement,/api/v1/people/8469508,C,Center,Forward,C
+12,2016,18,8470740,Lee Stempniak,/api/v1/people/8470740,R,Right Wing,Forward,RW
+12,2016,29,8471254,Bryan Bickell,/api/v1/people/8471254,L,Left Wing,Forward,LW
+12,2016,11,8473533,Jordan Staal,/api/v1/people/8473533,C,Center,Forward,C
+12,2016,24,8473537,Viktor Stalberg,/api/v1/people/8473537,L,Left Wing,Forward,LW
+12,2016,15,8475250,Andrej Nestrasil,/api/v1/people/8475250,C,Center,Forward,C
+12,2016,72,8475753,Justin Faulk,/api/v1/people/8475753,D,Defenseman,Defenseman,D
+12,2016,53,8475784,Jeff Skinner,/api/v1/people/8475784,L,Left Wing,Forward,LW
+12,2016,20,8475807,Joakim Nordstrom,/api/v1/people/8475807,C,Center,Forward,C
+12,2016,6,8476403,Klas Dahlbeck,/api/v1/people/8476403,D,Defenseman,Defenseman,D
+12,2016,8,8476427,Ty Rattie,/api/v1/people/8476427,R,Right Wing,Forward,RW
+12,2016,49,8476437,Victor Rask,/api/v1/people/8476437,C,Center,Forward,C
+12,2016,87,8476465,Ryan Murphy,/api/v1/people/8476465,D,Defenseman,Defenseman,D
+12,2016,7,8476807,Matt Tennyson,/api/v1/people/8476807,D,Defenseman,Defenseman,D
+12,2016,34,8476858,Phillip Di Giuseppe,/api/v1/people/8476858,L,Left Wing,Forward,LW
+12,2016,86,8476882,Teuvo Teravainen,/api/v1/people/8476882,L,Left Wing,Forward,LW
+12,2016,29,8476924,Martin Frk,/api/v1/people/8476924,R,Right Wing,Forward,RW
+12,2016,26,8476934,Brock McGinn,/api/v1/people/8476934,L,Left Wing,Forward,LW
+12,2016,74,8476958,Jaccob Slavin,/api/v1/people/8476958,D,Defenseman,Defenseman,D
+12,2016,7,8477458,Valentin Zykov,/api/v1/people/8477458,L,Left Wing,Forward,LW
+12,2016,22,8477488,Brett Pesce,/api/v1/people/8477488,D,Defenseman,Defenseman,D
+12,2016,28,8477496,Elias Lindholm,/api/v1/people/8477496,C,Center,Forward,C
+12,2016,61,8477566,Sergey Tolchinsky,/api/v1/people/8477566,L,Left Wing,Forward,LW
+12,2016,38,8477887,Patrick Brown,/api/v1/people/8477887,C,Center,Forward,C
+12,2016,71,8478027,Lucas Wallmark,/api/v1/people/8478027,C,Center,Forward,C
+12,2016,55,8478396,Noah Hanifin,/api/v1/people/8478396,D,Defenseman,Defenseman,D
+12,2016,20,8478427,Sebastian Aho,/api/v1/people/8478427,C,Center,Forward,C
+12,2016,14,8478562,Jakub Nakladal,/api/v1/people/8478562,D,Defenseman,Defenseman,D
+12,2016,10,8478585,Derek Ryan,/api/v1/people/8478585,C,Center,Forward,C
+12,2016,12,8479249,Andrew Poturalski,/api/v1/people/8479249,C,Center,Forward,C
+12,2016,,8468038,Michael Leighton,/api/v1/people/8468038,G,Goalie,Goalie,G
+12,2016,30,8470320,Cam Ward,/api/v1/people/8470320,G,Goalie,Goalie,G
+12,2016,31,8475663,Eddie Lack,/api/v1/people/8475663,G,Goalie,Goalie,G
+12,2016,39,8477968,Alex Nedeljkovic,/api/v1/people/8477968,G,Goalie,Goalie,G
+12,2016,,8479115,Jorge Alves,/api/v1/people/8479115,G,Goalie,Goalie,G
+13,2016,68,8448208,Jaromir Jagr,/api/v1/people/8448208,R,Right Wing,Forward,RW
+13,2016,22,8465978,Shawn Thornton,/api/v1/people/8465978,L,Left Wing,Forward,LW
+13,2016,17,8468001,Derek MacKenzie,/api/v1/people/8468001,C,Center,Forward,C
+13,2016,36,8469638,Jussi Jokinen,/api/v1/people/8469638,L,Left Wing,Forward,LW
+13,2016,26,8470598,Thomas Vanek,/api/v1/people/8470598,L,Left Wing,Forward,LW
+13,2016,46,8471693,Jakub Kindl,/api/v1/people/8471693,D,Defenseman,Defenseman,D
+13,2016,3,8471735,Keith Yandle,/api/v1/people/8471735,D,Defenseman,Defenseman,D
+13,2016,44,8474000,Steven Kampfer,/api/v1/people/8474000,D,Defenseman,Defenseman,D
+13,2016,70,8474098,Colton Sceviour,/api/v1/people/8474098,C,Center,Forward,C
+13,2016,44,8474218,Jason Demers,/api/v1/people/8474218,D,Defenseman,Defenseman,D
+13,2016,19,8475191,Reilly Smith,/api/v1/people/8475191,R,Right Wing,Forward,RW
+13,2016,38,8475597,Shane Harper,/api/v1/people/8475597,R,Right Wing,Forward,RW
+13,2016,15,8475735,Greg McKegg,/api/v1/people/8475735,C,Center,Forward,C
+13,2016,28,8475755,Alexander Petrovic,/api/v1/people/8475755,D,Defenseman,Defenseman,D
+13,2016,17,8475760,Nick Bjugstad,/api/v1/people/8475760,C,Center,Forward,C
+13,2016,25,8475795,Dylan McIlrath,/api/v1/people/8475795,D,Defenseman,Defenseman,D
+13,2016,43,8475796,Mark Pysyk,/api/v1/people/8475796,D,Defenseman,Defenseman,D
+13,2016,23,8475958,Michael Sgarbossa,/api/v1/people/8475958,C,Center,Forward,C
+13,2016,15,8476200,Paul Thompson,/api/v1/people/8476200,R,Right Wing,Forward,RW
+13,2016,16,8476389,Vincent Trocheck,/api/v1/people/8476389,C,Center,Forward,C
+13,2016,37,8476415,Kyle Rau,/api/v1/people/8476415,C,Center,Forward,C
+13,2016,10,8476456,Jonathan Huberdeau,/api/v1/people/8476456,C,Center,Forward,C
+13,2016,23,8476495,Seth Griffith,/api/v1/people/8476495,C,Center,Forward,C
+13,2016,81,8476539,Jonathan Marchessault,/api/v1/people/8476539,R,Right Wing,Forward,RW
+13,2016,8,8476875,Mike Matheson,/api/v1/people/8476875,D,Defenseman,Defenseman,D
+13,2016,52,8477346,MacKenzie Weegar,/api/v1/people/8477346,D,Defenseman,Defenseman,D
+13,2016,78,8477452,Ian McCoshen,/api/v1/people/8477452,D,Defenseman,Defenseman,D
+13,2016,16,8477493,Aleksander Barkov,/api/v1/people/8477493,C,Center,Forward,C
+13,2016,5,8477932,Aaron Ekblad,/api/v1/people/8477932,D,Defenseman,Defenseman,D
+13,2016,19,8477955,Jared McCann,/api/v1/people/8477955,L,Left Wing,Forward,LW
+13,2016,81,8478843,Denis Malgin,/api/v1/people/8478843,C,Center,Forward,C
+13,2016,1,8466141,Roberto Luongo,/api/v1/people/8466141,G,Goalie,Goalie,G
+13,2016,1,8473499,Reto Berra,/api/v1/people/8473499,G,Goalie,Goalie,G
+13,2016,47,8473503,James Reimer,/api/v1/people/8473503,G,Goalie,Goalie,G
+14,2016,51,8470047,Valtteri Filppula,/api/v1/people/8470047,C,Center,Forward,C
+14,2016,45,8470601,Braydon Coburn,/api/v1/people/8470601,D,Defenseman,Defenseman,D
+14,2016,11,8470619,Brian Boyle,/api/v1/people/8470619,C,Center,Forward,C
+14,2016,24,8471339,Ryan Callahan,/api/v1/people/8471339,R,Right Wing,Forward,RW
+14,2016,86,8471873,Anton Stralman,/api/v1/people/8471873,D,Defenseman,Defenseman,D
+14,2016,27,8473588,Erik Condra,/api/v1/people/8473588,R,Right Wing,Forward,RW
+14,2016,17,8473986,Alex Killorn,/api/v1/people/8473986,C,Center,Forward,C
+14,2016,,8474520,Jason Garrison,/api/v1/people/8474520,D,Defenseman,Defenseman,D
+14,2016,91,8474564,Steven Stamkos,/api/v1/people/8474564,C,Center,Forward,C
+14,2016,28,8474722,Luke Witkowski,/api/v1/people/8474722,D,Defenseman,Defenseman,D
+14,2016,90,8474870,Tyler Johnson,/api/v1/people/8474870,C,Center,Forward,C
+14,2016,77,8475167,Victor Hedman,/api/v1/people/8475167,D,Defenseman,Defenseman,D
+14,2016,40,8475254,Gabriel Dumont,/api/v1/people/8475254,C,Center,Forward,C
+14,2016,51,8475278,Byron Froese,/api/v1/people/8475278,C,Center,Forward,C
+14,2016,15,8475735,Greg McKegg,/api/v1/people/8475735,C,Center,Forward,C
+14,2016,15,8475739,Michael Bournival,/api/v1/people/8475739,L,Left Wing,Forward,LW
+14,2016,89,8476195,Cory Conacher,/api/v1/people/8476195,C,Center,Forward,C
+14,2016,53,8476285,Matthew Peca,/api/v1/people/8476285,C,Center,Forward,C
+14,2016,18,8476292,Ondrej Palat,/api/v1/people/8476292,L,Left Wing,Forward,LW
+14,2016,89,8476300,Nikita Nesterov,/api/v1/people/8476300,D,Defenseman,Defenseman,D
+14,2016,86,8476453,Nikita Kucherov,/api/v1/people/8476453,R,Right Wing,Forward,RW
+14,2016,7,8476480,Vladislav Namestnikov,/api/v1/people/8476480,C,Center,Forward,C
+14,2016,23,8476806,JT Brown,/api/v1/people/8476806,R,Right Wing,Forward,RW
+14,2016,37,8476826,Yanni Gourde,/api/v1/people/8476826,C,Center,Forward,C
+14,2016,20,8476886,Slater Koekkoek,/api/v1/people/8476886,D,Defenseman,Defenseman,D
+14,2016,38,8476911,Tanner Richard,/api/v1/people/8476911,C,Center,Forward,C
+14,2016,13,8476975,Cedric Paquette,/api/v1/people/8476975,C,Center,Forward,C
+14,2016,59,8477009,Jake Dotchin,/api/v1/people/8477009,D,Defenseman,Defenseman,D
+14,2016,29,8477205,Andrej Sustr,/api/v1/people/8477205,D,Defenseman,Defenseman,D
+14,2016,92,8477326,Joel Vermin,/api/v1/people/8477326,R,Right Wing,Forward,RW
+14,2016,21,8477454,Adam Erne,/api/v1/people/8477454,L,Left Wing,Forward,LW
+14,2016,27,8477494,Jonathan Drouin,/api/v1/people/8477494,L,Left Wing,Forward,LW
+14,2016,21,8478010,Brayden Point,/api/v1/people/8478010,C,Center,Forward,C
+14,2016,31,8469514,Peter Budaj,/api/v1/people/8469514,G,Goalie,Goalie,G
+14,2016,,8471750,Ben Bishop,/api/v1/people/8471750,G,Goalie,Goalie,G
+14,2016,88,8476883,Andrei Vasilevskiy,/api/v1/people/8476883,G,Goalie,Goalie,G
+14,2016,,8477356,Kristers Gudlevskis,/api/v1/people/8477356,G,Goalie,Goalie,G
+15,2016,44,8468498,Brooks Orpik,/api/v1/people/8468498,D,Defenseman,Defenseman,D
+15,2016,14,8468508,Justin Williams,/api/v1/people/8468508,R,Right Wing,Forward,RW
+15,2016,8,8471214,Alex Ovechkin,/api/v1/people/8471214,L,Left Wing,Forward,LW
+15,2016,26,8471476,Daniel Winnik,/api/v1/people/8471476,L,Left Wing,Forward,LW
+15,2016,77,8471698,T.J. Oshie,/api/v1/people/8471698,R,Right Wing,Forward,RW
+15,2016,15,8471702,Matt Niskanen,/api/v1/people/8471702,D,Defenseman,Defenseman,D
+15,2016,44,8471710,Taylor Chorney,/api/v1/people/8471710,D,Defenseman,Defenseman,D
+15,2016,19,8473563,Nicklas Backstrom,/api/v1/people/8473563,C,Center,Forward,C
+15,2016,27,8473991,Karl Alzner,/api/v1/people/8473991,D,Defenseman,Defenseman,D
+15,2016,34,8474008,Paul Carey,/api/v1/people/8474008,C,Center,Forward,C
+15,2016,12,8474031,Kevin Shattenkirk,/api/v1/people/8474031,D,Defenseman,Defenseman,D
+15,2016,20,8474189,Lars Eller,/api/v1/people/8474189,C,Center,Forward,C
+15,2016,83,8474291,Jay Beagle,/api/v1/people/8474291,C,Center,Forward,C
+15,2016,74,8474590,John Carlson,/api/v1/people/8474590,D,Defenseman,Defenseman,D
+15,2016,42,8474604,Aaron Ness,/api/v1/people/8474604,D,Defenseman,Defenseman,D
+15,2016,90,8475149,Marcus Johansson,/api/v1/people/8475149,L,Left Wing,Forward,LW
+15,2016,7,8475200,Dmitry Orlov,/api/v1/people/8475200,D,Defenseman,Defenseman,D
+15,2016,76,8475291,Garrett Mitchell,/api/v1/people/8475291,R,Right Wing,Forward,RW
+15,2016,92,8475744,Evgeny Kuznetsov,/api/v1/people/8475744,C,Center,Forward,C
+15,2016,20,8475792,Brett Connolly,/api/v1/people/8475792,R,Right Wing,Forward,RW
+15,2016,43,8476880,Tom Wilson,/api/v1/people/8476880,R,Right Wing,Forward,RW
+15,2016,20,8476905,Chandler Stephenson,/api/v1/people/8476905,C,Center,Forward,C
+15,2016,38,8477003,Riley Barber,/api/v1/people/8477003,R,Right Wing,Forward,RW
+15,2016,38,8477070,Liam O'Brien,/api/v1/people/8477070,C,Center,Forward,C
+15,2016,88,8477220,Nate Schmidt,/api/v1/people/8477220,D,Defenseman,Defenseman,D
+15,2016,95,8477444,Andre Burakovsky,/api/v1/people/8477444,L,Left Wing,Forward,LW
+15,2016,12,8477482,Zach Sanford,/api/v1/people/8477482,L,Left Wing,Forward,LW
+15,2016,15,8477944,Jakub Vrana,/api/v1/people/8477944,L,Left Wing,Forward,LW
+15,2016,70,8474651,Braden Holtby,/api/v1/people/8474651,G,Goalie,Goalie,G
+15,2016,31,8475831,Philipp Grubauer,/api/v1/people/8475831,G,Goalie,Goalie,G
+16,2016,32,8465058,Michal Rozsival,/api/v1/people/8465058,D,Defenseman,Defenseman,D
+16,2016,81,8466148,Marian Hossa,/api/v1/people/8466148,R,Right Wing,Forward,RW
+16,2016,51,8466285,Brian Campbell,/api/v1/people/8466285,D,Defenseman,Defenseman,D
+16,2016,22,8469547,Jordin Tootoo,/api/v1/people/8469547,R,Right Wing,Forward,RW
+16,2016,29,8469665,Johnny Oduya,/api/v1/people/8469665,D,Defenseman,Defenseman,D
+16,2016,2,8470281,Duncan Keith,/api/v1/people/8470281,D,Defenseman,Defenseman,D
+16,2016,,8470607,Brent Seabrook,/api/v1/people/8470607,D,Defenseman,Defenseman,D
+16,2016,4,8471769,Niklas Hjalmarsson,/api/v1/people/8471769,D,Defenseman,Defenseman,D
+16,2016,11,8471956,Andrew Desjardins,/api/v1/people/8471956,L,Left Wing,Forward,LW
+16,2016,51,8473573,Artem Anisimov,/api/v1/people/8473573,C,Center,Forward,C
+16,2016,19,8473604,Jonathan Toews,/api/v1/people/8473604,C,Center,Forward,C
+16,2016,88,8474141,Patrick Kane,/api/v1/people/8474141,R,Right Wing,Forward,RW
+16,2016,16,8475209,Richard Panik,/api/v1/people/8475209,R,Right Wing,Forward,RW
+16,2016,16,8475323,Marcus Kruger,/api/v1/people/8475323,C,Center,Forward,C
+16,2016,13,8476430,Tomas Jurco,/api/v1/people/8476430,R,Right Wing,Forward,RW
+16,2016,24,8476805,Spencer Abbott,/api/v1/people/8476805,L,Left Wing,Forward,LW
+16,2016,13,8476994,Vinnie Hinostroza,/api/v1/people/8476994,C,Center,Forward,C
+16,2016,64,8477353,Tyler Motte,/api/v1/people/8477353,C,Center,Forward,C
+16,2016,15,8477401,John Hayden,/api/v1/people/8477401,C,Center,Forward,C
+16,2016,38,8477451,Ryan Hartman,/api/v1/people/8477451,R,Right Wing,Forward,RW
+16,2016,57,8477845,Trevor van Riemsdyk,/api/v1/people/8477845,D,Defenseman,Defenseman,D
+16,2016,22,8477929,Dennis Rasmussen,/api/v1/people/8477929,C,Center,Forward,C
+16,2016,8,8477951,Nick Schmaltz,/api/v1/people/8477951,C,Center,Forward,C
+16,2016,42,8478055,Gustav Forsling,/api/v1/people/8478055,D,Defenseman,Defenseman,D
+16,2016,64,8478528,Tanner Kero,/api/v1/people/8478528,C,Center,Forward,C
+16,2016,10,8478550,Artemi Panarin,/api/v1/people/8478550,L,Left Wing,Forward,LW
+16,2016,36,8479482,Michal Kempny,/api/v1/people/8479482,D,Defenseman,Defenseman,D
+16,2016,50,8470645,Corey Crawford,/api/v1/people/8470645,G,Goalie,Goalie,G
+16,2016,33,8474152,Scott Darling,/api/v1/people/8474152,G,Goalie,Goalie,G
+17,2016,40,8468083,Henrik Zetterberg,/api/v1/people/8468083,C,Center,Forward,C
+17,2016,92,8468505,Steve Ott,/api/v1/people/8468505,C,Center,Forward,C
+17,2016,55,8468509,Niklas Kronwall,/api/v1/people/8468509,D,Defenseman,Defenseman,D
+17,2016,81,8470144,Frans Nielsen,/api/v1/people/8470144,C,Center,Forward,C
+17,2016,52,8470318,Jonathan Ericsson,/api/v1/people/8470318,D,Defenseman,Defenseman,D
+17,2016,26,8470598,Thomas Vanek,/api/v1/people/8470598,L,Left Wing,Forward,LW
+17,2016,20,8470778,Drew Miller,/api/v1/people/8470778,L,Left Wing,Forward,LW
+17,2016,27,8471242,Mike Green,/api/v1/people/8471242,D,Defenseman,Defenseman,D
+17,2016,8,8471716,Justin Abdelkader,/api/v1/people/8471716,L,Left Wing,Forward,LW
+17,2016,43,8471794,Darren Helm,/api/v1/people/8471794,C,Center,Forward,C
+17,2016,2,8474090,Brendan Smith,/api/v1/people/8474090,D,Defenseman,Defenseman,D
+17,2016,14,8474679,Gustav Nyquist,/api/v1/people/8474679,C,Center,Forward,C
+17,2016,32,8474873,Brian Lashoff,/api/v1/people/8474873,D,Defenseman,Defenseman,D
+17,2016,90,8475193,Tomas Tatar,/api/v1/people/8475193,L,Left Wing,Forward,LW
+17,2016,15,8475296,Mitch Callahan,/api/v1/people/8475296,R,Right Wing,Forward,RW
+17,2016,3,8475324,Nick Jensen,/api/v1/people/8475324,D,Defenseman,Defenseman,D
+17,2016,8,8475772,Riley Sheahan,/api/v1/people/8475772,C,Center,Forward,C
+17,2016,36,8476043,Ben Street,/api/v1/people/8476043,C,Center,Forward,C
+17,2016,3,8476289,Alexey Marchenko,/api/v1/people/8476289,D,Defenseman,Defenseman,D
+17,2016,39,8476418,Robbie Russo,/api/v1/people/8476418,D,Defenseman,Defenseman,D
+17,2016,13,8476430,Tomas Jurco,/api/v1/people/8476430,R,Right Wing,Forward,RW
+17,2016,61,8476443,Xavier Ouellet,/api/v1/people/8476443,D,Defenseman,Defenseman,D
+17,2016,25,8476450,Ryan Sproul,/api/v1/people/8476450,D,Defenseman,Defenseman,D
+17,2016,11,8476822,Luke Glendening,/api/v1/people/8476822,C,Center,Forward,C
+17,2016,89,8476960,Andreas Athanasiou,/api/v1/people/8476960,C,Center,Forward,C
+17,2016,65,8477215,Danny DeKeyser,/api/v1/people/8477215,D,Defenseman,Defenseman,D
+17,2016,59,8477479,Tyler Bertuzzi,/api/v1/people/8477479,L,Left Wing,Forward,LW
+17,2016,39,8477511,Anthony Mantha,/api/v1/people/8477511,R,Right Wing,Forward,RW
+17,2016,92,8477931,Tomas Nosek,/api/v1/people/8477931,L,Left Wing,Forward,LW
+17,2016,71,8477946,Dylan Larkin,/api/v1/people/8477946,C,Center,Forward,C
+17,2016,37,8478371,Matt Lorito,/api/v1/people/8478371,R,Right Wing,Forward,RW
+17,2016,10,8478431,Evgeny Svechnikov,/api/v1/people/8478431,L,Left Wing,Forward,LW
+17,2016,44,8479252,Dan Renouf,/api/v1/people/8479252,D,Defenseman,Defenseman,D
+17,2016,35,8470657,Jimmy Howard,/api/v1/people/8470657,G,Goalie,Goalie,G
+17,2016,34,8475852,Petr Mrazek,/api/v1/people/8475852,G,Goalie,Goalie,G
+17,2016,50,8477225,Jared Coreau,/api/v1/people/8477225,G,Goalie,Goalie,G
+18,2016,12,8467370,Mike Fisher,/api/v1/people/8467370,C,Center,Forward,C
+18,2016,63,8467371,Mike Ribeiro,/api/v1/people/8467371,C,Center,Forward,C
+18,2016,11,8469707,PA Parenteau,/api/v1/people/8469707,R,Right Wing,Forward,RW
+18,2016,83,8469759,Vernon Fiddler,/api/v1/people/8469759,C,Center,Forward,C
+18,2016,25,8470640,Matt Carle,/api/v1/people/8470640,D,Defenseman,Defenseman,D
+18,2016,5,8471385,Adam Pardy,/api/v1/people/8471385,D,Defenseman,Defenseman,D
+18,2016,55,8471657,Cody McLeod,/api/v1/people/8471657,L,Left Wing,Forward,LW
+18,2016,81,8471707,James Neal,/api/v1/people/8471707,L,Left Wing,Forward,LW
+18,2016,16,8471760,Cody Bass,/api/v1/people/8471760,C,Center,Forward,C
+18,2016,23,8473942,Trevor Smith,/api/v1/people/8473942,C,Center,Forward,C
+18,2016,76,8474056,P.K. Subban,/api/v1/people/8474056,D,Defenseman,Defenseman,D
+18,2016,3,8474134,Yannick Weber,/api/v1/people/8474134,D,Defenseman,Defenseman,D
+18,2016,22,8474569,Colin Wilson,/api/v1/people/8474569,C,Center,Forward,C
+18,2016,59,8474600,Roman Josi,/api/v1/people/8474600,D,Defenseman,Defenseman,D
+18,2016,38,8474683,Derek Grant,/api/v1/people/8474683,C,Center,Forward,C
+18,2016,94,8475176,Ryan Ellis,/api/v1/people/8475176,D,Defenseman,Defenseman,D
+18,2016,14,8475218,Mattias Ekholm,/api/v1/people/8475218,D,Defenseman,Defenseman,D
+18,2016,15,8475225,Craig Smith,/api/v1/people/8475225,C,Center,Forward,C
+18,2016,27,8475436,Mike Liambas,/api/v1/people/8475436,L,Left Wing,Forward,LW
+18,2016,52,8475625,Matt Irwin,/api/v1/people/8475625,D,Defenseman,Defenseman,D
+18,2016,19,8475714,Calle Jarnkrok,/api/v1/people/8475714,C,Center,Forward,C
+18,2016,51,8475766,Austin Watson,/api/v1/people/8475766,L,Left Wing,Forward,LW
+18,2016,8,8475774,Petter Granberg,/api/v1/people/8475774,D,Defenseman,Defenseman,D
+18,2016,12,8475793,Ryan Johansen,/api/v1/people/8475793,C,Center,Forward,C
+18,2016,2,8475868,Anthony Bitetto,/api/v1/people/8475868,D,Defenseman,Defenseman,D
+18,2016,26,8476158,Harry Zolnierczyk,/api/v1/people/8476158,L,Left Wing,Forward,LW
+18,2016,24,8476423,Reid Boucher,/api/v1/people/8476423,C,Center,Forward,C
+18,2016,10,8476447,Miikka Salomaki,/api/v1/people/8476447,R,Right Wing,Forward,RW
+18,2016,17,8476779,Brad Hunt,/api/v1/people/8476779,D,Defenseman,Defenseman,D
+18,2016,46,8476857,Pontus Aberg,/api/v1/people/8476857,L,Left Wing,Forward,LW
+18,2016,9,8476887,Filip Forsberg,/api/v1/people/8476887,L,Left Wing,Forward,LW
+18,2016,10,8476925,Colton Sissons,/api/v1/people/8476925,C,Center,Forward,C
+18,2016,89,8477919,Frederick Gaudreau,/api/v1/people/8477919,C,Center,Forward,C
+18,2016,22,8477942,Kevin Fiala,/api/v1/people/8477942,L,Left Wing,Forward,LW
+18,2016,81,8477973,Vladislav Kamenev,/api/v1/people/8477973,C,Center,Forward,C
+18,2016,33,8478042,Viktor Arvidsson,/api/v1/people/8478042,R,Right Wing,Forward,RW
+18,2016,45,8478851,Alexandre Carrier,/api/v1/people/8478851,D,Defenseman,Defenseman,D
+18,2016,35,8471469,Pekka Rinne,/api/v1/people/8471469,G,Goalie,Goalie,G
+18,2016,31,8476992,Marek Mazanec,/api/v1/people/8476992,G,Goalie,Goalie,G
+18,2016,74,8477424,Juuse Saros,/api/v1/people/8477424,G,Goalie,Goalie,G
+19,2016,9,8470105,Scottie Upshall,/api/v1/people/8470105,R,Right Wing,Forward,RW
+19,2016,19,8470151,Jay Bouwmeester,/api/v1/people/8470151,D,Defenseman,Defenseman,D
+19,2016,20,8470257,Alexander Steen,/api/v1/people/8470257,L,Left Wing,Forward,LW
+19,2016,28,8470803,Kyle Brodziak,/api/v1/people/8470803,C,Center,Forward,C
+19,2016,26,8471669,Paul Stastny,/api/v1/people/8471669,C,Center,Forward,C
+19,2016,17,8471743,Vladimir Sobotka,/api/v1/people/8471743,C,Center,Forward,C
+19,2016,25,8471761,Chris Butler,/api/v1/people/8471761,D,Defenseman,Defenseman,D
+19,2016,75,8471817,Ryan Reaves,/api/v1/people/8471817,R,Right Wing,Forward,RW
+19,2016,10,8473534,Patrik Berglund,/api/v1/people/8473534,C,Center,Forward,C
+19,2016,12,8474031,Kevin Shattenkirk,/api/v1/people/8474031,D,Defenseman,Defenseman,D
+19,2016,57,8474102,David Perron,/api/v1/people/8474102,L,Left Wing,Forward,LW
+19,2016,4,8474125,Carl Gunnarsson,/api/v1/people/8474125,D,Defenseman,Defenseman,D
+19,2016,41,8474145,Robert Bortuzzo,/api/v1/people/8474145,D,Defenseman,Defenseman,D
+19,2016,7,8474565,Alex Pietrangelo,/api/v1/people/8474565,D,Defenseman,Defenseman,D
+19,2016,15,8474627,Jori Lehtera,/api/v1/people/8474627,C,Center,Forward,C
+19,2016,56,8475175,Magnus Paajarvi,/api/v1/people/8475175,L,Left Wing,Forward,LW
+19,2016,22,8475263,Wade Megan,/api/v1/people/8475263,C,Center,Forward,C
+19,2016,91,8475765,Vladimir Tarasenko,/api/v1/people/8475765,R,Right Wing,Forward,RW
+19,2016,17,8475768,Jaden Schwartz,/api/v1/people/8475768,C,Center,Forward,C
+19,2016,18,8475844,Kenny Agostino,/api/v1/people/8475844,L,Left Wing,Forward,LW
+19,2016,8,8476427,Ty Rattie,/api/v1/people/8476427,R,Right Wing,Forward,RW
+19,2016,93,8476436,Dmitrij Jaskin,/api/v1/people/8476436,R,Right Wing,Forward,RW
+19,2016,6,8476441,Joel Edmundson,/api/v1/people/8476441,D,Defenseman,Defenseman,D
+19,2016,17,8476779,Brad Hunt,/api/v1/people/8476779,D,Defenseman,Defenseman,D
+19,2016,64,8476855,Nail Yakupov,/api/v1/people/8476855,R,Right Wing,Forward,RW
+19,2016,2,8476877,Jordan Schmaltz,/api/v1/people/8476877,D,Defenseman,Defenseman,D
+19,2016,55,8476892,Colton Parayko,/api/v1/people/8476892,D,Defenseman,Defenseman,D
+19,2016,40,8476989,Petteri Lindbohm,/api/v1/people/8476989,D,Defenseman,Defenseman,D
+19,2016,12,8477482,Zach Sanford,/api/v1/people/8477482,L,Left Wing,Forward,LW
+19,2016,14,8477952,Robby Fabbri,/api/v1/people/8477952,C,Center,Forward,C
+19,2016,49,8477964,Ivan Barbashev,/api/v1/people/8477964,C,Center,Forward,C
+19,2016,34,8474596,Jake Allen,/api/v1/people/8474596,G,Goalie,Goalie,G
+19,2016,40,8475622,Carter Hutton,/api/v1/people/8475622,G,Goalie,Goalie,G
+19,2016,29,8477831,Pheonix Copley,/api/v1/people/8477831,G,Goalie,Goalie,G
+20,2016,5,8468674,Deryk Engelland,/api/v1/people/8468674,D,Defenseman,Defenseman,D
+20,2016,6,8469770,Dennis Wideman,/api/v1/people/8469770,D,Defenseman,Defenseman,D
+20,2016,18,8470162,Matt Stajan,/api/v1/people/8470162,C,Center,Forward,C
+20,2016,55,8470966,Mark Giordano,/api/v1/people/8470966,D,Defenseman,Defenseman,D
+20,2016,8,8471269,Nicklas Grossmann,/api/v1/people/8471269,D,Defenseman,Defenseman,D
+20,2016,10,8471346,Kris Versteeg,/api/v1/people/8471346,R,Right Wing,Forward,RW
+20,2016,36,8471426,Troy Brouwer,/api/v1/people/8471426,R,Right Wing,Forward,RW
+20,2016,67,8473564,Michael Frolik,/api/v1/people/8473564,R,Right Wing,Forward,RW
+20,2016,11,8474150,Mikael Backlund,/api/v1/people/8474150,C,Center,Forward,C
+20,2016,26,8474628,Michael Stone,/api/v1/people/8474628,D,Defenseman,Defenseman,D
+20,2016,17,8474642,Lance Bouma,/api/v1/people/8474642,L,Left Wing,Forward,LW
+20,2016,78,8474673,TJ Brodie,/api/v1/people/8474673,D,Defenseman,Defenseman,D
+20,2016,44,8474749,Matt Bartkowski,/api/v1/people/8474749,D,Defenseman,Defenseman,D
+20,2016,48,8475163,Alex Chiasson,/api/v1/people/8475163,R,Right Wing,Forward,RW
+20,2016,16,8475223,Linden Vey,/api/v1/people/8475223,R,Right Wing,Forward,RW
+20,2016,13,8475878,Freddie Hamilton,/api/v1/people/8475878,C,Center,Forward,C
+20,2016,79,8475907,Micheal Ferland,/api/v1/people/8475907,L,Left Wing,Forward,LW
+20,2016,23,8476279,Jyrki Jokipakka,/api/v1/people/8476279,D,Defenseman,Defenseman,D
+20,2016,13,8476346,Johnny Gaudreau,/api/v1/people/8476346,L,Left Wing,Forward,LW
+20,2016,34,8476452,Tyler Wotherspoon,/api/v1/people/8476452,D,Defenseman,Defenseman,D
+20,2016,7,8476462,Dougie Hamilton,/api/v1/people/8476462,D,Defenseman,Defenseman,D
+20,2016,17,8476873,Mark Jankowski,/api/v1/people/8476873,C,Center,Forward,C
+20,2016,27,8476967,Brett Kulak,/api/v1/people/8476967,D,Defenseman,Defenseman,D
+20,2016,45,8477445,Hunter Shinkaruk,/api/v1/people/8477445,C,Center,Forward,C
+20,2016,91,8477497,Sean Monahan,/api/v1/people/8477497,C,Center,Forward,C
+20,2016,42,8477508,Curtis Lazar,/api/v1/people/8477508,C,Center,Forward,C
+20,2016,19,8477903,Garnet Hathaway,/api/v1/people/8477903,R,Right Wing,Forward,RW
+20,2016,9,8477935,Sam Bennett,/api/v1/people/8477935,C,Center,Forward,C
+20,2016,4,8478397,Rasmus Andersson,/api/v1/people/8478397,D,Defenseman,Defenseman,D
+20,2016,19,8479314,Matthew Tkachuk,/api/v1/people/8479314,L,Left Wing,Forward,LW
+20,2016,1,8470880,Brian Elliott,/api/v1/people/8470880,G,Goalie,Goalie,G
+20,2016,1,8473434,Chad Johnson,/api/v1/people/8473434,G,Goalie,Goalie,G
+20,2016,32,8476903,Jon Gillies,/api/v1/people/8476903,G,Goalie,Goalie,G
+20,2016,31,8479496,David Rittich,/api/v1/people/8479496,G,Goalie,Goalie,G
+21,2016,12,8462042,Jarome Iginla,/api/v1/people/8462042,R,Right Wing,Forward,RW
+21,2016,23,8467400,Francois Beauchemin,/api/v1/people/8467400,D,Defenseman,Defenseman,D
+21,2016,51,8469492,Fedor Tyutin,/api/v1/people/8469492,D,Defenseman,Defenseman,D
+21,2016,7,8470750,John Mitchell,/api/v1/people/8470750,C,Center,Forward,C
+21,2016,15,8471260,Blake Comeau,/api/v1/people/8471260,L,Left Wing,Forward,LW
+21,2016,34,8471262,Carl Soderberg,/api/v1/people/8471262,C,Center,Forward,C
+21,2016,17,8471504,Rene Bourque,/api/v1/people/8471504,R,Right Wing,Forward,RW
+21,2016,55,8471657,Cody McLeod,/api/v1/people/8471657,L,Left Wing,Forward,LW
+21,2016,6,8473446,Erik Johnson,/api/v1/people/8473446,D,Defenseman,Defenseman,D
+21,2016,8,8474577,Joe Colborne,/api/v1/people/8474577,C,Center,Forward,C
+21,2016,17,8474597,Cody Goloubef,/api/v1/people/8474597,D,Defenseman,Defenseman,D
+21,2016,90,8474605,Patrick Wiercioch,/api/v1/people/8474605,D,Defenseman,Defenseman,D
+21,2016,44,8474717,Mark Barberio,/api/v1/people/8474717,D,Defenseman,Defenseman,D
+21,2016,18,8474727,Ben Smith,/api/v1/people/8474727,R,Right Wing,Forward,RW
+21,2016,95,8475168,Matt Duchene,/api/v1/people/8475168,C,Center,Forward,C
+21,2016,22,8475197,Tyson Barrie,/api/v1/people/8475197,D,Defenseman,Defenseman,D
+21,2016,23,8475199,Eric Gelinas,/api/v1/people/8475199,D,Defenseman,Defenseman,D
+21,2016,57,8475268,Gabriel Bourque,/api/v1/people/8475268,L,Left Wing,Forward,LW
+21,2016,23,8476428,Rocco Grimaldi,/api/v1/people/8476428,R,Right Wing,Forward,RW
+21,2016,83,8476442,Matt Nieto,/api/v1/people/8476442,L,Left Wing,Forward,LW
+21,2016,92,8476455,Gabriel Landeskog,/api/v1/people/8476455,L,Left Wing,Forward,LW
+21,2016,15,8476464,Duncan Siemens,/api/v1/people/8476464,D,Defenseman,Defenseman,D
+21,2016,42,8476511,Samuel Henley,/api/v1/people/8476511,C,Center,Forward,C
+21,2016,25,8476888,Mikhail Grigorenko,/api/v1/people/8476888,C,Center,Forward,C
+21,2016,10,8477413,Sven Andrighetto,/api/v1/people/8477413,R,Right Wing,Forward,RW
+21,2016,37,8477456,J.T. Compher,/api/v1/people/8477456,L,Left Wing,Forward,LW
+21,2016,29,8477492,Nathan MacKinnon,/api/v1/people/8477492,C,Center,Forward,C
+21,2016,16,8477507,Nikita Zadorov,/api/v1/people/8477507,D,Defenseman,Defenseman,D
+21,2016,54,8478073,Anton Lindholm,/api/v1/people/8478073,D,Defenseman,Defenseman,D
+21,2016,96,8478420,Mikko Rantanen,/api/v1/people/8478420,R,Right Wing,Forward,RW
+21,2016,18,8478421,A.J. Greer,/api/v1/people/8478421,L,Left Wing,Forward,LW
+21,2016,23,8478561,Andreas Martinsen,/api/v1/people/8478561,L,Left Wing,Forward,LW
+21,2016,17,8479370,Tyson Jost,/api/v1/people/8479370,C,Center,Forward,C
+21,2016,40,8473575,Semyon Varlamov,/api/v1/people/8473575,G,Goalie,Goalie,G
+21,2016,40,8474092,Jeremy Smith,/api/v1/people/8474092,G,Goalie,Goalie,G
+21,2016,30,8475717,Calvin Pickard,/api/v1/people/8475717,G,Goalie,Goalie,G
+21,2016,30,8477484,Spencer Martin,/api/v1/people/8477484,G,Goalie,Goalie,G
+22,2016,15,8468611,Matt Hendricks,/api/v1/people/8468611,C,Center,Forward,C
+22,2016,5,8471284,Andrej Sekera,/api/v1/people/8471284,D,Defenseman,Defenseman,D
+22,2016,67,8471678,Benoit Pouliot,/api/v1/people/8471678,L,Left Wing,Forward,LW
+22,2016,6,8471729,Kris Russell,/api/v1/people/8471729,D,Defenseman,Defenseman,D
+22,2016,5,8471816,Mark Fayne,/api/v1/people/8471816,D,Defenseman,Defenseman,D
+22,2016,51,8471976,David Desharnais,/api/v1/people/8471976,C,Center,Forward,C
+22,2016,2,8473468,Eric Gryba,/api/v1/people/8473468,D,Defenseman,Defenseman,D
+22,2016,17,8473473,Milan Lucic,/api/v1/people/8473473,L,Left Wing,Forward,LW
+22,2016,22,8473914,Mark Letestu,/api/v1/people/8473914,C,Center,Forward,C
+22,2016,20,8474034,Pat Maroon,/api/v1/people/8474034,L,Left Wing,Forward,LW
+22,2016,7,8474586,Jordan Eberle,/api/v1/people/8474586,R,Right Wing,Forward,RW
+22,2016,51,8475165,Anton Lander,/api/v1/people/8475165,C,Center,Forward,C
+22,2016,44,8475178,Zack Kassian,/api/v1/people/8475178,R,Right Wing,Forward,RW
+22,2016,28,8475192,Taylor Beck,/api/v1/people/8475192,L,Left Wing,Forward,LW
+22,2016,71,8475752,Tyler Pitlick,/api/v1/people/8475752,C,Center,Forward,C
+22,2016,88,8475869,Brandon Davidson,/api/v1/people/8475869,D,Defenseman,Defenseman,D
+22,2016,26,8476336,Iiro Pakarinen,/api/v1/people/8476336,R,Right Wing,Forward,RW
+22,2016,79,8476416,Dillon Simpson,/api/v1/people/8476416,D,Defenseman,Defenseman,D
+22,2016,93,8476454,Ryan Nugent-Hopkins,/api/v1/people/8476454,C,Center,Forward,C
+22,2016,6,8476457,Adam Larsson,/api/v1/people/8476457,D,Defenseman,Defenseman,D
+22,2016,77,8476472,Oscar Klefbom,/api/v1/people/8476472,D,Defenseman,Defenseman,D
+22,2016,16,8476915,Jujhar Khaira,/api/v1/people/8476915,L,Left Wing,Forward,LW
+22,2016,5,8476988,Matt Benning,/api/v1/people/8476988,D,Defenseman,Defenseman,D
+22,2016,58,8477415,Anton Slepyshev,/api/v1/people/8477415,L,Left Wing,Forward,LW
+22,2016,25,8477498,Darnell Nurse,/api/v1/people/8477498,D,Defenseman,Defenseman,D
+22,2016,82,8477851,Jordan Oesterle,/api/v1/people/8477851,D,Defenseman,Defenseman,D
+22,2016,29,8477934,Leon Draisaitl,/api/v1/people/8477934,C,Center,Forward,C
+22,2016,97,8478402,Connor McDavid,/api/v1/people/8478402,C,Center,Forward,C
+22,2016,13,8479344,Jesse Puljujarvi,/api/v1/people/8479344,R,Right Wing,Forward,RW
+22,2016,8,8479465,Drake Caggiula,/api/v1/people/8479465,L,Left Wing,Forward,LW
+22,2016,8,8476852,Griffin Reinhart,/api/v1/people/8476852,D,Defenseman,Defenseman,D
+22,2016,50,8475361,Jonas Gustavsson,/api/v1/people/8475361,G,Goalie,Goalie,G
+22,2016,39,8475660,Cam Talbot,/api/v1/people/8475660,G,Goalie,Goalie,G
+22,2016,39,8476316,Laurent Brossoit,/api/v1/people/8476316,G,Goalie,Goalie,G
+23,2016,22,8467875,Daniel Sedin,/api/v1/people/8467875,L,Left Wing,Forward,LW
+23,2016,33,8467876,Henrik Sedin,/api/v1/people/8467876,C,Center,Forward,C
+23,2016,14,8470358,Alexandre Burrows,/api/v1/people/8470358,R,Right Wing,Forward,RW
+23,2016,21,8470626,Loui Eriksson,/api/v1/people/8470626,L,Left Wing,Forward,LW
+23,2016,2,8471303,Alexander Edler,/api/v1/people/8471303,D,Defenseman,Defenseman,D
+23,2016,36,8471498,Jannik Hansen,/api/v1/people/8471498,R,Right Wing,Forward,RW
+23,2016,9,8471681,Jack Skille,/api/v1/people/8471681,R,Right Wing,Forward,RW
+23,2016,33,8473415,Alex Biega,/api/v1/people/8473415,D,Defenseman,Defenseman,D
+23,2016,,8473432,Derek Dorsett,/api/v1/people/8473432,R,Right Wing,Forward,RW
+23,2016,20,8474091,Brandon Sutter,/api/v1/people/8474091,C,Center,Forward,C
+23,2016,55,8474579,Luca Sbisa,/api/v1/people/8474579,D,Defenseman,Defenseman,D
+23,2016,63,8474707,Philip Larsen,/api/v1/people/8474707,D,Defenseman,Defenseman,D
+23,2016,38,8475210,Anton Rodin,/api/v1/people/8475210,R,Right Wing,Forward,RW
+23,2016,29,8475213,Drew Shore,/api/v1/people/8475213,C,Center,Forward,C
+23,2016,8,8475690,Chris Tanev,/api/v1/people/8475690,D,Defenseman,Defenseman,D
+23,2016,44,8475790,Erik Gudbranson,/api/v1/people/8475790,D,Defenseman,Defenseman,D
+23,2016,26,8475808,Michael Chaput,/api/v1/people/8475808,C,Center,Forward,C
+23,2016,56,8476390,Joseph Cramarossa,/api/v1/people/8476390,C,Center,Forward,C
+23,2016,28,8476414,Alexandre Grenier,/api/v1/people/8476414,R,Right Wing,Forward,RW
+23,2016,24,8476423,Reid Boucher,/api/v1/people/8476423,C,Center,Forward,C
+23,2016,62,8476425,Joseph LaBate,/api/v1/people/8476425,C,Center,Forward,C
+23,2016,60,8476440,Markus Granlund,/api/v1/people/8476440,C,Center,Forward,C
+23,2016,47,8476466,Sven Baertschi,/api/v1/people/8476466,L,Left Wing,Forward,LW
+23,2016,16,8476867,Brendan Gaunce,/api/v1/people/8476867,C,Center,Forward,C
+23,2016,17,8477018,Ben Hutton,/api/v1/people/8477018,D,Defenseman,Defenseman,D
+23,2016,61,8477091,Evan McEneny,/api/v1/people/8477091,D,Defenseman,Defenseman,D
+23,2016,20,8477126,Jayson Megna,/api/v1/people/8477126,C,Center,Forward,C
+23,2016,14,8477500,Bo Horvat,/api/v1/people/8477500,C,Center,Forward,C
+23,2016,40,8477816,Michael Zalewski,/api/v1/people/8477816,L,Left Wing,Forward,LW
+23,2016,71,8477916,Borna Rendulic,/api/v1/people/8477916,R,Right Wing,Forward,RW
+23,2016,18,8477937,Jake Virtanen,/api/v1/people/8477937,R,Right Wing,Forward,RW
+23,2016,77,8477958,Nikolay Goldobin,/api/v1/people/8477958,R,Right Wing,Forward,RW
+23,2016,88,8477997,Nikita Tryamkin,/api/v1/people/8477997,D,Defenseman,Defenseman,D
+23,2016,6,8478444,Brock Boeser,/api/v1/people/8478444,R,Right Wing,Forward,RW
+23,2016,51,8479442,Troy Stecher,/api/v1/people/8479442,D,Defenseman,Defenseman,D
+23,2016,13,8479969,Griffen Molino,/api/v1/people/8479969,C,Center,Forward,C
+23,2016,30,8468011,Ryan Miller,/api/v1/people/8468011,G,Goalie,Goalie,G
+23,2016,32,8473614,Richard Bachman,/api/v1/people/8473614,G,Goalie,Goalie,G
+23,2016,25,8474593,Jacob Markstrom,/api/v1/people/8474593,G,Goalie,Goalie,G
+24,2016,50,8468535,Antoine Vermette,/api/v1/people/8468535,C,Center,Forward,C
+24,2016,3,8469598,Kevin Bieksa,/api/v1/people/8469598,D,Defenseman,Defenseman,D
+24,2016,15,8470612,Ryan Getzlaf,/api/v1/people/8470612,C,Center,Forward,C
+24,2016,17,8470616,Ryan Kesler,/api/v1/people/8470616,C,Center,Forward,C
+24,2016,94,8470621,Corey Perry,/api/v1/people/8470621,R,Right Wing,Forward,RW
+24,2016,18,8470622,Patrick Eaves,/api/v1/people/8470622,R,Right Wing,Forward,RW
+24,2016,44,8470775,Nate Thompson,/api/v1/people/8470775,C,Center,Forward,C
+24,2016,4,8470886,Clayton Stoner,/api/v1/people/8470886,D,Defenseman,Defenseman,D
+24,2016,39,8471664,Mason Raymond,/api/v1/people/8471664,L,Left Wing,Forward,LW
+24,2016,11,8471699,Andrew Cogliano,/api/v1/people/8471699,C,Center,Forward,C
+24,2016,40,8471766,Jared Boll,/api/v1/people/8471766,R,Right Wing,Forward,RW
+24,2016,22,8473560,Korbinian Holzer,/api/v1/people/8473560,D,Defenseman,Defenseman,D
+24,2016,41,8474130,Corey Tropp,/api/v1/people/8474130,R,Right Wing,Forward,RW
+24,2016,6,8475155,Simon Despres,/api/v1/people/8475155,D,Defenseman,Defenseman,D
+24,2016,33,8475164,Jakob Silfverberg,/api/v1/people/8475164,R,Right Wing,Forward,RW
+24,2016,45,8475222,Sami Vatanen,/api/v1/people/8475222,D,Defenseman,Defenseman,D
+24,2016,4,8475764,Cam Fowler,/api/v1/people/8475764,D,Defenseman,Defenseman,D
+24,2016,26,8475770,Emerson Etem,/api/v1/people/8475770,R,Right Wing,Forward,RW
+24,2016,14,8475780,Chris Wagner,/api/v1/people/8475780,R,Right Wing,Forward,RW
+24,2016,23,8475958,Michael Sgarbossa,/api/v1/people/8475958,C,Center,Forward,C
+24,2016,16,8476116,Ryan Garbutt,/api/v1/people/8476116,C,Center,Forward,C
+24,2016,42,8476312,Josh Manson,/api/v1/people/8476312,D,Defenseman,Defenseman,D
+24,2016,56,8476390,Joseph Cramarossa,/api/v1/people/8476390,C,Center,Forward,C
+24,2016,20,8476400,Logan Shaw,/api/v1/people/8476400,R,Right Wing,Forward,RW
+24,2016,23,8476474,Stefan Noesen,/api/v1/people/8476474,R,Right Wing,Forward,RW
+24,2016,67,8476483,Rickard Rakell,/api/v1/people/8476483,R,Right Wing,Forward,RW
+24,2016,27,8476854,Hampus Lindholm,/api/v1/people/8476854,D,Defenseman,Defenseman,D
+24,2016,58,8476866,Nicolas Kerdiles,/api/v1/people/8476866,L,Left Wing,Forward,LW
+24,2016,44,8477034,Jaycob Megna,/api/v1/people/8477034,D,Defenseman,Defenseman,D
+24,2016,27,8477447,Shea Theodore,/api/v1/people/8477447,D,Defenseman,Defenseman,D
+24,2016,59,8477466,Nick Sorensen,/api/v1/people/8477466,R,Right Wing,Forward,RW
+24,2016,27,8477941,Nick Ritchie,/api/v1/people/8477941,L,Left Wing,Forward,LW
+24,2016,62,8477986,Brandon Montour,/api/v1/people/8477986,D,Defenseman,Defenseman,D
+24,2016,73,8478131,Ondrej Kase,/api/v1/people/8478131,R,Right Wing,Forward,RW
+24,2016,32,8478491,Jacob Larsson,/api/v1/people/8478491,D,Defenseman,Defenseman,D
+24,2016,48,8479290,Kalle Kossila,/api/v1/people/8479290,C,Center,Forward,C
+24,2016,45,8473541,Jonathan Bernier,/api/v1/people/8473541,G,Goalie,Goalie,G
+24,2016,40,8474682,Dustin Tokarski,/api/v1/people/8474682,G,Goalie,Goalie,G
+24,2016,36,8476434,John Gibson,/api/v1/people/8476434,G,Goalie,Goalie,G
+25,2016,19,8469455,Jason Spezza,/api/v1/people/8469455,C,Center,Forward,C
+25,2016,5,8469465,Dan Hamhuis,/api/v1/people/8469465,D,Defenseman,Defenseman,D
+25,2016,83,8469466,Ales Hemsky,/api/v1/people/8469466,R,Right Wing,Forward,RW
+25,2016,10,8469544,Patrick Sharp,/api/v1/people/8469544,L,Left Wing,Forward,LW
+25,2016,29,8469665,Johnny Oduya,/api/v1/people/8469665,D,Defenseman,Defenseman,D
+25,2016,22,8470201,Jiri Hudler,/api/v1/people/8470201,R,Right Wing,Forward,RW
+25,2016,18,8470622,Patrick Eaves,/api/v1/people/8470622,R,Right Wing,Forward,RW
+25,2016,29,8471232,Lauri Korpikoski,/api/v1/people/8471232,L,Left Wing,Forward,LW
+25,2016,27,8471490,Adam Cracknell,/api/v1/people/8471490,R,Right Wing,Forward,RW
+25,2016,14,8473994,Jamie Benn,/api/v1/people/8473994,L,Left Wing,Forward,LW
+25,2016,29,8474688,Greg Pateryn,/api/v1/people/8474688,D,Defenseman,Defenseman,D
+25,2016,18,8474818,Jordie Benn,/api/v1/people/8474818,D,Defenseman,Defenseman,D
+25,2016,26,8474849,Antoine Roussel,/api/v1/people/8474849,L,Left Wing,Forward,LW
+25,2016,20,8475236,Cody Eakin,/api/v1/people/8475236,C,Center,Forward,C
+25,2016,81,8475310,Curtis McKenzie,/api/v1/people/8475310,L,Left Wing,Forward,LW
+25,2016,37,8475413,Justin Dowling,/api/v1/people/8475413,C,Center,Forward,C
+25,2016,28,8475730,Stephen Johns,/api/v1/people/8475730,D,Defenseman,Defenseman,D
+25,2016,2,8475747,Patrik Nemeth,/api/v1/people/8475747,D,Defenseman,Defenseman,D
+25,2016,91,8475794,Tyler Seguin,/api/v1/people/8475794,C,Center,Forward,C
+25,2016,3,8475906,John Klingberg,/api/v1/people/8475906,D,Defenseman,Defenseman,D
+25,2016,24,8476439,Brett Ritchie,/api/v1/people/8476439,R,Right Wing,Forward,RW
+25,2016,24,8476467,Jamie Oleksiak,/api/v1/people/8476467,D,Defenseman,Defenseman,D
+25,2016,62,8476471,Mark McNeill,/api/v1/people/8476471,C,Center,Forward,C
+25,2016,12,8476889,Radek Faksa,/api/v1/people/8476889,C,Center,Forward,C
+25,2016,23,8476902,Esa Lindell,/api/v1/people/8476902,D,Defenseman,Defenseman,D
+25,2016,94,8476913,Devin Shore,/api/v1/people/8476913,C,Center,Forward,C
+25,2016,64,8476966,Gemel Smith,/api/v1/people/8476966,C,Center,Forward,C
+25,2016,16,8477450,Jason Dickinson,/api/v1/people/8477450,C,Center,Forward,C
+25,2016,,8477461,Remi Elie,/api/v1/people/8477461,L,Left Wing,Forward,LW
+25,2016,6,8477945,Julius Honka,/api/v1/people/8477945,D,Defenseman,Defenseman,D
+25,2016,15,8478495,Denis Gurianov,/api/v1/people/8478495,R,Right Wing,Forward,RW
+25,2016,32,8470140,Kari Lehtonen,/api/v1/people/8470140,G,Goalie,Goalie,G
+25,2016,37,8474550,Antti Niemi,/api/v1/people/8474550,G,Goalie,Goalie,G
+26,2016,12,8462042,Jarome Iginla,/api/v1/people/8462042,R,Right Wing,Forward,RW
+26,2016,12,8468483,Marian Gaborik,/api/v1/people/8468483,R,Right Wing,Forward,RW
+26,2016,6,8470104,Tom Gilbert,/api/v1/people/8470104,D,Defenseman,Defenseman,D
+26,2016,2,8470121,Matt Greene,/api/v1/people/8470121,D,Defenseman,Defenseman,D
+26,2016,77,8470604,Jeff Carter,/api/v1/people/8470604,C,Center,Forward,C
+26,2016,23,8470606,Dustin Brown,/api/v1/people/8470606,R,Right Wing,Forward,RW
+26,2016,10,8471682,Devin Setoguchi,/api/v1/people/8471682,R,Right Wing,Forward,RW
+26,2016,11,8471685,Anze Kopitar,/api/v1/people/8471685,C,Center,Forward,C
+26,2016,61,8473453,Trevor Lewis,/api/v1/people/8473453,C,Center,Forward,C
+26,2016,9,8473962,Teddy Purcell,/api/v1/people/8473962,L,Left Wing,Forward,LW
+26,2016,21,8474100,Dwight King,/api/v1/people/8474100,L,Left Wing,Forward,LW
+26,2016,8,8474162,Jake Muzzin,/api/v1/people/8474162,D,Defenseman,Defenseman,D
+26,2016,23,8474166,Alec Martinez,/api/v1/people/8474166,D,Defenseman,Defenseman,D
+26,2016,8,8474563,Drew Doughty,/api/v1/people/8474563,D,Defenseman,Defenseman,D
+26,2016,43,8475160,Kyle Clifford,/api/v1/people/8475160,L,Left Wing,Forward,LW
+26,2016,3,8475188,Brayden McNabb,/api/v1/people/8475188,D,Defenseman,Defenseman,D
+26,2016,71,8475325,Jordan Nolan,/api/v1/people/8475325,C,Center,Forward,C
+26,2016,26,8475343,Nic Dowd,/api/v1/people/8475343,C,Center,Forward,C
+26,2016,73,8475726,Tyler Toffoli,/api/v1/people/8475726,R,Right Wing,Forward,RW
+26,2016,28,8475762,Derek Forbort,/api/v1/people/8475762,D,Defenseman,Defenseman,D
+26,2016,5,8475857,Kevin Gravel,/api/v1/people/8475857,D,Defenseman,Defenseman,D
+26,2016,18,8476404,Andy Andreoff,/api/v1/people/8476404,C,Center,Forward,C
+26,2016,21,8476406,Nicholas Shore,/api/v1/people/8476406,C,Center,Forward,C
+26,2016,70,8476871,Tanner Pearson,/api/v1/people/8476871,L,Left Wing,Forward,LW
+26,2016,34,8476983,Paul LaDue,/api/v1/people/8476983,D,Defenseman,Defenseman,D
+26,2016,22,8477380,Jonny Brodzinski,/api/v1/people/8477380,C,Center,Forward,C
+26,2016,9,8477960,Adrian Kempe,/api/v1/people/8477960,R,Right Wing,Forward,RW
+26,2016,31,8469514,Peter Budaj,/api/v1/people/8469514,G,Goalie,Goalie,G
+26,2016,32,8471734,Jonathan Quick,/api/v1/people/8471734,G,Goalie,Goalie,G
+26,2016,,8471750,Ben Bishop,/api/v1/people/8471750,G,Goalie,Goalie,G
+26,2016,35,8473553,Jeff Zatkoff,/api/v1/people/8473553,G,Goalie,Goalie,G
+26,2016,36,8475789,Jack Campbell,/api/v1/people/8475789,G,Goalie,Goalie,G
+28,2016,19,8466138,Joe Thornton,/api/v1/people/8466138,C,Center,Forward,C
+28,2016,12,8466139,Patrick Marleau,/api/v1/people/8466139,C,Center,Forward,C
+28,2016,42,8468208,Joel Ward,/api/v1/people/8468208,R,Right Wing,Forward,RW
+28,2016,7,8468542,Paul Martin,/api/v1/people/8468542,D,Defenseman,Defenseman,D
+28,2016,8,8470613,Brent Burns,/api/v1/people/8470613,D,Defenseman,Defenseman,D
+28,2016,16,8470794,Joe Pavelski,/api/v1/people/8470794,C,Center,Forward,C
+28,2016,36,8471498,Jannik Hansen,/api/v1/people/8471498,R,Right Wing,Forward,RW
+28,2016,44,8471709,Marc-Edouard Vlasic,/api/v1/people/8471709,D,Defenseman,Defenseman,D
+28,2016,21,8473673,David Schlemko,/api/v1/people/8473673,D,Defenseman,Defenseman,D
+28,2016,61,8474027,Justin Braun,/api/v1/people/8474027,D,Defenseman,Defenseman,D
+28,2016,39,8474053,Logan Couture,/api/v1/people/8474053,C,Center,Forward,C
+28,2016,38,8474230,Micheal Haley,/api/v1/people/8474230,L,Left Wing,Forward,LW
+28,2016,89,8474571,Mikkel Boedker,/api/v1/people/8474571,L,Left Wing,Forward,LW
+28,2016,57,8474739,Tommy Wingels,/api/v1/people/8474739,C,Center,Forward,C
+28,2016,5,8475455,Brenden Dillon,/api/v1/people/8475455,D,Defenseman,Defenseman,D
+28,2016,72,8475820,Joonas Donskoi,/api/v1/people/8475820,R,Right Wing,Forward,RW
+28,2016,20,8475834,Marcus Sorensen,/api/v1/people/8475834,L,Left Wing,Forward,LW
+28,2016,72,8475841,Tim Heed,/api/v1/people/8475841,D,Defenseman,Defenseman,D
+28,2016,2,8476331,Dylan DeMelo,/api/v1/people/8476331,D,Defenseman,Defenseman,D
+28,2016,83,8476442,Matt Nieto,/api/v1/people/8476442,L,Left Wing,Forward,LW
+28,2016,21,8476624,Barclay Goodrow,/api/v1/people/8476624,C,Center,Forward,C
+28,2016,48,8476881,Tomas Hertl,/api/v1/people/8476881,C,Center,Forward,C
+28,2016,11,8476919,Chris Tierney,/api/v1/people/8476919,C,Center,Forward,C
+28,2016,56,8476982,Danny O'Regan,/api/v1/people/8476982,C,Center,Forward,C
+28,2016,25,8477509,Mirco Mueller,/api/v1/people/8477509,D,Defenseman,Defenseman,D
+28,2016,22,8477846,Ryan Carpenter,/api/v1/people/8477846,C,Center,Forward,C
+28,2016,68,8477922,Melker Karlsson,/api/v1/people/8477922,C,Center,Forward,C
+28,2016,77,8477958,Nikolay Goldobin,/api/v1/people/8477958,R,Right Wing,Forward,RW
+28,2016,62,8478099,Kevin Labanc,/api/v1/people/8478099,R,Right Wing,Forward,RW
+28,2016,28,8478414,Timo Meier,/api/v1/people/8478414,R,Right Wing,Forward,RW
+28,2016,31,8474889,Martin Jones,/api/v1/people/8474889,G,Goalie,Goalie,G
+28,2016,30,8477180,Aaron Dell,/api/v1/people/8477180,G,Goalie,Goalie,G
+29,2016,17,8468486,Scott Hartnell,/api/v1/people/8468486,L,Left Wing,Forward,LW
+29,2016,27,8470724,Kyle Quincey,/api/v1/people/8470724,D,Defenseman,Defenseman,D
+29,2016,29,8471232,Lauri Korpikoski,/api/v1/people/8471232,L,Left Wing,Forward,LW
+29,2016,17,8471273,Brandon Dubinsky,/api/v1/people/8471273,C,Center,Forward,C
+29,2016,3,8471677,Jack Johnson,/api/v1/people/8471677,D,Defenseman,Defenseman,D
+29,2016,17,8473422,Nick Foligno,/api/v1/people/8473422,L,Left Wing,Forward,LW
+29,2016,89,8474040,Sam Gagner,/api/v1/people/8474040,C,Center,Forward,C
+29,2016,11,8474685,Matt Calvert,/api/v1/people/8474685,L,Left Wing,Forward,LW
+29,2016,89,8474715,Cam Atkinson,/api/v1/people/8474715,R,Right Wing,Forward,RW
+29,2016,5,8474774,Dalton Prout,/api/v1/people/8474774,D,Defenseman,Defenseman,D
+29,2016,58,8475233,David Savard,/api/v1/people/8475233,D,Defenseman,Defenseman,D
+29,2016,23,8476310,Lukas Sedlak,/api/v1/people/8476310,C,Center,Forward,C
+29,2016,36,8476391,T.J. Tynan,/api/v1/people/8476391,C,Center,Forward,C
+29,2016,38,8476432,Boone Jenner,/api/v1/people/8476432,C,Center,Forward,C
+29,2016,20,8476438,Brandon Saad,/api/v1/people/8476438,L,Left Wing,Forward,LW
+29,2016,71,8476448,William Karlsson,/api/v1/people/8476448,C,Center,Forward,C
+29,2016,17,8476449,Scott Harrington,/api/v1/people/8476449,D,Defenseman,Defenseman,D
+29,2016,28,8476850,Ryan Murray,/api/v1/people/8476850,D,Defenseman,Defenseman,D
+29,2016,17,8476981,Josh Anderson,/api/v1/people/8476981,R,Right Wing,Forward,RW
+29,2016,22,8477416,Oliver Bjorkstrand,/api/v1/people/8477416,R,Right Wing,Forward,RW
+29,2016,4,8477495,Seth Jones,/api/v1/people/8477495,D,Defenseman,Defenseman,D
+29,2016,21,8477505,Alex Wennberg,/api/v1/people/8477505,C,Center,Forward,C
+29,2016,15,8477947,Sonny Milano,/api/v1/people/8477947,L,Left Wing,Forward,LW
+29,2016,8,8478460,Zach Werenski,/api/v1/people/8478460,D,Defenseman,Defenseman,D
+29,2016,18,8478506,Gabriel Carlsson,/api/v1/people/8478506,D,Defenseman,Defenseman,D
+29,2016,37,8478541,Markus Hannikainen,/api/v1/people/8478541,L,Left Wing,Forward,LW
+29,2016,77,8478906,Markus Nutivaara,/api/v1/people/8478906,D,Defenseman,Defenseman,D
+29,2016,35,8470147,Curtis McElhinney,/api/v1/people/8470147,G,Goalie,Goalie,G
+29,2016,72,8475683,Sergei Bobrovsky,/api/v1/people/8475683,G,Goalie,Goalie,G
+29,2016,31,8476341,Anton Forsberg,/api/v1/people/8476341,G,Goalie,Goalie,G
+29,2016,70,8476914,Joonas Korpisalo,/api/v1/people/8476914,G,Goalie,Goalie,G
+30,2016,9,8469459,Mikko Koivu,/api/v1/people/8469459,C,Center,Forward,C
+30,2016,29,8469506,Jason Pominville,/api/v1/people/8469506,R,Right Wing,Forward,RW
+30,2016,12,8470595,Eric Staal,/api/v1/people/8470595,C,Center,Forward,C
+30,2016,20,8470600,Ryan Suter,/api/v1/people/8470600,D,Defenseman,Defenseman,D
+30,2016,11,8470610,Zach Parise,/api/v1/people/8470610,L,Left Wing,Forward,LW
+30,2016,40,8471691,Martin Hanzal,/api/v1/people/8471691,C,Center,Forward,C
+30,2016,21,8473466,Ryan White,/api/v1/people/8473466,C,Center,Forward,C
+30,2016,44,8473485,Chris Stewart,/api/v1/people/8473485,R,Right Wing,Forward,RW
+30,2016,22,8474610,Zac Dalpe,/api/v1/people/8474610,C,Center,Forward,C
+30,2016,6,8474618,Marco Scandella,/api/v1/people/8474618,D,Defenseman,Defenseman,D
+30,2016,46,8474716,Jared Spurgeon,/api/v1/people/8474716,D,Defenseman,Defenseman,D
+30,2016,11,8475147,Jordan Schroeder,/api/v1/people/8475147,C,Center,Forward,C
+30,2016,56,8475287,Erik Haula,/api/v1/people/8475287,L,Left Wing,Forward,LW
+30,2016,39,8475613,Nate Prosser,/api/v1/people/8475613,D,Defenseman,Defenseman,D
+30,2016,16,8475722,Jason Zucker,/api/v1/people/8475722,L,Left Wing,Forward,LW
+30,2016,13,8475745,Charlie Coyle,/api/v1/people/8475745,C,Center,Forward,C
+30,2016,64,8475798,Mikael Granlund,/api/v1/people/8475798,C,Center,Forward,C
+30,2016,62,8475799,Nino Niederreiter,/api/v1/people/8475799,R,Right Wing,Forward,RW
+30,2016,67,8475800,Teemu Pulkkinen,/api/v1/people/8475800,L,Left Wing,Forward,LW
+30,2016,42,8476219,Patrick Cannone,/api/v1/people/8476219,C,Center,Forward,C
+30,2016,44,8476344,Tyler Graovac,/api/v1/people/8476344,C,Center,Forward,C
+30,2016,6,8476422,Mike Reilly,/api/v1/people/8476422,D,Defenseman,Defenseman,D
+30,2016,25,8476463,Jonas Brodin,/api/v1/people/8476463,D,Defenseman,Defenseman,D
+30,2016,79,8476545,Kurtis Gabriel,/api/v1/people/8476545,R,Right Wing,Forward,RW
+30,2016,,8476619,Zack Mitchell,/api/v1/people/8476619,R,Right Wing,Forward,RW
+30,2016,24,8476856,Matt Dumba,/api/v1/people/8476856,D,Defenseman,Defenseman,D
+30,2016,22,8477006,Christoph Bertschy,/api/v1/people/8477006,C,Center,Forward,C
+30,2016,23,8477467,Gustav Olofsson,/api/v1/people/8477467,D,Defenseman,Defenseman,D
+30,2016,32,8477850,Christian Folin,/api/v1/people/8477850,D,Defenseman,Defenseman,D
+30,2016,89,8477949,Alex Tuch,/api/v1/people/8477949,R,Right Wing,Forward,RW
+30,2016,14,8478493,Joel Eriksson Ek,/api/v1/people/8478493,C,Center,Forward,C
+30,2016,40,8471227,Devan Dubnyk,/api/v1/people/8471227,G,Goalie,Goalie,G
+30,2016,32,8471774,Alex Stalock,/api/v1/people/8471774,G,Goalie,Goalie,G
+30,2016,35,8475311,Darcy Kuemper,/api/v1/people/8475311,G,Goalie,Goalie,G
+52,2016,22,8469501,Chris Thorburn,/api/v1/people/8469501,R,Right Wing,Forward,RW
+52,2016,5,8470614,Mark Stuart,/api/v1/people/8470614,D,Defenseman,Defenseman,D
+52,2016,39,8470828,Toby Enstrom,/api/v1/people/8470828,D,Defenseman,Defenseman,D
+52,2016,33,8470834,Dustin Byfuglien,/api/v1/people/8470834,D,Defenseman,Defenseman,D
+52,2016,17,8471218,Blake Wheeler,/api/v1/people/8471218,R,Right Wing,Forward,RW
+52,2016,18,8471226,Drew Stafford,/api/v1/people/8471226,R,Right Wing,Forward,RW
+52,2016,,8473412,Bryan Little,/api/v1/people/8473412,C,Center,Forward,C
+52,2016,47,8473565,Brian Strait,/api/v1/people/8473565,D,Defenseman,Defenseman,D
+52,2016,16,8473574,Shawn Matthias,/api/v1/people/8473574,L,Left Wing,Forward,LW
+52,2016,85,8473618,Mathieu Perreault,/api/v1/people/8473618,C,Center,Forward,C
+52,2016,14,8474074,Paul Postma,/api/v1/people/8474074,D,Defenseman,Defenseman,D
+52,2016,57,8474574,Tyler Myers,/api/v1/people/8474574,D,Defenseman,Defenseman,D
+52,2016,8,8475279,Ben Chiarot,/api/v1/people/8475279,D,Defenseman,Defenseman,D
+52,2016,21,8475769,Quinton Howden,/api/v1/people/8475769,C,Center,Forward,C
+52,2016,42,8475788,Alexander Burmistrov,/api/v1/people/8475788,C,Center,Forward,C
+52,2016,44,8475815,Julian Melchiori,/api/v1/people/8475815,D,Defenseman,Defenseman,D
+52,2016,17,8476392,Adam Lowry,/api/v1/people/8476392,C,Center,Forward,C
+52,2016,55,8476460,Mark Scheifele,/api/v1/people/8476460,C,Center,Forward,C
+52,2016,40,8476469,Joel Armia,/api/v1/people/8476469,R,Right Wing,Forward,RW
+52,2016,8,8476885,Jacob Trouba,/api/v1/people/8476885,D,Defenseman,Defenseman,D
+52,2016,18,8477429,Andrew Copp,/api/v1/people/8477429,C,Center,Forward,C
+52,2016,56,8477448,Marko Dano,/api/v1/people/8477448,C,Center,Forward,C
+52,2016,19,8477464,Nic Petan,/api/v1/people/8477464,C,Center,Forward,C
+52,2016,44,8477504,Josh Morrissey,/api/v1/people/8477504,D,Defenseman,Defenseman,D
+52,2016,27,8477940,Nikolaj Ehlers,/api/v1/people/8477940,L,Left Wing,Forward,LW
+52,2016,62,8478031,Nelson Nogier,/api/v1/people/8478031,D,Defenseman,Defenseman,D
+52,2016,81,8478398,Kyle Connor,/api/v1/people/8478398,L,Left Wing,Forward,LW
+52,2016,96,8478458,Jack Roslovic,/api/v1/people/8478458,C,Center,Forward,C
+52,2016,13,8479293,Brandon Tanev,/api/v1/people/8479293,L,Left Wing,Forward,LW
+52,2016,29,8479339,Patrik Laine,/api/v1/people/8479339,L,Left Wing,Forward,LW
+52,2016,31,8471715,Ondrej Pavelec,/api/v1/people/8471715,G,Goalie,Goalie,G
+52,2016,31,8474636,Michael Hutchinson,/api/v1/people/8474636,G,Goalie,Goalie,G
+52,2016,37,8476945,Connor Hellebuyck,/api/v1/people/8476945,G,Goalie,Goalie,G
+52,2016,31,8477480,Eric Comrie,/api/v1/people/8477480,G,Goalie,Goalie,G
+53,2016,19,8462038,Shane Doan,/api/v1/people/8462038,R,Right Wing,Forward,RW
+53,2016,71,8468085,Radim Vrbata,/api/v1/people/8468085,R,Right Wing,Forward,RW
+53,2016,4,8469760,Zbynek Michalek,/api/v1/people/8469760,D,Defenseman,Defenseman,D
+53,2016,13,8470755,Brad Richardson,/api/v1/people/8470755,R,Right Wing,Forward,RW
+53,2016,33,8471274,Alex Goligoski,/api/v1/people/8471274,D,Defenseman,Defenseman,D
+53,2016,40,8471691,Martin Hanzal,/api/v1/people/8471691,C,Center,Forward,C
+53,2016,88,8473465,Jamie McGinn,/api/v1/people/8473465,L,Left Wing,Forward,LW
+53,2016,21,8473466,Ryan White,/api/v1/people/8473466,C,Center,Forward,C
+53,2016,2,8473571,Jamie McBain,/api/v1/people/8473571,D,Defenseman,Defenseman,D
+53,2016,2,8474568,Luke Schenn,/api/v1/people/8474568,D,Defenseman,Defenseman,D
+53,2016,26,8474628,Michael Stone,/api/v1/people/8474628,D,Defenseman,Defenseman,D
+53,2016,91,8475171,Oliver Ekman-Larsson,/api/v1/people/8475171,D,Defenseman,Defenseman,D
+53,2016,,8475180,Peter Holland,/api/v1/people/8475180,C,Center,Forward,C
+53,2016,6,8475246,Kevin Connauton,/api/v1/people/8475246,D,Defenseman,Defenseman,D
+53,2016,42,8475788,Alexander Burmistrov,/api/v1/people/8475788,C,Center,Forward,C
+53,2016,67,8475800,Teemu Pulkkinen,/api/v1/people/8475800,L,Left Wing,Forward,LW
+53,2016,13,8476356,Tobias Rieder,/api/v1/people/8476356,L,Left Wing,Forward,LW
+53,2016,5,8476473,Connor Murphy,/api/v1/people/8476473,D,Defenseman,Defenseman,D
+53,2016,48,8476921,Jordan Martinook,/api/v1/people/8476921,L,Left Wing,Forward,LW
+53,2016,10,8477407,Anthony Duclair,/api/v1/people/8477407,L,Left Wing,Forward,LW
+53,2016,26,8477460,Laurent Dauphin,/api/v1/people/8477460,C,Center,Forward,C
+53,2016,11,8477503,Max Domi,/api/v1/people/8477503,C,Center,Forward,C
+53,2016,36,8477591,Josh Jooris,/api/v1/people/8477591,R,Right Wing,Forward,RW
+53,2016,32,8477715,Tyler Gaudet,/api/v1/people/8477715,C,Center,Forward,C
+53,2016,42,8477943,Brendan Perlini,/api/v1/people/8477943,L,Left Wing,Forward,LW
+53,2016,77,8477950,Tony DeAngelo,/api/v1/people/8477950,D,Defenseman,Defenseman,D
+53,2016,28,8477989,Christian Dvorak,/api/v1/people/8477989,C,Center,Forward,C
+53,2016,36,8478432,Christian Fischer,/api/v1/people/8478432,R,Right Wing,Forward,RW
+53,2016,17,8478440,Dylan Strome,/api/v1/people/8478440,C,Center,Forward,C
+53,2016,67,8478474,Lawson Crouse,/api/v1/people/8478474,L,Left Wing,Forward,LW
+53,2016,9,8479343,Clayton Keller,/api/v1/people/8479343,R,Right Wing,Forward,RW
+53,2016,6,8479345,Jakob Chychrun,/api/v1/people/8479345,D,Defenseman,Defenseman,D
+53,2016,41,8469608,Mike Smith,/api/v1/people/8469608,G,Goalie,Goalie,G
+53,2016,40,8471251,Justin Peters,/api/v1/people/8471251,G,Goalie,Goalie,G
+53,2016,70,8475839,Louis Domingue,/api/v1/people/8475839,G,Goalie,Goalie,G
+53,2016,30,8476986,Marek Langhamer,/api/v1/people/8476986,G,Goalie,Goalie,G
