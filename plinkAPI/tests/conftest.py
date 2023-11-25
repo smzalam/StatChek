@@ -27,6 +27,9 @@ def success_status_code():
 def created_status_code():
     return status.HTTP_201_CREATED
 
+@pytest.fixture()
+def bad_request_status_code():
+    return status.HTTP_400_BAD_REQUEST
 
 @pytest.fixture()
 def deleted_status_code():

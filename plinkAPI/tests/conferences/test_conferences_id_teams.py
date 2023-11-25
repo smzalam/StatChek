@@ -38,7 +38,7 @@ def test_conference_response_body_len(
 
 @pytest.mark.parametrize("conferences_endpoint_response_arg", [5, 6])
 def test_conference_response_division_body_len(
-    conferences_endpoint_response, conferences_one_data_length
+    conferences_endpoint_response
 ):
     conferences = conferences_endpoint_response.json()
     divisions = conferences["conferences"][0]['divisions']
@@ -46,11 +46,11 @@ def test_conference_response_division_body_len(
 
 @pytest.mark.parametrize("conferences_endpoint_response_arg", [5, 6])
 def test_conference_response_teams_body_len(
-    conferences_endpoint_response, conferences_one_data_length
+    conferences_endpoint_response
 ):
     conferences = conferences_endpoint_response.json()
     teams = conferences["conferences"][0]['teams']
-    assert len(divisions) >= 16 
+    assert len(teams) >= 16 
 
 
 @pytest.mark.parametrize("conferences_endpoint_response_arg", [5, 6])

@@ -34,7 +34,7 @@ class DivisionsIds(BaseModel):
 
 
 class DivisionsRequest(BaseModel):
-    id: int
+    division_id: int
     name: str
     abbreviation: str
     link: str

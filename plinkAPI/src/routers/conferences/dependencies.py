@@ -1,5 +1,5 @@
 from psycopg_pool import ConnectionPool
-from fastapi import Depends
+from fastapi import Depends, HTTPException, status
 from pprint import pprint
 
 from plinkAPI.src.config import constants as constants
@@ -49,7 +49,7 @@ def valid_conference_id(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail= {
                 'response': 'Error',
-                'message': 'Division ID does not exist'
+                'message': 'Conference ID does not exist'
             }
         )
     return conference_id
