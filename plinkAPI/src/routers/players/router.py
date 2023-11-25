@@ -22,12 +22,23 @@ router = APIRouter()
 
 
 @router.get(
-    "/players/{player_id}",
+    "/players/id/{player_id}",
     response_model=schemas.Players,
     status_code=status.HTTP_200_OK,
 )
 def player_data(
     player_id: int,
     player_data=Depends(dependencies.valid_player_id_data),
+):
+    return player_data
+
+@router.get(
+    "/players/name/{player_name}",
+    response_model=schemas.Players,
+    status_code=status.HTTP_200_OK,
+)
+def player_data(
+    player_name: str,
+    player_data=Depends(dependencies.valid_player_name_data),
 ):
     return player_data

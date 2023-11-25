@@ -15,5 +15,5 @@ class PlayersRequest(BaseModel):
 
 
 class Players(BaseModel):
-    player_id: int
-    players: list[PlayersRequest]
+    player: int | str
+    data: list[PlayersRequest]

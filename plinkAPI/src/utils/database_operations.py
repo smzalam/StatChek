@@ -60,7 +60,13 @@ def executing_formatting_query_from_db(
         db_conn, col_query, col_identifer, params=[col_params]
     )
     try:
-        rec_params = list(rec_params) if rec_params != None else None
+        if type(rec_params) == str:
+            rec_params = [rec_params]
+        elif rec_params != None:
+            rec_params = list(rec_params)
+        else:
+            rec_params = None
+        
     except TypeError as e:
         print(f"Error: {e}")
         rec_params = [rec_params]

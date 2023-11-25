@@ -13,6 +13,7 @@ eggs/
 MANIFEST
 
 # Unit test / coverage reports
+.coverage
 .tox/
 .pytest_cache/
 
@@ -28,3 +29,7 @@ venv/
 test_files
 random_tests.py
 *.sh
+plinkAPI/src/routers/conferences/cache/*
+plinkAPI/src/routers/divisions/cache/*
+plinkAPI/src/routers/teams/cache/*
+plinkAPI/src/routers/players/cache/*
