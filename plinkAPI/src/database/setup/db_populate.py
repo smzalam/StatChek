@@ -1,3 +1,6 @@
+import os
+import csv
+
 from psycopg import sql
 from psycopg.errors import (
     OperationalError,
@@ -6,11 +9,9 @@ from psycopg.errors import (
     ForeignKeyViolation,
     UniqueViolation,
 )
-from db_connect import get_conn
-from db_helper_functions import readSQLCommands, convert_csv_to_tuple_list
-import pandas as pd
-import os
-import csv
+from plinkAPI.src.database.setup import db_connect
+from plinkAPI.src.utils import file_operations
+
 
 base_file_path = "./src/app/scraped_data/cleaned_csv/"
 csv_files = [file for file in os.listdir(base_file_path)]
@@ -53,12 +54,12 @@ def main():
                 copy.write_row(record)
         print("All records successfully inserted.")
 
-    with get_conn(db=True, auto=True) as conn:
+    with db_connect.get_conn(db=True, auto=True) as conn:
         for order, table in enumerate(sql_table_names):
             null_value = check_null(table)
             if null_value:
                 try:
-                    data = convert_csv_to_tuple_list(
+                    data = file_operations.convert_csv_to_tuple_list(
                         f"{base_file_path}{csv_files[order]}"
                     )
                     insert_records(table, data)

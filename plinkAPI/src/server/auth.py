@@ -2,11 +2,12 @@ from fastapi import status, Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
-from src.app.config import get_auth_settings
-from src.app.users import schemas as schemas
+
+from plinkAPI.src.config import config
+from plinkAPI.src.routers.users import schemas as schemas
 
 oath2_scheme = OAuth2PasswordBearer(tokenUrl="users/login")
-auth_settings = get_auth_settings()
+auth_settings = config.get_auth_settings()
 
 
 def create_access_token(data: dict):

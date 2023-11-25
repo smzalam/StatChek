@@ -4,8 +4,9 @@ import json
 import os
 import shutil
 
-import src.app.database.db_commands as db_commands
-import src.app.database.database_utils as db_utils
+from plinkAPI.src.database.setup import db_commands
+from plinkAPI.src.utils import database_operations
+
 
 
 """
@@ -59,7 +60,7 @@ def query_data_from_db(
         except (FileNotFoundError, json.JSONDecodeError) as e:
             print(f"No local cache found... ({e})")
             print("Fetched new data from database...(Creating local cache)")
-            data = db_utils.executing_formatting_query_from_db(
+            data = database_operations.executing_formatting_query_from_db(
                 db_conn=db_conn_api,
                 col_query=db_commands.select_column_names,
                 rec_query=rec_query_api,
@@ -70,7 +71,7 @@ def query_data_from_db(
             )
             reading_or_writing_cache(json_cache_api, CACHE_ACTION.WRITE.value, data)
     else:
-        data = db_utils.executing_formatting_query_from_db(
+        data = database_operations.executing_formatting_query_from_db(
             db_conn=db_conn_api,
             col_query=db_commands.select_column_names,
             rec_query=rec_query_api,
@@ -256,7 +257,7 @@ def select_user_details_id_function(db_conn, db_table, id_type, id_num):
 
 
 def delete_user_function(db_conn, db_table, user_details: list, id_type):
-    db_utils.sql_execute_write_query(
+    database_operations.sql_execute_write_query(
         db_conn=db_conn,
         query=db_commands.delete_user,
         params=user_details,
@@ -270,7 +271,7 @@ def insert_users_new_function(
     user_details: list,
     id_type,
 ):
-    db_utils.sql_execute_write_query(
+    database_operations.sql_execute_write_query(
         db_conn=db_conn,
         query=db_commands.insert_new_user,
         params=user_details,

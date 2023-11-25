@@ -3,10 +3,10 @@ from fastapi import status
 from passlib.context import CryptContext
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
-from src.app.config import get_auth_settings
-from src.app.users import schemas as schemas
+from plinkAPI.src.config import config 
+from plinkAPI.src.routers.users import schemas as schemas
 
-auth_settings = get_auth_settings()
+auth_settings = config.get_auth_settings()
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 

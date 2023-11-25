@@ -4,12 +4,13 @@ from fastapi.security import OAuth2PasswordBearer
 from pprint import pprint
 from pydantic import EmailStr
 
-import src.app.auth as auth
-import src.app.database.database as db
-import src.app.database.db_service as db_funcs
-import src.app.users.schemas as schemas
-import src.app.users.constants as constants
-import src.app.users.utils as utils
+
+from plinkAPI.src.config import constants as constants
+from plinkAPI.src.database.setup import db_connect as db
+from plinkAPI.src.middleware.data_adapter import db_service as db_funcs
+from plinkAPI.src.routers.users import schemas as schemas
+from plinkAPI.src.routers.users import utils as utils
+from plinkAPI.src.server import auth as auth
 
 
 def valid_new_user(
@@ -63,7 +64,7 @@ def valid_user_login(
 
 def valid_user_details(
     user_email: EmailStr,
-    # valid_current_user: int = Depends(auth.valid_current_user),
+    valid_current_user: int = Depends(auth.valid_current_user),
     pool_conn: ConnectionPool = Depends(db.get_pool),
 ):
     user_data = db_funcs.select_user_details_id_function(

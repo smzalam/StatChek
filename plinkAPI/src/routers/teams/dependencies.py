@@ -2,17 +2,17 @@ from psycopg_pool import ConnectionPool
 from fastapi import Depends
 from pprint import pprint
 
-import src.app.database.database as db
-import src.app.database.db_service as db_funcs
-import src.app.teams.schemas as schemas
-import src.app.teams.constants as constants
+from plinkAPI.src.config import constants as constants
+from plinkAPI.src.database.setup import db_connect as db
+from plinkAPI.src.middleware.data_adapter import db_service as db_funcs
+from plinkAPI.src.routers.teams import schemas as schemas
 
 
 def valid_teams_ids_list(
     pool_conn: ConnectionPool = db.get_pool(),
 ) -> list:
     team_ids = db_funcs.select_all_ids_function(
-        directory=constants.CACHE_DIRECTORY,
+        directory=constants.TEAMS_CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.TEAMS_INFO_TABLE,
     )
@@ -24,7 +24,7 @@ def valid_team_ids(
     pool_conn: ConnectionPool = Depends(db.get_pool),
 ) -> dict[str, [schemas.TeamsIds]]:
     teams_data = db_funcs.select_all_function(
-        directory=constants.CACHE_DIRECTORY,
+        directory=constants.TEAMS_CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.TEAMS_INFO_TABLE,
     )
@@ -44,7 +44,7 @@ def valid_team_id_data(
     pool_conn: ConnectionPool = Depends(db.get_pool),
 ) -> schemas.Teams:
     team_data = db_funcs.select_teams_by_ids_function(
-        directory=constants.CACHE_DIRECTORY,
+        directory=constants.TEAMS_CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.TEAMS_INFO_TABLE,
         id_type=constants.TEAM_ID_COLUMN,
@@ -59,7 +59,7 @@ def valid_all_team_data(
     pool_conn: ConnectionPool = Depends(db.get_pool),
 ) -> schemas.Teams:
     team_data = db_funcs.select_all_function(
-        directory=constants.CACHE_DIRECTORY,
+        directory=constants.TEAMS_CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.TEAMS_INFO_TABLE,
     )
@@ -75,7 +75,7 @@ def valid_players_data(
     pool_conn: ConnectionPool = Depends(db.get_pool),
 ) -> schemas.PlayersRequest:
     players_data = db_funcs.select_players_by_teamid_function(
-        directory=constants.CACHE_DIRECTORY,
+        directory=constants.TEAMS_CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.PLAYERS_TABLE,
         id_type=constants.TEAM_ID_COLUMN,
@@ -94,7 +94,7 @@ def valid_season_players_data(
 ) -> schemas.PlayersRequest:
     if season:
         players_data = db_funcs.select_players_by_teamid_season_function(
-            directory=constants.CACHE_DIRECTORY,
+            directory=constants.TEAMS_CACHE_DIRECTORY,
             db_conn=pool_conn,
             db_table=constants.PLAYERS_TABLE,
             team_id=team_id,
@@ -113,7 +113,7 @@ def valid_stats_data(
     pool_conn: ConnectionPool = Depends(db.get_pool),
 ) -> schemas.StatsRequest:
     stats_data = db_funcs.select_teamstatsranks_by_teamid_function(
-        directory=constants.CACHE_DIRECTORY,
+        directory=constants.TEAMS_CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.STATS_TABLE,
         team_id=team_id,
@@ -132,7 +132,7 @@ def valid_season_stats_data(
 ) -> schemas.StatsRequest:
     if season:
         stats_data = db_funcs.select_teamstatsranks_by_teamid_season_function(
-            directory=constants.CACHE_DIRECTORY,
+            directory=constants.TEAMS_CACHE_DIRECTORY,
             db_conn=pool_conn,
             db_table=constants.STATS_TABLE,
             team_id=team_id,
@@ -152,7 +152,7 @@ def valid_ranks_data(
     pool_conn: ConnectionPool = Depends(db.get_pool),
 ) -> schemas.RanksRequest:
     ranks_data = db_funcs.select_teamstatsranks_by_teamid_function(
-        directory=constants.CACHE_DIRECTORY,
+        directory=constants.TEAMS_CACHE_DIRECTORY,
         db_conn=pool_conn,
         db_table=constants.RANKS_TABLE,
         team_id=team_id,
@@ -171,7 +171,7 @@ def valid_season_ranks_data(
 ) -> schemas.RanksRequest:
     if season:
         ranks_data = db_funcs.select_teamstatsranks_by_teamid_season_function(
-            directory=constants.CACHE_DIRECTORY,
+            directory=constants.TEAMS_CACHE_DIRECTORY,
             db_conn=pool_conn,
             db_table=constants.RANKS_TABLE,
             team_id=team_id,
@@ -196,4 +196,4 @@ def valid_season_ranks_data(
 
 constants.ALL_TEAM_IDS = valid_teams_ids_list()
 print("Updated team ids constant!")
-db_funcs.update_cache(constants.CACHE_DIRECTORY)
+db_funcs.update_cache(constants.TEAMS_CACHE_DIRECTORY)

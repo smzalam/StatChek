@@ -1,11 +1,12 @@
 from psycopg.errors import OperationalError, ProgrammingError, InternalError
-from db_connect import get_conn
-from db_helper_functions import readSQLCommands
 
-file_create_commands = readSQLCommands(
+from plinkAPI.src.database.setup import db_connect
+from plinkAPI.src.utils import file_operations
+
+file_create_commands = file_operations.readSQLCommands(
     "postgres/statchekapi_sql/create_statchekapi.sql"
 )
-file_delete_commands = readSQLCommands(
+file_delete_commands = file_operations.readSQLCommands(
     "postgres/statchekapi_sql/delete_statchekapi.sql"
 )
 create_sql_commands = [
@@ -23,7 +24,7 @@ delete_database_sql_command = [
 def main():
     # for deleting database
     print("deleting database")
-    with get_conn(auto=True) as conn:
+    with db_connect.get_conn(auto=True) as conn:
         try:
             command = delete_database_sql_command[0]
             conn.execute(command)

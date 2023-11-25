@@ -1,17 +1,15 @@
 import asyncio
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-# from .routers import teams, players, users
-from src.app.users import router as users
-from src.app.conferences import router as conferences
-from src.app.divisions import router as divisions
-from src.app.teams import router as teams
-from src.app.players import router as players
+from plinkAPI.src.server import auth as auth
+from plinkAPI.src.routers.users import router as users
+from plinkAPI.src.routers.conferences import router as conferences
+from plinkAPI.src.routers.divisions import router as divisions
+from plinkAPI.src.routers.teams import router as teams
+from plinkAPI.src.routers.players import router as players
 
-# from fastapi.params import Body
-# from pydantic import BaseModel
 
 app = FastAPI()
 
@@ -26,10 +24,10 @@ app.add_middleware(
 )
 
 app.include_router(users.router)
-app.include_router(conferences.router)
-app.include_router(divisions.router)
-app.include_router(teams.router)
-app.include_router(players.router)
+app.include_router(conferences.router, dependencies=[Depends(auth.valid_current_user)])
+app.include_router(divisions.router, dependencies=[Depends(auth.valid_current_user)])
+app.include_router(teams.router, dependencies=[Depends(auth.valid_current_user)])
+app.include_router(players.router, dependencies=[Depends(auth.valid_current_user)])
 
 
 async def check_connections():
@@ -47,9 +45,3 @@ def root():
 @app.get("/status")
 def status():
     return {"message": "API is up and running all dandy and fandy!"}
-
-
-class Post(BaseModel):
-    title: str
-    content: str
-    published: bool = True

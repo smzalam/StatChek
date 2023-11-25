@@ -14,15 +14,11 @@ from fastapi import (
 )
 from psycopg_pool import ConnectionPool
 
-import src.app.auth as auth
-
-import src.app.database.database as db
-
-import src.app.divisions.dependencies as dependencies
-import src.app.divisions.schemas as schemas
+from plinkAPI.src.routers.divisions import dependencies as dependencies
+from plinkAPI.src.routers.divisions import schemas as schemas
 
 
-router = APIRouter(dependencies=[Depends(auth.valid_current_user)])
+router = APIRouter()
 
 
 @router.get(

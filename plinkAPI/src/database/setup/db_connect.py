@@ -2,15 +2,13 @@ import os
 import sys
 from functools import lru_cache
 from pprint import pprint
+
 import psycopg
 from psycopg_pool import ConnectionPool
 
-# module_dir = os.path.dirname(__file__)
-# sys.path.append(os.path.join(module_dir, ".."))
-pprint(sys.path)
-from src.app.config import get_db_settings
+from plinkAPI.src.config import config
 
-settings = get_db_settings()
+settings = config.get_db_settings()
 
 conninfo = f"""
     user = {settings.db_user} 
