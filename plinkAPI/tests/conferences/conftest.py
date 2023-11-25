@@ -1,8 +1,7 @@
 import pytest
 
-from tests.test_main import client
-from src.app.conferences import constants as constants
-from src.app.conferences import schemas as schemas
+from plinkAPI.src.config import constants as constants
+from plinkAPI.src.routers.conferences import schemas as schemas
 
 
 @pytest.fixture(scope="package")
@@ -11,7 +10,7 @@ def conferences_length():
 
 
 @pytest.fixture(scope="package")
-def conferences_id_data_length():
+def conferences_one_data_length():
     return 1
 
 
@@ -19,12 +18,26 @@ def conferences_id_data_length():
 def conference_ids():
     return constants.ALL_CONFERENCE_IDS
 
+@pytest.fixture(scope="package")
+def division_ids():
+    return constants.ALL_DIVISION_IDS
+
+@pytest.fixture(scope="package")
+def team_ids():
+    return constants.ALL_TEAM_IDS
 
 @pytest.fixture()
 def conference_ids_schema():
     return schemas.ConferenceIds
 
-
 @pytest.fixture()
 def conference_all_schema():
     return schemas.ConferencesRequest
+
+@pytest.fixture()
+def division_all_schema():
+    return schemas.DivisionsRequest
+
+@pytest.fixture()
+def team_all_schema():
+    return schemas.TeamsRequest

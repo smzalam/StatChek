@@ -1,6 +1,6 @@
 import pytest
 from fastapi import status
-from tests.test_main import client
+from plinkAPI.tests.test_main import client
 
 
 @pytest.fixture(scope="session")
