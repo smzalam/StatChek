@@ -24,6 +24,7 @@ jobs:
     - uses: snok/install-poetry@v1
     - name: Install dependencies
       run: poetry install -v
+      working-directory: ./plinkAPI
       shell: bash
     - name: Test with tox
       run: tox
