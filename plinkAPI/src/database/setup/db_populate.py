@@ -9,8 +9,8 @@ from psycopg.errors import (
     ForeignKeyViolation,
     UniqueViolation,
 )
-from plinkAPI.src.database.setup import db_connect
-from plinkAPI.src.utils import file_operations
+from src.database.setup import db_connect
+from src.utils import file_operations
 
 
 base_file_path = "./src/app/scraped_data/cleaned_csv/"

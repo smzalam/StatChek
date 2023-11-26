@@ -1,7 +1,7 @@
 import pytest
 
-from plinkAPI.src.config import constants as constants
-from plinkAPI.src.routers.divisions import schemas as schemas
+from src.config import constants as constants
+from src.routers.divisions import schemas as schemas
 
 
 @pytest.fixture(scope="package")

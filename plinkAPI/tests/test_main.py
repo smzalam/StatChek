@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
-from plinkAPI.src.server import app
-from plinkAPI.src.middleware.data_adapter import db_service as cache_funcs
-from plinkAPI.src.config import constants as constants
+from src.server import app
+from src.middleware.data_adapter import db_service as cache_funcs
+from src.config import constants as constants
 
 client = TestClient(app.app)
 

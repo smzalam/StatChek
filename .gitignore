@@ -21,6 +21,9 @@ MANIFEST
 .env
 venv/
 
+# pyenv
+.python-version
+
 # Custom 
 *.html
 *.txt

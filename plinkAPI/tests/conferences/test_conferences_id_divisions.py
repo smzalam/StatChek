@@ -5,7 +5,7 @@ from pprint import pprint
 import pytest
 from pydantic import ValidationError
 
-from plinkAPI.tests.test_main import client
+from tests.test_main import client
 
 
 """

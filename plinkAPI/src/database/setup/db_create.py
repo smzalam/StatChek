@@ -1,7 +1,7 @@
 from psycopg.errors import OperationalError, ProgrammingError, InternalError
 
-from plinkAPI.src.database.setup import db_connect
-from plinkAPI.src.utils import file_operations
+from src.database.setup import db_connect
+from src.utils import file_operations
 
 file_create_commands = file_operations.readSQLCommands(
     "postgres/statchekapi_sql/create_statchekapi.sql"

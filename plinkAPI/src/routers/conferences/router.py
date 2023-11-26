@@ -15,8 +15,8 @@ from fastapi import (
 from psycopg_pool import ConnectionPool
 
 
-from plinkAPI.src.routers.conferences import dependencies as dependencies
-from plinkAPI.src.routers.conferences import schemas as schemas
+from src.routers.conferences import dependencies as dependencies
+from src.routers.conferences import schemas as schemas
 
 
 router = APIRouter()

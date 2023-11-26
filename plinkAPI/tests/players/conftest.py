@@ -1,7 +1,7 @@
 import pytest
 
-from plinkAPI.src.config import constants as constants
-from plinkAPI.src.routers.players import schemas as schemas
+from src.config import constants as constants
+from src.routers.players import schemas as schemas
 
 
 @pytest.fixture(scope="package")

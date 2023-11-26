@@ -5,12 +5,12 @@ from pprint import pprint
 from pydantic import EmailStr
 
 
-from plinkAPI.src.config import constants as constants
-from plinkAPI.src.database.setup import db_connect as db
-from plinkAPI.src.middleware.data_adapter import db_service as db_funcs
-from plinkAPI.src.routers.users import schemas as schemas
-from plinkAPI.src.routers.users import utils as utils
-from plinkAPI.src.server import auth as auth
+from src.config import constants as constants
+from src.database.setup import db_connect as db
+from src.middleware.data_adapter import db_service as db_funcs
+from src.routers.users import schemas as schemas
+from src.routers.users import utils as utils
+from src.server import auth as auth
 
 
 def valid_new_user(

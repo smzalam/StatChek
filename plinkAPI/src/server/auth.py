@@ -3,8 +3,8 @@ from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
 
-from plinkAPI.src.config import config
-from plinkAPI.src.routers.users import schemas as schemas
+from src.config import config
+from src.routers.users import schemas as schemas
 
 oath2_scheme = OAuth2PasswordBearer(tokenUrl="users/login")
 auth_settings = config.get_auth_settings()

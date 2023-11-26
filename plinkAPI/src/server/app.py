@@ -3,12 +3,12 @@ from fastapi import FastAPI, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from plinkAPI.src.server import auth as auth
-from plinkAPI.src.routers.conferences import router as conferences
-from plinkAPI.src.routers.divisions import router as divisions
-from plinkAPI.src.routers.teams import router as teams
-from plinkAPI.src.routers.players import router as players
-from plinkAPI.src.routers.users import router as users
+from src.server import auth as auth
+from src.routers.conferences import router as conferences
+from src.routers.divisions import router as divisions
+from src.routers.teams import router as teams
+from src.routers.players import router as players
+from src.routers.users import router as users
 
 
 app = FastAPI()

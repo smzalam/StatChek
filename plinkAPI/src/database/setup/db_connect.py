@@ -6,7 +6,7 @@ from pprint import pprint
 import psycopg
 from psycopg_pool import ConnectionPool
 
-from plinkAPI.src.config import config
+from src.config import config
 
 settings = config.get_db_settings()
 

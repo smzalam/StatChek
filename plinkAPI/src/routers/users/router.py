@@ -16,8 +16,8 @@ from psycopg_pool import ConnectionPool
 from pydantic import EmailStr
 
 
-from plinkAPI.src.routers.users import dependencies as dependencies
-from plinkAPI.src.routers.users import schemas as schemas
+from src.routers.users import dependencies as dependencies
+from src.routers.users import schemas as schemas
 
 
 router = APIRouter()

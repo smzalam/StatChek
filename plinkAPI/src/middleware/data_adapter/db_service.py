@@ -4,8 +4,8 @@ import json
 import os
 import shutil
 
-from plinkAPI.src.database.setup import db_commands
-from plinkAPI.src.utils import database_operations
+from src.database.setup import db_commands
+from src.utils import database_operations
 
 
 

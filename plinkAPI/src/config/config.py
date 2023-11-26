@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     algorithm: str
     access_token_expire_minutes: int
 
-    model_config = SettingsConfigDict(env_file="./plinkAPI/src/config/.env")
+    model_config = SettingsConfigDict(env_file="./src/config/.env")
 
 
 class DBSettings:

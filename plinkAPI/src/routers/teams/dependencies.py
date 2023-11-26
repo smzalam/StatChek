@@ -2,10 +2,10 @@ from psycopg_pool import ConnectionPool
 from fastapi import Depends
 from pprint import pprint
 
-from plinkAPI.src.config import constants as constants
-from plinkAPI.src.database.setup import db_connect as db
-from plinkAPI.src.middleware.data_adapter import db_service as db_funcs
-from plinkAPI.src.routers.teams import schemas as schemas
+from src.config import constants as constants
+from src.database.setup import db_connect as db
+from src.middleware.data_adapter import db_service as db_funcs
+from src.routers.teams import schemas as schemas
 
 
 def valid_teams_ids_list(
