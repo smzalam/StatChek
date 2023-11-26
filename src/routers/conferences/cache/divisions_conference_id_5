@@ -1,0 +1,1 @@
+[{"id": 1, "division_id": 16, "name": "Central", "abbreviation": "CEN", "link": "/api/v1/divisions/16", "active": true, "conference_id": 5}, {"id": 3, "division_id": 15, "name": "Pacific", "abbreviation": "PAC", "link": "/api/v1/divisions/15", "active": true, "conference_id": 5}]
