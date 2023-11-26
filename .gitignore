@@ -20,6 +20,7 @@ MANIFEST
 # Environments
 .env
 venv/
+.venv
 
 # pyenv
 .python-version
